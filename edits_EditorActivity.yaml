@@ -9,8 +9,8 @@ timespan :
     step  : 1mo
 
 columns :
-    labels : [ Month,  1 edit, 2-5 edits,  6-50 edits, 51-100 edits, 101-500 edits,  501-1000 edits, > 1000 edits ]
-    types  : [  date,     int,       int,         int,          int,           int,             int,          int ]
+    labels : [ Month,  1 edit, 2-5 edits,  6-50 edits, 51-100 edits, 101-500 edits,  501-1000 edits, '> 1000 edits' ]
+    types  : [  date,     int,       int,         int,          int,           int,             int,           int  ]
 
 chart :
     library : dygraphs
