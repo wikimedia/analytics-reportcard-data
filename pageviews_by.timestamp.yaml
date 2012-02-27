@@ -1,0 +1,18 @@
+id     : pageviews_by.timestamp.yaml
+name   : Pageview Totals
+format : csv
+url    : /data/pageviews_by.timestamp.csv
+
+timespan :
+    start : 2008-01
+    end   : 2012-02
+    step  : 1mo
+
+columns :
+    labels : [ Month, Pageviews ]
+    types  : [  date,       int ]
+
+chart :
+    library : dygraphs
+    options : {}
+

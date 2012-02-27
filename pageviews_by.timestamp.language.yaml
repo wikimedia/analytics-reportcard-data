@@ -1,0 +1,18 @@
+id     : page_views_by_language
+name   : Pageviews by Language
+format : csv
+url    : /data/pageviews_by.timestamp.language.csv
+
+timespan :
+    start : 2008-01
+    end   : 2012-02
+    step  : 1mo
+
+columns :
+    labels : [ Month, English,  French, German, Japanese, Russian,  Spanish ]
+    types  : [ date,      int,     int,     int,     int,     int,      int ]
+
+chart :
+    library : dygraphs
+    options : { stackedGraph: true, fillGraph: true }
+

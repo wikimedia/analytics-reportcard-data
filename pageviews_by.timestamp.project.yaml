@@ -1,0 +1,18 @@
+id     : pageviews_by.timestamp.project.yaml
+name   : Pageviews by Project
+format : csv
+url    : /data/pageviews_by.timestamp.project.csv
+
+timespan :
+    start : 2008-01
+    end   : 2012-02
+    step  : 1mo
+
+columns :
+    labels : [ Month  Other,  Wikibooks,  Wikinews, Wikipedia,  Wikiquote,  Wikisource, Wikiversity,  Wiktionary ]
+    types  : [  date,   int,        int,       int,       int,        int,         int,         int,         int ]
+
+chart :
+    library : dygraphs
+    options : { stackedGraph: true, fillGraph: true }
+
