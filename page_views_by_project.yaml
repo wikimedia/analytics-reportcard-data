@@ -1,0 +1,18 @@
+id     : page_views_by_project
+name   : Pageviews by project
+format : csv
+url    : /data/page_views_by_project.csv
+
+timespan :
+    start : 2008-01
+    end   : 2011-11
+    step  : 1mo
+
+columns :
+    labels : [ Month, Wikiversity, Wikisource, Wikibooks, Wikiquote, Wikipedia, Commons, Wikinews, Wiktionary, Other projects ]
+    types  : [  date,         int,        int,       int,       int,       int,     int,      int,        int,            int ]
+
+chart :
+    library : dygraphs
+    options : {}
+
