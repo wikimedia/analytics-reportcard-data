@@ -1,0 +1,11 @@
+chart:
+  libary: dygraphs
+  options: {rollPeriod: 5, title: Articles created over time, ylabel: Number of articles}
+columns:
+  labels: [Month, Date, Total, Non-autoconfirmed, Autoconfirmed, Autopatrolled]
+  types: [date, int, int, int, int, int]
+format: csv
+id: enwp_articles_created
+name: Articles created over time
+timespan: {end: 2012-01, start: 2001-01, step: 1mo}
+url: data/enwp_articles_created.csv

@@ -1,0 +1,13 @@
+chart:
+  libary: dygraphs
+  options: {stackedGraph: true, title: Number of edits to namespaces (excluding bots),
+    ylabel: Edits}
+columns:
+  labels: [Month, 0 namespace, 1 namespace, 2 namespace, 3 namespace, 4 namespace,
+    5 namespace, other namespace]
+  types: [date, int, int, int, int, int, int, int]
+format: csv
+id: edits_NameSpaces
+name: Number of edits to namespaces (excluding bots)
+timespan: {end: 2012-01, start: 2001-01, step: 1mo}
+url: data/edits_NameSpaces.csv

@@ -1,0 +1,13 @@
+chart:
+  libary: dygraphs
+  options: {stackedGraph: true, title: 'Active editor histogram (no bots, namespaces:All)',
+    ylabel: Number of Editors}
+columns:
+  labels: [Month, 1 edit, 2-5 edits, 6-50 edits, 51-100 edits, 101-500 edits, 501-1000
+      edits, '>1000 edits']
+  types: [date, int, int, int, int, int, int, int]
+format: csv
+id: editors_EditorActivity
+name: Active editor histogram (no bots, namespaces:All)
+timespan: {end: 2012-01, start: 2001-01, step: 1mo}
+url: data/editors_EditorActivity.csv
