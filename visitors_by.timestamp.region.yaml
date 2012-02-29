@@ -1,0 +1,20 @@
+id     : visitors_by.timestamp.region
+name   : Unique Visitors by Region
+format : csv
+url    : /data/visitors_by.timestamp.region.csv
+
+timespan :
+    start : 2008-01
+    end   : 2012-01
+    step  : 1mo
+
+columns :
+    labels : [ Month,"World-Wide",Europe,Asia Pacific,North America,Latin America,"Middle East & Africa",India,China ]
+    
+    
+    types  : [  date,       int, int,       int,        int,        int,                 int,int,int ]
+
+chart :
+    library : dygraphs
+    options : {}
+
