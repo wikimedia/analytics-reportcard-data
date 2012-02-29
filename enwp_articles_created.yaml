@@ -8,4 +8,4 @@ format: csv
 id: enwp_articles_created
 name: Articles created over time
 timespan: {end: 2012-01, start: 2001-01, step: 1mo}
-url: data/enwp_articles_created.csv
+url: /data/enwp_articles_created.csv
