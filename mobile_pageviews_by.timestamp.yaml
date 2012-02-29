@@ -1,5 +1,5 @@
-id     : pageviews_by.timestamp.yaml
-name   : Pageview Totals
+id     : mobile_pageviews
+name   : Total Mobile Pageviews
 format : csv
 url    : /data/pageviews_by.timestamp.csv
 
@@ -10,9 +10,9 @@ timespan :
 
 columns :
     labels : [ Month, Pageviews ]
-    types  : [  date,       int ]
+    types  : [ date,      int,  ]
 
 chart :
     library : dygraphs
-    options : {}
+    options : { stackedGraph: true, fillGraph: true }
 
