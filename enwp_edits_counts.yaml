@@ -1,12 +1,28 @@
-chart:
-  libary: dygraphs
-  options: {title: Number of edits over time, ylabel: Number of edits}
-columns:
-  labels: [Month, All editors, Active editors (5>edits), Very editors (100>edits),
-    New editors (<6 month old)]
-  types: [date, int, int, int, int]
-format: csv
 id: enwp_edits_counts
-name: Number of edits over time
-timespan: {end: 2012-01, start: 2001-01, step: 1mo}
-url: ./csv/enwp_edits_counts.csv
+name: Number of Edits Over Time
+format: csv
+url: /data/enwp_edits_counts.csv
+
+timespan:
+    end: 2012-01
+    start: 2001-01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - All editors
+    - Active editors (5>edits)
+    - Very editors (100>edits)
+    - New editors (<6 month old)
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+
+chart:
+    libary: dygraphs
+    options:
+        ylabel: Number of edits
