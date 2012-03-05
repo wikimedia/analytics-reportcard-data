@@ -1,13 +1,11 @@
-id: enwp_edits_actitiy
-name: Number of Edits by Editor Activity (no bots, namespaces:All)
+id: enwp_editors_activity
+name: Active Editor Histogram (no bots, namespaces:All)
 format: csv
-url: /data/enwp_edits_actitiy.csv
-
+url: /data/enwp_editors_activity.csv
 timespan:
     end: 2012-01
     start: 2001-01
     step: 1mo
-
 columns:
     labels:
     - Month
@@ -27,9 +25,8 @@ columns:
     - int
     - int
     - int
-
 chart:
     libary: dygraphs
     options:
         stackedGraph: true
-        ylabel: Edits
+        ylabel: Editors
