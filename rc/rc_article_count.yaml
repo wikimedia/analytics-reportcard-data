@@ -1,5 +1,5 @@
 id: rc_article_count
-name: Article count (official) - Absolute - Per Wiki
+name: Wikipedia Articles
 format: csv
 url: /data/rc/rc_article_count.csv
 

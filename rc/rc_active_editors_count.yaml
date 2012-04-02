@@ -1,5 +1,5 @@
 id: rc_active_editors_count
-name: Active editors - Absolute - Per Wiki
+name: Active Wikimedia Editors for All Wikimedia Projects (5+ edits per month)
 format: csv
 url: /data/rc/rc_active_editors_count.csv
 

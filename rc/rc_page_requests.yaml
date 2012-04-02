@@ -1,5 +1,5 @@
 id: rc_page_requests
-name: Page view totals non-mobile + mobile
+name: Page Requests for All Wikimedia Projects (including Mobile)
 format: csv
 url: /data/rc/rc_page_requests.csv
 
@@ -11,7 +11,7 @@ timespan:
 columns:
     labels:
     - Month
-    - All Wikipedias (inc Mobile)
+    - All Wikipedias (+Mobile)
     - English
     - Japanese
     - Spanish

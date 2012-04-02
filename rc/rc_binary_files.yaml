@@ -1,5 +1,5 @@
 id: rc_binary_files
-name: Binaries per month - Absolute
+name: Commons Binaries per Month
 format: csv
 url: /data/rc/rc_binary_files.csv
 

@@ -1,5 +1,5 @@
 id: rc_edits_count
-name: Edits per month - Absolute - Per Wiki
+name: Wikipedia Edits Per Month
 format: csv
 url: /data/rc/rc_edits_count.csv
 

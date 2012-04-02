@@ -1,5 +1,5 @@
 id: rc_new_article_count
-name: New articles per day - Absolute - Per Wiki
+name: New Wikipedia Articles Per Day
 format: csv
 url: /data/rc/rc_new_article_count.csv
 
