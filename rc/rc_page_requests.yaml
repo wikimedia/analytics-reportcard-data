@@ -1,0 +1,33 @@
+
+	id: rc_page_requests
+name: Page view totals non-mobile + mobile
+format: csv
+url: /data/rc/rc_page_requests.csv
+
+timespan:
+    end: 2012/02/01
+    start: 2008/07/01
+    step: 1mo
+
+columns:
+    labels:
+	- Month
+	- All projects
+	- English
+	- Japanese
+	- Spanish
+	- German
+	- Russian
+	- French
+    types:
+	- date
+	- int
+	- int
+	- int
+	- int
+	- int
+	- int
+	- int
+chart:
+    libary: dygraphs
+	
