@@ -1,5 +1,4 @@
-
-	id: rc_article_count
+id: rc_article_count
 name: Article count (official) - Absolute - Per Wiki
 format: csv
 url: /data/rc/rc_article_count.csv
@@ -11,25 +10,25 @@ timespan:
 
 columns:
     labels:
-	- Month
-	- Total
-	- English
-	- German
-	- French
-	- Dutch
-	- Italian
-	- Polish
-	- Spanish
+    - Month
+    - Total
+    - English
+    - German
+    - French
+    - Dutch
+    - Italian
+    - Polish
+    - Spanish
     types:
-	- date
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
 chart:
-    libary: dygraphs
-	
+    chartType: dygraphs
+    

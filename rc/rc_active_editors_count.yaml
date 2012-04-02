@@ -1,5 +1,4 @@
-
-	id: rc_active_editors_count
+id: rc_active_editors_count
 name: Active editors - Absolute - Per Wiki
 format: csv
 url: /data/rc/rc_active_editors_count.csv
@@ -11,29 +10,28 @@ timespan:
 
 columns:
     labels:
-	- Month
-	- Total
-	- English
-	- Commons
-	- German
-	- French
-	- Russian
-	- Spanish
-	- Japanese
-	- Italian
-	- Chinese
+    - Month
+    - Total
+    - English
+    - Commons
+    - German
+    - French
+    - Russian
+    - Spanish
+    - Japanese
+    - Italian
+    - Chinese
     types:
-	- date
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
 chart:
-    libary: dygraphs
-	
+    chartType: dygraphs

@@ -1,5 +1,4 @@
-
-	id: rc_binary_files
+id: rc_binary_files
 name: Binaries per month - Absolute
 format: csv
 url: /data/rc/rc_binary_files.csv
@@ -11,31 +10,30 @@ timespan:
 
 columns:
     labels:
-	- Month
-	- Total
-	- jpg
-	- png
-	- svg
-	- ogg
-	- gif
-	- tif
-	- pdf
-	- djvu
-	- ogv
-	- mid
+    - Month
+    - Total
+    - jpg
+    - png
+    - svg
+    - ogg
+    - gif
+    - tif
+    - pdf
+    - djvu
+    - ogv
+    - mid
     types:
-	- date
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
-	- int
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
 chart:
-    libary: dygraphs
-	
+    chartType: dygraphs

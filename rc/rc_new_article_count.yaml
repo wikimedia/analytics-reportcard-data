@@ -1,5 +1,4 @@
-
-	id: rc_new_article_count
+id: rc_new_article_count
 name: New articles per day - Absolute - Per Wiki
 format: csv
 url: /data/rc/rc_new_article_count.csv
@@ -11,19 +10,18 @@ timespan:
 
 columns:
     labels:
-	- Month
-	- Total
-	- English
-	- French
-	- German
-	- Polish
+    - Month
+    - Total
+    - English
+    - French
+    - German
+    - Polish
     types:
-	- date
-	- int
-	- int
-	- int
-	- int
-	- int
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
 chart:
-    libary: dygraphs
-	
+    chartType: dygraphs
