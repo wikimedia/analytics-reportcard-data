@@ -1,7 +1,7 @@
 id: rc_new_article_count
 name: New Wikipedia Articles Per Day
 format: csv
-url: /data/rc/rc_new_article_count.csv
+url: /data/datasources/rc/rc_new_article_count.csv
 
 timespan:
     end: 2012/01/01

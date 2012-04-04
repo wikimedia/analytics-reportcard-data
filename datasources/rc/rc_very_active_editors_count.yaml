@@ -1,7 +1,7 @@
 id: rc_very_active_editors_count
 name: Very Active Editors for All Wikimedia Projects (100+ edits per month)
 format: csv
-url: /data/rc/rc_very_active_editors_count.csv
+url: /data/datasources/rc/rc_very_active_editors_count.csv
 
 timespan:
     end: 2012/02/01
