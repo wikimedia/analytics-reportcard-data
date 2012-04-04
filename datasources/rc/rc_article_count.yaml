@@ -1,0 +1,34 @@
+id: rc_article_count
+name: Wikipedia Articles
+format: csv
+url: /data/rc/rc_article_count.csv
+
+timespan:
+    end: 2012/01/01
+    start: 2009/01/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - Total
+    - English
+    - German
+    - French
+    - Dutch
+    - Italian
+    - Polish
+    - Spanish
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs
+    

@@ -1,0 +1,37 @@
+id: rc_very_active_editors_count
+name: Very Active Editors for All Wikimedia Projects (100+ edits per month)
+format: csv
+url: /data/rc/rc_very_active_editors_count.csv
+
+timespan:
+    end: 2012/02/01
+    start: 2009/02/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - Total
+    - English
+    - Commons
+    - German
+    - French
+    - Russian
+    - Spanish
+    - Italian
+    - Japanese
+    - Polish
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs

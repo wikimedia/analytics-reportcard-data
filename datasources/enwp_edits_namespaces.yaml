@@ -26,7 +26,7 @@ columns:
     - int
     - int
 chart:
-    libary: dygraphs
+    chartType: dygraphs
     options:
         stackedGraph: true
         title: Number of edits to namespaces (excluding bots)

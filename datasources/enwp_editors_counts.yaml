@@ -23,6 +23,6 @@ columns:
     - int
 
 chart:
-    libary: dygraphs
+    chartType: dygraphs
     options:
         ylabel: Editors
