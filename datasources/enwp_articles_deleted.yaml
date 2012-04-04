@@ -1,7 +1,7 @@
 id: enwp_articles_deleted
 name: Articles Deleted Over Time
 format: csv
-url: /data/enwp_articles_deleted.csv
+url: /data/datasources/enwp_articles_deleted.csv
 timespan:
     end: 2012-01
     start: 2001-01

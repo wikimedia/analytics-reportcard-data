@@ -1,7 +1,7 @@
 id     : pageviews_by.timestamp.mobile
 name   : Pageviews by Language for Mobile
 format : csv
-url    : /data/pageviews_by.timestamp.mobile.csv
+url    : /data/datasources/pageviews_by.timestamp.mobile.csv
 
 timespan :
     start : 2010-06

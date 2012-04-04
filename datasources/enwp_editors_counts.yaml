@@ -1,7 +1,7 @@
 id: enwp_editors_counts
 name: Number of Editors Over Time
 format: csv
-url: /data/enwp_editors_counts.csv
+url: /data/datasources/enwp_editors_counts.csv
 
 timespan:
     end: 2012-01

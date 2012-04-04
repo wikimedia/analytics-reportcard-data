@@ -1,7 +1,7 @@
 id     : mobile_pageviews
 name   : Total Mobile Pageviews
 format : csv
-url    : /data/pageviews_by.timestamp.csv
+url    : /data/datasources/pageviews_by.timestamp.csv
 
 timespan :
     start : 2008-01

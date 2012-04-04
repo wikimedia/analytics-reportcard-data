@@ -1,7 +1,7 @@
 id: enwp_edits_counts
 name: Number of Edits Over Time
 format: csv
-url: /data/enwp_edits_counts.csv
+url: /data/datasources/enwp_edits_counts.csv
 
 timespan:
     end: 2012-01

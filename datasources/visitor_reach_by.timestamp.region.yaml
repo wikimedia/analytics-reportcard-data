@@ -1,7 +1,7 @@
 id     : visitor_reach_by.timestamp.region
 name   : Visitor Reach Percentages by Region
 format : csv
-url    : /data/visitor_reach_by.timestamp.region.csv
+url    : /data/datasources/visitor_reach_by.timestamp.region.csv
 
 timespan :
     start : 2007-12

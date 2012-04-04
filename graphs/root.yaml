@@ -27,7 +27,7 @@ options   :
     delimiter                       : ","
     digitsAfterDecimal              : 2
     displayAnnotations              : false
-    drawPoints                      : false
+    drawPoints                      : true
     drawXAxis                       : true
     drawXGrid                       : true
     drawYAxis                       : true

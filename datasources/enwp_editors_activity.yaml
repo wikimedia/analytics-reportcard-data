@@ -1,7 +1,7 @@
 id: enwp_editors_activity
 name: Active Editor Histogram (no bots, namespaces:All)
 format: csv
-url: /data/enwp_editors_activity.csv
+url: /data/datasources/enwp_editors_activity.csv
 timespan:
     end: 2012-01
     start: 2001-01

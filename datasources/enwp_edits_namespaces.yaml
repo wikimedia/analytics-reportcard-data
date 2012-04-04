@@ -1,7 +1,7 @@
 id: enwp_edits_namespaces
 name: Number of Edits to Namespaces (excluding bots)
 format: csv
-url: /data/enwp_edits_namespaces.csv
+url: /data/datasources/enwp_edits_namespaces.csv
 timespan:
     end: 2012-01
     start: 2001-01

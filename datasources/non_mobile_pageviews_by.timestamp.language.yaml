@@ -1,7 +1,7 @@
 id     : non_mobile_page_views_by_language
 name   : Non-Mobile Pageviews by Language
 format : csv
-url    : /data/non_mobile_pageviews_by.timestamp.language.csv
+url    : /data/datasources/non_mobile_pageviews_by.timestamp.language.csv
 
 timespan :
     start : 2008-01

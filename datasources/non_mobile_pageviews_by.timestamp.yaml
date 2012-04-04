@@ -1,7 +1,7 @@
 id     : Non Mobile Pageviews
 name   : Total Non-Mobile Pageviews
 format : csv
-url    : /data/non_mobile_pageviews_by.timestamp.csv
+url    : /data/datasources/non_mobile_pageviews_by.timestamp.csv
 
 timespan :
     start : 2008-01

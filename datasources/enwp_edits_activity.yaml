@@ -1,7 +1,7 @@
 id: enwp_edits_activity
 name: Number of Edits by Editor Activity (no bots, namespaces:All)
 format: csv
-url: /data/enwp_edits_activity.csv
+url: /data/datasources/enwp_edits_activity.csv
 
 timespan:
     end: 2012-01

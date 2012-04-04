@@ -1,7 +1,7 @@
 id: enwp_articles_created
 name: Articles Created Over Time
 format: csv
-url: /data/enwp_articles_created.csv
+url: /data/datasources/enwp_articles_created.csv
 timespan:
     end: 2012-01
     start: 2001-01

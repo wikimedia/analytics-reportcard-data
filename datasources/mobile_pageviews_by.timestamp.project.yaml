@@ -1,7 +1,7 @@
 id     : mobile_pageviews_by.timestamp.project
 name   : Mobile Pageviews by Project
 format : csv
-url    : /data/mobile_pageviews_by.timestamp.project.csv
+url    : /data/datasources/mobile_pageviews_by.timestamp.project.csv
 
 timespan :
     start : 2008-01
