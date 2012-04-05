@@ -14,7 +14,7 @@ columns:
     - Google
     - Total Internet
     - Wikimedia
-        types:
+    types:
     - date
     - int
     - int
