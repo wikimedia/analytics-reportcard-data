@@ -1,6 +1,6 @@
 
 id: rc_page_requests_mobile
-name: Mobile page views for 
+name: Mobile page views  
 format: csv
 notes: 
 url: /data/datasources/rc/rc_page_requests_mobile.csv
