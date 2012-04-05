@@ -1,8 +1,8 @@
 id: rc_active_editors_target
-name: Active editors (5+) - Target
+name: Target for active editors (5+) 
 format: csv
 notes: Are notes being displayed?
-url: /data/rc/rc_active_editors_target.csv
+url: /data/datasources/rc/rc_active_editors_target.csv
 
 timespan:
     end: 2012/06/01
@@ -15,7 +15,7 @@ columns:
 	- Total
 	- Projected
 	- Target
-	- (Actual==Total?)
+	- Check if Actual and Total
     types:
 	- date
 	- int
