@@ -1,13 +1,12 @@
 id: rc_active_editors_target
 name: Target for active editors (5+) 
 format: csv
-notes: Are notes being displayed?
 url: /data/datasources/rc/rc_active_editors_target.csv
 
 timespan:
     end: 2012/06/01
     start: 2009/02/01
-    step: 2592000
+    step: 1mo
 
 columns:
     labels:
@@ -24,4 +23,3 @@ columns:
 	- int
 chart:
     chartType: dygraphs
-	
