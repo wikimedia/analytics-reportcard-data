@@ -13,6 +13,7 @@ timespan:
 columns:
     labels:
     - Month
+    - Total
     - English Mobile
     - Japanese Mobile
     - German Mobile
@@ -22,6 +23,7 @@ columns:
     - Italian Mobile
     types:
     - date
+    - int
     - int
     - int
     - int
