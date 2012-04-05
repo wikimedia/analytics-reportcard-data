@@ -14,7 +14,6 @@ columns:
 	- Total
 	- Projected
 	- Target
-	- Actual
     types:
 	- date
 	- int
