@@ -2,7 +2,7 @@
 
 id        : root
 slug      : root
-dataset   : '/data/non_mobile_pageviews_by.timestamp.language.csv'
+dataset   : '/data/datasources/rc/rc_comscore_region_uv.csv'
 width     : 'auto'
 height    : 400
 chartType : 'dygraphs'
