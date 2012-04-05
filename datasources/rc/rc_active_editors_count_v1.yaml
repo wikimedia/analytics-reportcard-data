@@ -1,0 +1,37 @@
+id: rc_active_editors_count
+name: XXX Active Wikimedia Editors for All Wikimedia Projects (5+ edits per month)
+format: csv
+url: /data/datasources/rc/rc_active_editors_count_v1.csv
+
+timespan:
+    end: 2012/02/01
+    start: 2009/02/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - Total
+    - English
+    - Commons
+    - German
+    - French
+    - Russian
+    - Spanish
+    - Japanese
+    - Italian
+    - Chinese
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs
