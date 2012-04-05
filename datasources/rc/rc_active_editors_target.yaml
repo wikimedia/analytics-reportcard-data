@@ -1,0 +1,27 @@
+id: rc_active_editors_target
+name: Active editors (5+) - Target
+format: csv
+notes: Are notes being displayed?
+url: /data/rc/rc_active_editors_target.csv
+
+timespan:
+    end: 2012/06/01
+    start: 2009/02/01
+    step: 2592000
+
+columns:
+    labels:
+	- Month
+	- Total
+	- Projected
+	- Target
+	- (Actual==Total?)
+    types:
+	- date
+	- int
+	- int
+	- int
+	- int
+chart:
+    chartType: dygraphs
+	
