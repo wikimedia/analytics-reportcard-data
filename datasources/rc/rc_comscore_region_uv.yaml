@@ -11,14 +11,14 @@ timespan:
 columns:
     labels:
     - Month
+    - World
     - Asia Pacific
     - China
     - Europe
     - India
-    - Latin-America
-    - Middle-East/Africa
-    - North-America
-    - World
+    - Latin America
+    - Middle East/Africa
+    - North America
     types:
     - date
     - int
