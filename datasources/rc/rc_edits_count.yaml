@@ -1,5 +1,6 @@
 id: rc_edits_count
 name: Wikipedia Edits Per Month
+shortName : Edits
 format: csv
 url: /data/datasources/rc/rc_edits_count.csv
 

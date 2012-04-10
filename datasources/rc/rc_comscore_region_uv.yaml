@@ -1,5 +1,6 @@
 id: rc_comscore_region_uv
 name: Unique Visitors for All Wikimedia Projects
+shortName : Unique Visitors
 format: csv
 url: /data/datasources/rc/rc_comscore_region_uv.csv
 

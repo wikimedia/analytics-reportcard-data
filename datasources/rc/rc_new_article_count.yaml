@@ -1,5 +1,6 @@
 id: rc_new_article_count
 name: New Wikipedia Articles Per Day
+shortName : New Articles
 format: csv
 url: /data/datasources/rc/rc_new_article_count.csv
 

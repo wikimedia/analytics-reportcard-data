@@ -1,5 +1,6 @@
 id: rc_page_requests_mobile_target
-name: Target for mobile pageviews
+name: Target for Mobile Page Requests
+shortName : Target Mobile
 format: csv
 notes: Are notes being displayed?
 url: /data/datasources/rc/rc_page_requests_mobile_target.csv

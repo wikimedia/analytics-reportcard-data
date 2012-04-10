@@ -1,5 +1,6 @@
 id: rc_comscore_properties
 name: Web Properties - Unique Visitors
+shortName : Web Properties
 format: csv
 url: /data/datasources/rc/rc_comscore_properties.csv
 

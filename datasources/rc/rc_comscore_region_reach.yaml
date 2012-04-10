@@ -1,5 +1,6 @@
 id: rc_comscore_region_reach
-name: Reach percentage for All Wikimedia Projects
+name: Reach Percentage for All Wikimedia Projects
+shortName : Reach Percentage
 format: csv
 url: /data/datasources/rc/rc_comscore_region_reach.csv
 

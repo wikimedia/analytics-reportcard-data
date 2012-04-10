@@ -1,5 +1,6 @@
 id: rc_active_editors_target
-name: Target for active editors (5+) 
+name: Target for Active Editors (5+) 
+shortName : Target Active editors (5+) 
 format: csv
 notes: Are notes being displayed?
 url: /data/datasources/rc/rc_active_editors_target.csv

@@ -1,5 +1,6 @@
 id: rc_article_count
 name: Wikipedia Articles
+shortName : Articles
 format: csv
 url: /data/datasources/rc/rc_article_count.csv
 
