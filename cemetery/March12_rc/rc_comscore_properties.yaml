@@ -1,0 +1,24 @@
+id: rc_comscore_properties
+name: Web Properties - Unique Visitors
+shortName : Web Properties
+format: csv
+url: /data/datasources/rc/rc_comscore_properties.csv
+
+timespan:
+    end: 2012/02/01
+    start: 2008/01/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - Google
+    - Total Internet
+    - Wikimedia
+    types:
+    - date
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs

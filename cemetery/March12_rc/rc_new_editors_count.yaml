@@ -1,0 +1,38 @@
+id: rc_new_editors_count
+name: New Editors Per Month for All Wikimedia Projects
+shortName : New Editors
+format: csv
+url: /data/datasources/rc/rc_new_editors_count.csv
+
+timespan:
+    end: 2012/02/01
+    start: 2009/02/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - Total
+    - English
+    - Commons
+    - Spanish
+    - French
+    - German
+    - Russian
+    - Japanese
+    - Italian
+    - Chinese
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs

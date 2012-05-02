@@ -1,0 +1,28 @@
+id: rc_edits_count
+name: Wikipedia Edits Per Month
+shortName : Edits
+format: csv
+url: /data/datasources/rc/rc_edits_count.csv
+
+timespan:
+    end: 2012/02/01
+    start: 2009/02/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - Total
+    - English
+    - French
+    - German
+    - Russian
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs

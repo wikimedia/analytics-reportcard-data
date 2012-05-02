@@ -1,0 +1,32 @@
+id: rc_page_requests
+name: Page Requests for All Wikimedia Projects (including Mobile)
+shortName : Page Requests
+format: csv
+url: /data/datasources/rc/rc_page_requests.csv
+
+timespan:
+    end: 2012/02/01
+    start: 2008/07/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - All Wikipedias (+Mobile)
+    - English
+    - Japanese
+    - Spanish
+    - German
+    - Russian
+    - French
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs

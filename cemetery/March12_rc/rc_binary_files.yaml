@@ -1,0 +1,40 @@
+id: rc_binary_files
+name: Commons Binaries per Month
+shortName : Binaries
+format: csv
+url: /data/datasources/rc/rc_binary_files.csv
+
+timespan:
+    end: 2012/02/01
+    start: 2009/02/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - Total
+    - jpg
+    - png
+    - svg
+    - ogg
+    - gif
+    - tif
+    - pdf
+    - djvu
+    - ogv
+    - mid
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs

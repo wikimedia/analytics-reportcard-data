@@ -1,0 +1,28 @@
+id: rc_new_article_count
+name: New Wikipedia Articles Per Day
+shortName : New Articles
+format: csv
+url: /data/datasources/rc/rc_new_article_count.csv
+
+timespan:
+    end: 2012/01/01
+    start: 2009/01/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - Total
+    - English
+    - French
+    - German
+    - Polish
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs

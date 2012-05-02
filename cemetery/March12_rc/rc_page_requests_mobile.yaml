@@ -1,0 +1,36 @@
+id: rc_page_requests_mobile
+name: Mobile Page Request
+shortName : Mobile
+format: csv
+notes: 
+url: /data/datasources/rc/rc_page_requests_mobile.csv
+
+timespan:
+    end: 2012/02/01
+    start: 2010/06/01
+    step: 2592000
+
+columns:
+    labels:
+    - Month
+    - Total
+    - English Mobile
+    - Japanese Mobile
+    - German Mobile
+    - Spanish Mobile
+    - French Mobile
+    - Russian Mobile
+    - Italian Mobile
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs
+    

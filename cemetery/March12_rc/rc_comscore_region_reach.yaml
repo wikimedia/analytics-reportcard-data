@@ -1,0 +1,34 @@
+id: rc_comscore_region_reach
+name: Reach Percentage for All Wikimedia Projects
+shortName : Reach Percentage
+format: csv
+url: /data/datasources/rc/rc_comscore_region_reach.csv
+
+timespan:
+    end: 2012/02/01
+    start: 2008/01/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - Asia Pacific
+    - China
+    - Europe
+    - India
+    - Latin-America
+    - Middle-East/Africa
+    - North-America
+    - World
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs
