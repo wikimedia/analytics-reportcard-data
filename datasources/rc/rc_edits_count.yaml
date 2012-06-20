@@ -2,7 +2,7 @@ id: rc_edits_count
 name: Wikipedia Edits Per Month
 shortName : Edits
 format: csv
-url: /data/datasources/rc/rc_edits_count.csv
+url: /data/datafiles/rc/rc_edits_count.csv
 
 timespan:
     end: 2012/02/01

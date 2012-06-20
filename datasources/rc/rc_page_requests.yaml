@@ -2,7 +2,7 @@ id: rc_page_requests
 name: Page Requests for All Wikimedia Projects (including Mobile)
 shortName : Page Requests
 format: csv
-url: /data/datasources/rc/rc_page_requests.csv
+url: /data/datafiles/rc/rc_page_requests.csv
 
 timespan:
     end: 2012/02/01

@@ -2,7 +2,7 @@ id: rc_new_editors_count
 name: New Editors Per Month for All Wikimedia Projects
 shortName : New Editors
 format: csv
-url: /data/datasources/rc/rc_new_editors_count.csv
+url: /data/datafiles/rc/rc_new_editors_count.csv
 
 timespan:
     end: 2012/02/01

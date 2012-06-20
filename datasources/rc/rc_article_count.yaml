@@ -2,7 +2,7 @@ id: rc_article_count
 name: Wikipedia Articles
 shortName : Articles
 format: csv
-url: /data/datasources/rc/rc_article_count.csv
+url: /data/datafiles/rc/rc_article_count.csv
 
 timespan:
     end: 2012/01/01

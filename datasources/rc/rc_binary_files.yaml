@@ -2,7 +2,7 @@ id: rc_binary_files
 name: Commons Binaries per Month
 shortName : Binaries
 format: csv
-url: /data/datasources/rc/rc_binary_files.csv
+url: /data/datafiles/rc/rc_binary_files.csv
 
 timespan:
     end: 2012/02/01
