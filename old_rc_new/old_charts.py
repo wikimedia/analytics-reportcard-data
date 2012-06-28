@@ -2,7 +2,10 @@
 Creates dygrap csv files for all metrics in the old report card
 '''
 import os
-from collections import OrderedDict
+try:
+	from collections import OrderedDict
+except ImportError:
+	from ordereddict import OrderedDict
 
 import parse_csv as p
 

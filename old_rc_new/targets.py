@@ -2,7 +2,13 @@
 Creates dygrap csv files for target/benchmarks
 '''
 import os
-from collections import OrderedDict,defaultdict
+
+try: 
+	from collections import OrderedDict
+except ImportError:
+	from ordereddict import OrderedDict
+
+from collections import defaultdict
 
 import old_to_new
 import utils

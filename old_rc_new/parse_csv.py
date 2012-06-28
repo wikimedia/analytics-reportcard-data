@@ -6,7 +6,10 @@ import old_to_new
 
 from utils import months_dict,fix_dates
 
-from collections import OrderedDict
+try:
+	from collections import OrderedDict
+except ImportError:
+	from ordereddict import OrderedDict
 
 def parse_StatisticsMonthly(metric,next_metric,startindex=2,endindex=-2,n_lines='all'):
 	'''Parses the excel_in_StatisticsMonthly_* file, extracts the `metric` passed as an argument and stores a dygraph csv file'''
