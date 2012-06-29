@@ -89,8 +89,8 @@ def active_editors_target(min_ts,max_ts):
 	# input files
 
 	metricfile = os.path.join(old_to_new.output_folder,'rc_active_editors_count.csv')
-	# metricfile = '../../data/datasources/rc/rc_active_editors_count.csv'
-	targetfile = '../../data/targets/editor_target.csv'
+	# metricfile = '../data/datafiles/rc/rc_active_editors_count.csv'
+	targetfile = '../misc/targets/editor_target.csv'
 
 	# time range
 	tss,tss_i = utils.create_time_stamps_month(fromym=min_ts,toym=max_ts) 
@@ -102,8 +102,8 @@ def active_editors_target(min_ts,max_ts):
 
 def mobile_pageviews_target(min_ts,max_ts):
 	# input files
-	metricfile = '../../data/datasources/rc/rc_page_requests_mobile.csv'
-	targetfile = '../../data/targets/mobile_target.csv'
+	metricfile = '../datafiles/rc/rc_page_requests_mobile.csv'
+	targetfile = '../misc/targets/mobile_target.csv'
 
 	# time range
 	tss,tss_i = utils.create_time_stamps_month(fromym=min_ts,toym=max_ts) 
