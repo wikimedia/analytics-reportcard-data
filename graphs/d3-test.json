@@ -1,72 +1,4 @@
 {
-    "chartType": "dygraphs",
-    "data": {
-        "id": "commons",
-        "lines": [],
-        "metrics": [
-            {                
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Total",
-                "scale": 1,
-                "source_col": 1,
-                "source_id": "rc_active_editors_target",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-    
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Target",
-                "scale": 1,
-                "source_col": 2,
-                "source_id": "rc_active_editors_target",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "color": "#F6C9CC",
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Projected",
-                "scale": 1,
-                "source_col": 3,
-                "source_id": "rc_active_editors_target",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            }
-        ],
-        "palette": null
-    },
-    "desc": "",
-    "height": 250,
-    "id": "active_editors_target",
-    "name": "Active Editors - Target",
     "options": {
         "animatedZooms": true,
         "avoidMinZero": false,
@@ -80,17 +12,7 @@
         "axisTickSize": 3,
         "colorSaturation": 1,
         "colorValue": 0.5,
-        "colors": [
-            "#FF0097",
-            "#EF8158",
-            "#83BB32",
-            "#182B53",
-            "#4596FF",
-            "#553DC9",
-            "#AD3238",
-            "#00FFBC",
-            "#F1D950"
-        ],
+        "colors": ["#FF0097", "#EF8158", "#83BB32", "#182B53", "#4596FF", "#553DC9", "#AD3238", "#00FFBC", "#F1D950"],
         "connectSeparatedPoints": false,
         "customBars": false,
         "dateWindow": null,
@@ -109,7 +31,7 @@
         "fractions": false,
         "gridLineColor": "#D8D8D8",
         "gridLineWidth": 0.3,
-        "hideOverlayOnMouseOut": true,
+        "hideOverlayOnMouseOut": false,
         "highlightCircleSize": 4,
         "includeZero": false,
         "interactionModel": null,
@@ -143,7 +65,7 @@
         "stackedGraph": false,
         "stepPlot": false,
         "strokePattern": null,
-        "strokeWidth": 3,
+        "strokeWidth": 4,
         "ticker": null,
         "title": null,
         "titleHeight": 18,
@@ -165,9 +87,60 @@
         "yValueFormatter": null,
         "ylabel": null
     },
-    "parents": [
-        "root"
-    ],
-    "slug": "active_editors_target",
-    "width": "auto"
+    "slug": "d3-test",
+    "name": "",
+    "desc": "",
+    "notes": "",
+    "width": "auto",
+    "height": 320,
+    "parents": ["root"],
+    "data": {
+        "palette": null,
+        "lines": [],
+        "metrics": [{
+            "index": 0,
+            "label": "Total",
+            "type": "int",
+            "timespan": {
+                "start": null,
+                "end": null,
+                "step": null
+            },
+            "disabled": false,
+            "source_id": "rc_page_requests_mobile_target",
+            "source_col": 1,
+            "color": "#00b2ff",
+            "visible": true,
+            "format_value": null,
+            "format_axis": null,
+            "transforms": [],
+            "scale": 1
+        }, {
+            "index": 1,
+            "label": "Target",
+            "type": "int",
+            "timespan": {
+                "start": null,
+                "end": null,
+                "step": null
+            },
+            "disabled": false,
+            "source_id": "rc_page_requests_mobile_target",
+            "source_col": 2,
+            "color": "rgb(213,62,79)",
+            "visible": true,
+            "format_value": null,
+            "format_axis": null,
+            "transforms": [],
+            "scale": 1,
+            "chartElement": "d3-bar"
+        }]
+    },
+    "callout": {
+        "enabled": true,
+        "metric_idx": 0,
+        "label": ""
+    },
+    "chartType": "d3-chart",
+    "id": "d3-test"
 }

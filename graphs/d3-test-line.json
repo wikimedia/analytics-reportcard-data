@@ -1,5 +1,5 @@
 {
-    "chartType": "dygraphs",
+    "chartType": "d3-chart",
     "data": {
         "id": "active_editors",
         "lines": [],
