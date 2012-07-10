@@ -1,0 +1,34 @@
+{
+    "name": "Reportcard",
+    "tabs": [
+        {
+            "name": "Core Metrics", 
+            "graph_ids": [
+                "unique_visitors",
+                "pageviews",
+                "pageviews_mobile",
+                "pageviews_mobile_target",
+                "new_editors",
+                "active_editors",
+                "active_editors_target"
+            ]
+        }, {
+            "name": "Secondary Metrics", 
+            "graph_ids":[
+                "reach",
+                "commons",
+                "articles",
+                "articles_per_day",
+                "edits",
+                "very_active_editors"
+            ]
+        }, {
+            "name": "Mobile Devices", 
+            "graph_ids":[
+                "mobile_devices",
+                "mobile_devices_browsers",
+                "mobile_devices_applications"
+            ]
+        }
+   ]
+}
