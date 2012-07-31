@@ -14,7 +14,7 @@ columns:
     labels:
     - Month
     - Total
-    - Target    
+    - Target
     types:
     - date
     - int
