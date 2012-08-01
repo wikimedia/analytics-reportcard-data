@@ -1,7 +1,6 @@
 '''
 Creates dygrap csv files for all metrics in the old report card
 '''
-import os
 try:
 	from collections import OrderedDict
 except ImportError:
@@ -46,7 +45,7 @@ def new_article_count():
 	metric="New articles per day - Absolute - Per Wiki"
 	next_metric="New articles per day - Absolute - Per Project"
 
-	n_lines = 5
+	n_lines = 25
 
 	data = p.parse_StatisticsMonthly(metric,next_metric,n_lines=n_lines)
 
@@ -59,7 +58,7 @@ def edit_counts():
 	metric="Edits per month - Absolute - Per Wiki"
 	next_metric="Edits per month - Absolute - Per Project"
 
-	n_lines = 5
+	n_lines = 25
 
 	data = p.parse_StatisticsMonthly(metric,next_metric,n_lines=n_lines)
 

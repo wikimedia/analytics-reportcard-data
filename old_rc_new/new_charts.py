@@ -37,7 +37,8 @@ def mobile_page_requests():
 	copydata = OrderedDict()
 
 	copydata['project'] = data['project']
-	copydata['All projects'] = totaldata['All projects']
+	#copydata['All projects'] = totaldata['All projects']
+	copydata['Total'] = totaldata['Total']
 	for k in data.keys()[1:]:
 		copydata[k] = data[k]
 
