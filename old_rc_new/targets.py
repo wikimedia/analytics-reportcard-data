@@ -57,7 +57,6 @@ def dygraphOutput(out_fn,tss,actual,target,a_names,t_names,error_bar=0,error_bar
 
 		# iterate ordered list of timestamps
 		for ts in tss:
-			
 			if error_bar:
 				# show error bar of target_error_bar percent for target line
 
@@ -82,7 +81,7 @@ def dygraphOutput(out_fn,tss,actual,target,a_names,t_names,error_bar=0,error_bar
 			else:
 				vals = [utils.dygraph_date(ts)]+[actual[n][ts] for n in a_names]+[target[n][ts] for n in t_names]
 
-			# print ','.join(vals)
+			print ','.join(vals)
 			out.write(','.join(vals)+'\n')
 
 def active_editors_target(min_ts,max_ts):
