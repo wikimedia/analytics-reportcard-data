@@ -1,8 +1,9 @@
 {
-    "name": "Reportcard",
+    "headline" : "Wikimedia Report Card",
+    "subhead"  : "May 2012",
     "tabs": [
         {
-            "name": "Core Metrics", 
+            "name": "Core",
             "graph_ids": [
                 "unique_visitors",
                 "pageviews",
@@ -13,7 +14,7 @@
                 "active_editors_target"
             ]
         }, {
-            "name": "Secondary Metrics", 
+            "name": "Secondary", 
             "graph_ids":[
                 "reach",
                 "commons",
@@ -22,13 +23,6 @@
                 "edits",
                 "very_active_editors"
             ]
-        }, {
-            "name": "Mobile Devices", 
-            "graph_ids":[
-                "mobile_devices",
-                "mobile_devices_browsers",
-                "mobile_devices_applications"
-            ]
         }
-   ]
+    ]
 }
