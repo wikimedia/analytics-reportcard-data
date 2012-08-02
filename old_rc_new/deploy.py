@@ -68,11 +68,17 @@ def main():
 
 	# make sure all dates are correct, they come formatted in all kinds of ways...
 	os.system('./fix-dates.sh %s/*.csv'%old_to_new.output_folder)
-	os.system('rm %s/*.csv~'%old_to_new.output_folder)
+	try:
+		os.system('rm %s/*.csv~'%old_to_new.output_folder)
+	except Exception:
+		pass
 
 	if args.deploy:
 		print 'Deploying data files to datasources directory'
-		os.system("cp %s/*.csv ../../data/datasources/rc"%old_to_new.output_folder)
+		try:
+			os.system("cp %s/*.csv ../../data/datasources/rc"%old_to_new.output_folder)
+		except Exception:
+			pass
 
 	
 if __name__ == "__main__":

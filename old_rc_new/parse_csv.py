@@ -1,11 +1,17 @@
 '''Parses the input csv files in a awkward way.
 '''
+import sys
 import os
-
 import old_to_new
+import yaml
 
 from utils import months_dict,fix_dates
 
+try:
+	from yaml import CLoader as Loader
+except ImportError:
+	from yaml import Loader
+	
 try:
 	from collections import OrderedDict
 except ImportError:
@@ -121,13 +127,33 @@ def write_dygraph_file(data,dygraph_fn):
 	m = len(data.values()[0])
 
 	fn = os.path.join(old_to_new.output_folder,'%s.csv'%dygraph_fn)
+	yaml_fn = '%s.yaml' % (dygraph_fn)
+	yaml_fn = open('%s' % (os.path.join('../datasources/', yaml_fn)), 'r')	
+	config = yaml.load(yaml_fn, Loader=Loader)
 
 	with open(fn,'w') as o:
-		
-		labels = 'Date, %s\n'%(','.join(data.keys()[1:]))
+		mapping = {'Month':'project','All Wikipedias (+Mobile)': 'All projects'}
+		labels = 'Date,%s\n'%(','.join(data.keys()[1:]))
+		keys = data.keys()
 		o.write(labels)
+		
+		
 		for i in range(m):
-			vals = '%s\n'%','.join([v[i] for v in data.values()])
+			for label in config['columns']['labels']:
+				label = mapping.get(label,label)
+				if i == 0:
+					if label not in keys:
+						raise Exception('Yaml metadata file expects label \'%s\' but that label is not present in file: %s' % (label, fn))
+						sys.exit(-1)
+				if label == 'project':
+					vals = data[label][i]
+				else:
+					vals = ','.join([vals, (data[label][i])])
+			vals = '%s\n' % vals
+			#print vals
 			o.write(vals)
+		
+			
+			
 
 

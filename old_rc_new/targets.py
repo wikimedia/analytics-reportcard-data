@@ -101,7 +101,7 @@ def active_editors_target(min_ts,max_ts):
 
 def mobile_pageviews_target(min_ts,max_ts):
 	# input files
-	metricfile = '../datafiles/rc/rc_page_requests_mobile.csv'
+	metricfile = '../datafiles/rc_page_requests_mobile.csv'
 	targetfile = '../misc/targets/mobile_target.csv'
 
 	# time range

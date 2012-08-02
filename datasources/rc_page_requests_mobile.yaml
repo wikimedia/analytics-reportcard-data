@@ -6,7 +6,7 @@ notes:
 url: /data/datafiles/rc/rc_page_requests_mobile.csv
 
 timespan:
-    end: 2012/02/01
+    end: 2012/06/01
     start: 2010/06/01
     step: 2592000
 
