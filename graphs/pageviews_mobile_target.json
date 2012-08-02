@@ -5,7 +5,6 @@
         "lines": [],
         "metrics": [
             {
-
                 "disabled": false,
                 "format_axis": null,
                 "format_value": null,
@@ -24,7 +23,6 @@
                 "visible": true
             },
             {
-             
                 "disabled": false,
                 "format_axis": null,
                 "format_value": null,

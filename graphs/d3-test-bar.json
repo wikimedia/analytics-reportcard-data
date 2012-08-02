@@ -1,4 +1,40 @@
 {
+    "callout": {
+        "enabled": true,
+        "label": "",
+        "metric_idx": 0
+    },
+    "chartType": "d3-bar",
+    "data": {
+        "lines": [],
+        "metrics": [
+            {
+                "color": "#00b2ff",
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "Target Editors!!!!!",
+                "scale": 1,
+                "source_col": 2,
+                "source_id": "rc_active_editors_target",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            }
+        ],
+        "palette": null
+    },
+    "desc": "",
+    "height": 320,
+    "id": "d3-test",
+    "name": "",
+    "notes": "",
     "options": {
         "animatedZooms": true,
         "avoidMinZero": false,
@@ -12,7 +48,17 @@
         "axisTickSize": 3,
         "colorSaturation": 1,
         "colorValue": 0.5,
-        "colors": ["#FF0097", "#EF8158", "#83BB32", "#182B53", "#4596FF", "#553DC9", "#AD3238", "#00FFBC", "#F1D950"],
+        "colors": [
+            "#FF0097",
+            "#EF8158",
+            "#83BB32",
+            "#182B53",
+            "#4596FF",
+            "#553DC9",
+            "#AD3238",
+            "#00FFBC",
+            "#F1D950"
+        ],
         "connectSeparatedPoints": false,
         "customBars": false,
         "dateWindow": null,
@@ -87,41 +133,9 @@
         "yValueFormatter": null,
         "ylabel": null
     },
+    "parents": [
+        "root"
+    ],
     "slug": "d3-test",
-    "name": "",
-    "desc": "",
-    "notes": "",
-    "width": "auto",
-    "height": 320,
-    "parents": ["root"],
-    "data": {
-        "palette": null,
-        "lines": [],
-        "metrics": [{
-            "index": 0,
-            "label": "Target Editors!!!!!",
-            "type": "int",
-            "timespan": {
-                "start": null,
-                "end": null,
-                "step": null
-            },
-            "disabled": false,
-            "source_id": "rc_active_editors_target",
-            "source_col": 2,
-            "color": "#00b2ff",
-            "visible": true,
-            "format_value": null,
-            "format_axis": null,
-            "transforms": [],
-            "scale": 1
-        }]
-    },
-    "callout": {
-        "enabled": true,
-        "metric_idx": 0,
-        "label": ""
-    },
-    "chartType": "d3-bar",
-    "id": "d3-test"
+    "width": "auto"
 }

@@ -1,4 +1,60 @@
 {
+    "callout": {
+        "enabled": true,
+        "label": "",
+        "metric_idx": 0
+    },
+    "chartType": "d3-chart",
+    "data": {
+        "lines": [],
+        "metrics": [
+            {
+                "color": "#00b2ff",
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "Total",
+                "scale": 1,
+                "source_col": 1,
+                "source_id": "rc_page_requests_mobile_target",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            },
+            {
+                "chartElement": "d3-bar",
+                "color": "rgb(213,62,79)",
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 1,
+                "label": "Target",
+                "scale": 1,
+                "source_col": 2,
+                "source_id": "rc_page_requests_mobile_target",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            }
+        ],
+        "palette": null
+    },
+    "desc": "",
+    "height": 320,
+    "id": "d3-test",
+    "name": "",
+    "notes": "",
     "options": {
         "animatedZooms": true,
         "avoidMinZero": false,
@@ -12,7 +68,17 @@
         "axisTickSize": 3,
         "colorSaturation": 1,
         "colorValue": 0.5,
-        "colors": ["#FF0097", "#EF8158", "#83BB32", "#182B53", "#4596FF", "#553DC9", "#AD3238", "#00FFBC", "#F1D950"],
+        "colors": [
+            "#FF0097",
+            "#EF8158",
+            "#83BB32",
+            "#182B53",
+            "#4596FF",
+            "#553DC9",
+            "#AD3238",
+            "#00FFBC",
+            "#F1D950"
+        ],
         "connectSeparatedPoints": false,
         "customBars": false,
         "dateWindow": null,
@@ -87,60 +153,9 @@
         "yValueFormatter": null,
         "ylabel": null
     },
+    "parents": [
+        "root"
+    ],
     "slug": "d3-test",
-    "name": "",
-    "desc": "",
-    "notes": "",
-    "width": "auto",
-    "height": 320,
-    "parents": ["root"],
-    "data": {
-        "palette": null,
-        "lines": [],
-        "metrics": [{
-            "index": 0,
-            "label": "Total",
-            "type": "int",
-            "timespan": {
-                "start": null,
-                "end": null,
-                "step": null
-            },
-            "disabled": false,
-            "source_id": "rc_page_requests_mobile_target",
-            "source_col": 1,
-            "color": "#00b2ff",
-            "visible": true,
-            "format_value": null,
-            "format_axis": null,
-            "transforms": [],
-            "scale": 1
-        }, {
-            "index": 1,
-            "label": "Target",
-            "type": "int",
-            "timespan": {
-                "start": null,
-                "end": null,
-                "step": null
-            },
-            "disabled": false,
-            "source_id": "rc_page_requests_mobile_target",
-            "source_col": 2,
-            "color": "rgb(213,62,79)",
-            "visible": true,
-            "format_value": null,
-            "format_axis": null,
-            "transforms": [],
-            "scale": 1,
-            "chartElement": "d3-bar"
-        }]
-    },
-    "callout": {
-        "enabled": true,
-        "metric_idx": 0,
-        "label": ""
-    },
-    "chartType": "d3-chart",
-    "id": "d3-test"
+    "width": "auto"
 }
