@@ -2,7 +2,8 @@
 """
 Converts all dygraph files and 'deploys' them to data folder
 """
-import os,argparse
+import os
+import argparse
 import old_to_new
 
 def main():
