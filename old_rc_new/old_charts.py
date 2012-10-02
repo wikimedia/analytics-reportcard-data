@@ -147,9 +147,13 @@ def page_requests():
 
 	copy_data['project'] = data['project']
 
-	# add 'All projects'
-	copy_data['All projects'] = hackdata['All projects']
-
+	# add 'All projects' or 'Total' depending on what the input file wants
+	if 'All projects' in hackdata:
+		copy_data['Total'] = hackdata['All projects']
+	else:
+		copy_data['Total'] = hackdata['Total']
+	copy_data['All projects'] = copy_data['Total']
+	
 	n_collected = 1
 	for k,v in data.items()[1:]:
 		if k != 'All projects':
