@@ -1,0 +1,162 @@
+Oldest file: /a/wikistats/analytics/csv/2012-08/wikilytics_in_wikistats_core_metrics.csv
+Newest file: /a/wikistats/analytics/csv/2012-09/wikilytics_in_wikistats_core_metrics.csv
+
+Section found: Binaries per month - Absolute
+Section found: Article count (official) - Absolute - Per Project
+Section found: Edits per month - Indexed - Per Wiki
+Section found: Active editors - Absolute - Per Project
+Section found: Edits per month - Absolute - Per Project
+Section found: New articles per day - Indexed - Per Wiki
+Section found: Article count (official) - Indexed - Per Project
+Section found: Active editors - Indexed - Per Wiki
+Section found: Very active editors - Absolute - Per Project
+Section found: New editors - Indexed - Per Project
+Section found: Binaries per month - Indexed
+Section found: New editors - Absolute - Per Project
+Section found: Article count (official) - Absolute - Per Wiki
+Section found: New articles per day - Absolute - Per Wiki
+Section found: Article count (official) - Indexed - Per Wiki
+Section found: Very active editors - Absolute - Per Wiki
+Section found: New editors - Indexed - Per Wiki
+Section found: Active editors - Indexed - Per Project
+Section found: Very active editors - Indexed - Per Wiki
+Section found: New articles per day - Indexed - Per Project
+Section found: New editors - Absolute - Per Wiki
+Section found: Edits per month - Indexed - Per Project
+Section found: Edits per month - Absolute - Per Wiki
+Section found: Active editors - Absolute - Per Wiki
+Section found: New articles per day - Absolute - Per Project
+Section found: 10
+Section found: Very active editors - Indexed - Per Project
+
+
+Months which occur only in oldest file:  2009-08 
+Months which occur only in newest file:  2012-09 
+
+For months which occur in both files:
+
+Metric only in newest file: '10' / ''
+Metric only in newest file: '10' / 'Arabic'
+Metric only in newest file: '10' / 'Armenian'
+Metric only in newest file: '10' / 'Belarusian'
+Metric only in newest file: '10' / 'Catalan'
+Metric only in newest file: '10' / 'Czech'
+Metric only in newest file: '10' / 'Dutch'
+Metric only in newest file: '10' / 'Italian'
+Metric only in newest file: '10' / 'Japanese'
+Metric only in newest file: '10' / 'Korean'
+Metric only in newest file: '10' / 'Persian'
+Metric only in newest file: '10' / 'Polish'
+Metric only in newest file: '10' / 'Portuguese'
+Metric only in newest file: '10' / 'Spanish'
+Metric only in newest file: '10' / 'Ukrainian'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / ''
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Arabic'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Armenian'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Belarusian'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Catalan'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Czech'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Dutch'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Italian'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Japanese'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Korean'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Persian'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Polish'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Portuguese'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Spanish'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Ukrainian'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Uzbek'
+
+For metrics which occur in both files:
+
+
+Values for shared months/metrics which occur only in oldest file: 0
+Values for shared months/metrics which occur only in newest file: 0
+
+Values differ more than 2%:  9.1% 2009-09 'Article count (official) - Absolute - Per Project' / 'Commons' : old 5295362, new 5779110 =   9.1%
+Values differ more than 2%:  8.9% 2009-10 'Article count (official) - Absolute - Per Project' / 'Commons' : old 5585886, new 6080485 =   8.9%
+Values differ more than 2%:  8.5% 2009-11 'Article count (official) - Absolute - Per Project' / 'Commons' : old 5801578, new 6297042 =   8.5%
+Values differ more than 2%:  8.4% 2009-12 'Article count (official) - Absolute - Per Project' / 'Commons' : old 5963519, new 6467090 =   8.4%
+Values differ more than 2%:  8.1% 2010-01 'Article count (official) - Absolute - Per Project' / 'Commons' : old 6337752, new 6852818 =   8.1%
+Values differ more than 2%:  8.0% 2010-02 'Article count (official) - Absolute - Per Project' / 'Commons' : old 6515215, new 7034630 =   8.0%
+Values differ more than 2%:  8.1% 2010-03 'Article count (official) - Absolute - Per Project' / 'Commons' : old 6700315, new 7240491 =   8.1%
+Values differ more than 2%:  8.0% 2010-04 'Article count (official) - Absolute - Per Project' / 'Commons' : old 6927162, new 7478468 =   8.0%
+Values differ more than 2%:  7.8% 2010-05 'Article count (official) - Absolute - Per Project' / 'Commons' : old 7150569, new 7705516 =   7.8%
+Values differ more than 2%:  7.6% 2010-06 'Article count (official) - Absolute - Per Project' / 'Commons' : old 7339782, new 7895058 =   7.6%
+Values differ more than 2%:  7.4% 2010-07 'Article count (official) - Absolute - Per Project' / 'Commons' : old 7558483, new 8117725 =   7.4%
+Values differ more than 2%:  7.2% 2010-08 'Article count (official) - Absolute - Per Project' / 'Commons' : old 7784766, new 8346537 =   7.2%
+Values differ more than 2%:  7.1% 2010-09 'Article count (official) - Absolute - Per Project' / 'Commons' : old 8010316, new 8576020 =   7.1%
+Values differ more than 2%:  6.7% 2010-10 'Article count (official) - Absolute - Per Project' / 'Commons' : old 8238939, new 8794910 =   6.7%
+Values differ more than 2%:  6.7% 2010-11 'Article count (official) - Absolute - Per Project' / 'Commons' : old 8417830, new 8980850 =   6.7%
+Values differ more than 2%:  6.6% 2010-12 'Article count (official) - Absolute - Per Project' / 'Commons' : old 8668924, new 9242274 =   6.6%
+Values differ more than 2%:  6.6% 2011-01 'Article count (official) - Absolute - Per Project' / 'Commons' : old 8919871, new 9508558 =   6.6%
+Values differ more than 2%: 16.3% 2011-02 'Article count (official) - Absolute - Per Project' / 'Commons' : old 9206083, new 10704033 =  16.3%
+Values differ more than 2%: 17.8% 2011-03 'Article count (official) - Absolute - Per Project' / 'Commons' : old 9550837, new 11251834 =  17.8%
+Values differ more than 2%: 17.2% 2011-04 'Article count (official) - Absolute - Per Project' / 'Commons' : old 9817450, new 11510657 =  17.2%
+Values differ more than 2%: 15.9% 2011-05 'Article count (official) - Absolute - Per Project' / 'Commons' : old 10126658, new 11735835 =  15.9%
+Values differ more than 2%: 15.4% 2011-06 'Article count (official) - Absolute - Per Project' / 'Commons' : old 10373383, new 11968786 =  15.4%
+Values differ more than 2%: 14.4% 2011-07 'Article count (official) - Absolute - Per Project' / 'Commons' : old 10662762, new 12197782 =  14.4%
+Values differ more than 2%: 13.2% 2011-08 'Article count (official) - Absolute - Per Project' / 'Commons' : old 11005206, new 12458264 =  13.2%
+Values differ more than 2%: 12.9% 2011-09 'Article count (official) - Absolute - Per Project' / 'Commons' : old 11428483, new 12906808 =  12.9%
+Values differ more than 2%: 12.9% 2011-10 'Article count (official) - Absolute - Per Project' / 'Commons' : old 11701353, new 13211701 =  12.9%
+Values differ more than 2%: 12.7% 2011-11 'Article count (official) - Absolute - Per Project' / 'Commons' : old 11959567, new 13478564 =  12.7%
+Values differ more than 2%: 12.5% 2011-12 'Article count (official) - Absolute - Per Project' / 'Commons' : old 12206246, new 13730678 =  12.5%
+Values differ more than 2%: 11.8% 2012-01 'Article count (official) - Absolute - Per Project' / 'Commons' : old 12531694, new 14006355 =  11.8%
+Values differ more than 2%: 11.1% 2012-02 'Article count (official) - Absolute - Per Project' / 'Commons' : old 12802174, new 14219935 =  11.1%
+Values differ more than 2%: 10.8% 2012-03 'Article count (official) - Absolute - Per Project' / 'Commons' : old 13078950, new 14497251 =  10.8%
+Values differ more than 2%: 10.6% 2012-04 'Article count (official) - Absolute - Per Project' / 'Commons' : old 13339017, new 14757048 =  10.6%
+Values differ more than 2%: 10.6% 2012-05 'Article count (official) - Absolute - Per Project' / 'Commons' : old 13614797, new 15058568 =  10.6%
+Values differ more than 2%:  9.9% 2012-06 'Article count (official) - Absolute - Per Project' / 'Commons' : old 13964012, new 15347623 =   9.9%
+Values differ more than 2%:  9.2% 2012-07 'Article count (official) - Absolute - Per Project' / 'Commons' : old 14325732, new 15643821 =   9.2%
+Values differ more than 2%:  8.6% 2012-08 'Article count (official) - Absolute - Per Project' / 'Commons' : old 14680090, new 15939916 =   8.6%
+
+For values which occur in both files:
+
+Distribution by amount of disparity:
+
+No disparity    : 6088
+Abs disp. 0%-1% : 741
+Abs disp. 1%-2% : 11
+Abs disp. 6%-7% : 4
+Abs disp. 7%-8% : 7
+Abs disp. 8%-9% : 6
+Abs disp. 9%-10% : 3
+Abs disp. > 10% : 16
+
+Disparities > 2% for month 2009-09: 1
+Disparities > 2% for month 2009-10: 1
+Disparities > 2% for month 2009-11: 1
+Disparities > 2% for month 2009-12: 1
+Disparities > 2% for month 2010-01: 1
+Disparities > 2% for month 2010-02: 1
+Disparities > 2% for month 2010-03: 1
+Disparities > 2% for month 2010-04: 1
+Disparities > 2% for month 2010-05: 1
+Disparities > 2% for month 2010-06: 1
+Disparities > 2% for month 2010-07: 1
+Disparities > 2% for month 2010-08: 1
+Disparities > 2% for month 2010-09: 1
+Disparities > 2% for month 2010-10: 1
+Disparities > 2% for month 2010-11: 1
+Disparities > 2% for month 2010-12: 1
+Disparities > 2% for month 2011-01: 1
+Disparities > 2% for month 2011-02: 1
+Disparities > 2% for month 2011-03: 1
+Disparities > 2% for month 2011-04: 1
+Disparities > 2% for month 2011-05: 1
+Disparities > 2% for month 2011-06: 1
+Disparities > 2% for month 2011-07: 1
+Disparities > 2% for month 2011-08: 1
+Disparities > 2% for month 2011-09: 1
+Disparities > 2% for month 2011-10: 1
+Disparities > 2% for month 2011-11: 1
+Disparities > 2% for month 2011-12: 1
+Disparities > 2% for month 2012-01: 1
+Disparities > 2% for month 2012-02: 1
+Disparities > 2% for month 2012-03: 1
+Disparities > 2% for month 2012-04: 1
+Disparities > 2% for month 2012-05: 1
+Disparities > 2% for month 2012-06: 1
+Disparities > 2% for month 2012-07: 1
+Disparities > 2% for month 2012-08: 1
+
