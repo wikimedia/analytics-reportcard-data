@@ -2,4 +2,4 @@
 *.py[oc]
 *~
 output/
-*swp
+*.swp
