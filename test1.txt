@@ -1,2 +1,0 @@
-test file for git flow / gerrit interaction
-amending to please the gerrit
