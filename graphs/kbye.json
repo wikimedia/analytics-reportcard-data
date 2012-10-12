@@ -104,9 +104,78 @@
         "yValueFormatter": null,
         "ylabel": null
     },
-    "parents": [
-        "root"
-    ],
-    "slug": "kbye",
-    "width": "auto"
+    "elements": [
+        {
+            "elementType": "GroupElement",
+            "data": null,
+            "options": {},
+            "elements": [
+                {
+                    "elementType": "ZoomBrushChartElement",
+                    "data": null,
+                    "options": {"dimension": "x"},
+                    "elements": []
+                },
+                {
+                    "elementType": "AxisChartElement",
+                    "label": "",
+                    "options": {"orient": "bottom", "dimension": "x"},
+                    "elements": []
+                },
+                {
+                    "elementType": "AxisChartElement",
+                    "label": "",
+                    "options": {"orient": "left", "dimension": "y"},
+                    "elements": []
+                },
+                {
+                    "elementType": "DataViewportChartElement",
+                    "elements": [
+                        {
+                            "elementType": "GridChartElement",
+                            "options": {"dimension": "x"}
+                        },
+                        {
+                            "elementType": "GridChartElement",
+                            "options": {"dimension": "y"}
+                        },
+                        {
+                            "elementType": "LineGroupChartElement",
+                            "options": {},
+                            "elements": [
+                                {
+                                    "elementType": "LineChartElement",
+                                    "disabled": false,
+                                    "data": {
+                                        "source_id": "rc_active_editors_count",
+                                        "source_col": 1,
+                                        "type": "int",
+                                        "timespan": { "start": null, "end": null, "step": null }
+                                    },
+                                    "options": {},
+                                    "elements": []
+                                },
+                                {
+                                    "elementType": "LineChartElement",
+                                    "disabled": false,
+                                    "data": {
+                                        "source_id": "rc_active_editors_count",
+                                        "source_col": 2,
+                                        "type": "int",
+                                        "timespan": { "start": null, "end": null, "step": null }
+                                    },
+                                    "options": {},
+                                    "elements": []
+                                }
+                            ]
+                        },
+                        {
+                            "elementType": "LineGuideChartElement",
+                            "options": {"dimension": "x"}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
