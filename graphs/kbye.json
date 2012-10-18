@@ -16,6 +16,11 @@
     },
     "elements": [
         {
+            "elementType": "LegendElement",
+            "label": "Legend",
+            "elements": []
+        },
+        {
             "elementType": "GroupElement",
             "data": null,
             "options": {},
