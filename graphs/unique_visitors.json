@@ -1,21 +1,161 @@
 {
-    "id": "unique_visitors",
-    "slug": "unique_visitors",
-    
-    "name": "Unique Visitors per Region (comScore)",
-    "shortName": "Unique Visitors",
-    "desc": "",
-    "notes": "",
-    
-    "width": "auto",
-    "height": 450,
-    
-    "viewport" : {
-        "width": "auto",
-        "height": 450
+    "chartType": "dygraphs",
+    "data": {
+        "id": "unique_visitors",
+        "lines": [],
+        "metrics": [
+            {
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "World",
+                "scale": 1,
+                "source_col": 1,
+                "source_id": "rc_comscore_region_uv",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            },
+            {
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "China",
+                "scale": 1,
+                "source_col": 2,
+                "source_id": "rc_comscore_region_uv",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            },
+            {
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "Europe",
+                "scale": 1,
+                "source_col": 3,
+                "source_id": "rc_comscore_region_uv",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            },
+            {
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "India",
+                "scale": 1,
+                "source_col": 4,
+                "source_id": "rc_comscore_region_uv",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            },
+            {
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "Latin America",
+                "scale": 1,
+                "source_col": 5,
+                "source_id": "rc_comscore_region_uv",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            },
+            {
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "Middle East/Africa",
+                "scale": 1,
+                "source_col": 6,
+                "source_id": "rc_comscore_region_uv",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            },
+            {
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "North America",
+                "scale": 1,
+                "source_col": 7,
+                "source_id": "rc_comscore_region_uv",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            },
+            {
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "Asia Pacific",
+                "scale": 1,
+                "source_col": 8,
+                "source_id": "rc_comscore_region_uv",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            }
+        ],
+        "palette": null
     },
+    "desc": "",
+    "height": 250,
+    "id": "unique_visitors",
+    "name": "Unique Visitors per Region (comScore)",
     "options": {
-        "TODO": "phase these into the d3 structure",
         "animatedZooms": true,
         "avoidMinZero": false,
         "axis": null,
@@ -110,229 +250,12 @@
         "yAxisLabelFormatter": null,
         "yAxisLabelWidth": 50,
         "yLabelWidth": 18,
-        "yValueFormatter": null
+        "yValueFormatter": null,
+        "ylabel": "Number of visitors"
     },
-    "elements": [
-        {
-            "elementType": "LegendElement",
-            "label": "Legend",
-            "elements": []
-        },
-        {
-            "elementType": "GroupElement",
-            "data": null,
-            "options": {},
-            "elements": [
-                {
-                    "elementType": "ZoomBrushChartElement",
-                    "data": null,
-                    "options": {"dimension": "x"},
-                    "elements": []
-                },
-                {
-                    "elementType": "AxisChartElement",
-                    "label": "",
-                    "options": {"orient": "bottom", "dimension": "x"},
-                    "elements": []
-                },
-                {
-                    "elementType": "AxisChartElement",
-                    "label": "Number of visitors",
-                    "options": {"orient": "left", "dimension": "y"},
-                    "elements": []
-                },
-                {
-                    "elementType": "DataViewportChartElement",
-                    "elements": [
-                        {
-                            "elementType": "GridChartElement",
-                            "options": {"dimension": "x"}
-                        },
-                        {
-                            "elementType": "GridChartElement",
-                            "options": {"dimension": "y"}
-                        },
-                        {
-                            "elementType": "LineGroupChartElement",
-                            "options": {},
-                            "elements": [
-                                {
-                                    "TODO": "incorporate these into d3 prototype",
-                                    "format_axis": null,
-                                    "format_value": null,
-                                    "index": 0,
-                                    "label": "World",
-                                    "scale": 1,
-                                    "transforms": [],
-                                    "visible": true,
-
-                                    "elementType": "BarChartElement",
-                                    "disabled": false,
-                                    "data": {
-                                        "source_col": 1,
-                                        "source_id": "rc_comscore_region_uv",
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {"inverted": true},
-                                    "elements": []
-                                },
-                                {
-                                    "TODO": "incorporate these into d3 prototype",
-                                    "format_axis": null,
-                                    "format_value": null,
-                                    "index": 0,
-                                    "label": "China",
-                                    "scale": 1,
-                                    "transforms": [],
-                                    "visible": true,
-
-                                    "elementType": "BarChartElement",
-                                    "disabled": false,
-                                    "data": {
-                                        "source_col": 2,
-                                        "source_id": "rc_comscore_region_uv",
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {},
-                                    "elements": []
-                                },
-                                {
-                                    "TODO": "incorporate these into d3 prototype",
-                                    "format_axis": null,
-                                    "format_value": null,
-                                    "index": 0,
-                                    "label": "Europe",
-                                    "scale": 1,
-                                    "transforms": [],
-                                    "visible": true,
-
-                                    "elementType": "LineChartElement",
-                                    "disabled": false,
-                                    "data": {
-                                        "source_col": 3,
-                                        "source_id": "rc_comscore_region_uv",
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {},
-                                    "elements": []
-                                },
-                                {
-                                    "TODO": "incorporate these into d3 prototype",
-                                    "format_axis": null,
-                                    "format_value": null,
-                                    "index": 0,
-                                    "label": "India",
-                                    "scale": 1,
-                                    "transforms": [],
-                                    "visible": true,
-
-                                    "elementType": "LineChartElement",
-                                    "disabled": false,
-                                    "data": {
-                                        "source_col": 4,
-                                        "source_id": "rc_comscore_region_uv",
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {},
-                                    "elements": []
-                                },
-                                {
-                                    "TODO": "incorporate these into d3 prototype",
-                                    "format_axis": null,
-                                    "format_value": null,
-                                    "index": 0,
-                                    "label": "Latin America",
-                                    "scale": 1,
-                                    "transforms": [],
-                                    "visible": true,
-
-                                    "elementType": "LineChartElement",
-                                    "disabled": false,
-                                    "data": {
-                                        "source_col": 5,
-                                        "source_id": "rc_comscore_region_uv",
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {},
-                                    "elements": []
-                                },
-                                {
-                                    "TODO": "incorporate these into d3 prototype",
-                                    "format_axis": null,
-                                    "format_value": null,
-                                    "index": 0,
-                                    "label": "Middle East/Africa",
-                                    "scale": 1,
-                                    "transforms": [],
-                                    "visible": true,
-
-                                    "elementType": "LineChartElement",
-                                    "disabled": false,
-                                    "data": {
-                                        "source_col": 6,
-                                        "source_id": "rc_comscore_region_uv",
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {},
-                                    "elements": []
-                                },
-                                {
-                                    "TODO": "incorporate these into d3 prototype",
-                                    "format_axis": null,
-                                    "format_value": null,
-                                    "index": 0,
-                                    "label": "North America",
-                                    "scale": 1,
-                                    "transforms": [],
-                                    "visible": true,
-
-                                    "elementType": "LineChartElement",
-                                    "disabled": false,
-                                    "data": {
-                                        "source_col": 7,
-                                        "source_id": "rc_comscore_region_uv",
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {},
-                                    "elements": []
-                                },
-                                {
-                                    "TODO": "incorporate these into d3 prototype",
-                                    "format_axis": null,
-                                    "format_value": null,
-                                    "index": 0,
-                                    "label": "Asia Pacific",
-                                    "scale": 1,
-                                    "transforms": [],
-                                    "visible": true,
-
-                                    "elementType": "LineChartElement",
-                                    "disabled": false,
-                                    "data": {
-                                        "source_col": 8,
-                                        "source_id": "rc_comscore_region_uv",
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {},
-                                    "elements": []
-                                }
-                            ]
-                        },
-                        {
-                            "elementType": "LineGuideChartElement",
-                            "options": {"dimension": "x"}
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+    "parents": [
+        "root"
+    ],
+    "slug": "unique_visitors",
+    "width": "auto"
 }
