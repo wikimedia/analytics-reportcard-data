@@ -21,69 +21,32 @@
             "options": {},
             "elements": [
                 {
-                    "elementType": "ZoomBrushChartElement",
-                    "data": null,
-                    "options": {"dimension": "x"},
-                    "elements": []
-                },
-                {
-                    "elementType": "AxisChartElement",
+                    "elementType": "LineChartElement",
                     "label": "",
-                    "options": {"orient": "bottom", "dimension": "x"},
+                    "shortLabel": "",
+                    "disabled": false,
+                    "data": {
+                        "source_id": "rc_active_editors_count",
+                        "source_col": 1,
+                        "type": "int",
+                        "timespan": { "start": null, "end": null, "step": null }
+                    },
+                    "options": {},
                     "elements": []
                 },
                 {
-                    "elementType": "AxisChartElement",
+                    "elementType": "LineChartElement",
                     "label": "",
-                    "options": {"orient": "left", "dimension": "y"},
+                    "shortLabel": "",
+                    "disabled": false,
+                    "data": {
+                        "source_id": "rc_active_editors_count",
+                        "source_col": 2,
+                        "type": "int",
+                        "timespan": { "start": null, "end": null, "step": null }
+                    },
+                    "options": {},
                     "elements": []
-                },
-                {
-                    "elementType": "DataViewportChartElement",
-                    "elements": [
-                        {
-                            "elementType": "GridChartElement",
-                            "options": {"dimension": "x"}
-                        },
-                        {
-                            "elementType": "GridChartElement",
-                            "options": {"dimension": "y"}
-                        },
-                        {
-                            "elementType": "LineGroupChartElement",
-                            "options": {},
-                            "elements": [
-                                {
-                                    "elementType": "LineChartElement",
-                                    "disabled": false,
-                                    "data": {
-                                        "source_id": "rc_active_editors_count",
-                                        "source_col": 1,
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {},
-                                    "elements": []
-                                },
-                                {
-                                    "elementType": "LineChartElement",
-                                    "disabled": false,
-                                    "data": {
-                                        "source_id": "rc_active_editors_count",
-                                        "source_col": 2,
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {},
-                                    "elements": []
-                                }
-                            ]
-                        },
-                        {
-                            "elementType": "LineGuideChartElement",
-                            "options": {"dimension": "x"}
-                        }
-                    ]
                 }
             ]
         }
