@@ -26,7 +26,7 @@
             "elements": []
         },
         {
-            "elementType": "GroupElement",
+            "elementType": "ChartView",
             "data": null,
             "options": {},
             "elements": [
@@ -75,7 +75,7 @@
                                     "transforms": [],
                                     "visible": true,
 
-                                    "elementType": "BarChartElement",
+                                    "elementType": "LineChartElement",
                                     "disabled": false,
                                     "data": {
                                         "source_col": 1,
@@ -96,7 +96,7 @@
                                     "transforms": [],
                                     "visible": true,
 
-                                    "elementType": "BarChartElement",
+                                    "elementType": "LineChartElement",
                                     "disabled": false,
                                     "data": {
                                         "source_col": 2,
