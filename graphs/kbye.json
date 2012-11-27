@@ -1,155 +1,59 @@
 {
-    "chartType": "dygraphs",
-    "dataset": "/data/datasources/rc/rc_very_active_editors_count.csv",
-    "desc": "a gorgeous test-graph.",
-    "height": 456,
-    "id": "kbye",
-    "name": "kbyeee~",
-    "notes": "",
-    "options": {
-        "animatedZooms": true,
-        "avoidMinZero": false,
-        "axis": null,
-        "axisLabelColor": "#666666",
-        "axisLabelFontSize": 14,
-        "axisLabelFormatter": null,
-        "axisLabelWidth": 50,
-        "axisLineColor": "#AAAAAA",
-        "axisLineWidth": 0.3,
-        "axisTickSize": 3,
-        "colorSaturation": 1,
-        "colorValue": 0.5,
-        "colors": [
-            "#FF0097",
-            "#EF8158",
-            "#83BB32",
-            "#182B53",
-            "#4596FF",
-            "#553DC9",
-            "#AD3238",
-            "#00FFBC",
-            "#F1D950"
-        ],
-        "connectSeparatedPoints": false,
-        "customBars": false,
-        "dateWindow": null,
-        "delimiter": ",",
-        "digitsAfterDecimal": 2,
-        "displayAnnotations": false,
-        "drawPoints": false,
-        "drawXAxis": true,
-        "drawXGrid": true,
-        "drawYAxis": true,
-        "drawYGrid": true,
-        "errorBars": false,
-        "file": null,
-        "fillAlpha": 0.15,
-        "fillGraph": false,
-        "fractions": false,
-        "gridLineColor": "#D8D8D8",
-        "gridLineWidth": 0.3,
-        "hideOverlayOnMouseOut": true,
-        "highlightCircleSize": 4,
-        "includeZero": false,
-        "interactionModel": null,
-        "isZoomedIgnoreProgrammaticZoom": false,
-        "labels": null,
-        "labelsDiv": null,
-        "labelsDivStyles": null,
-        "labelsDivWidth": 250,
-        "labelsKMB": true,
-        "labelsKMG2": false,
-        "labelsSeparateLines": true,
-        "labelsShowZeroValues": true,
-        "legend": "always",
-        "logscale": true,
-        "maxNumberWidth": 30,
-        "panEdgeFraction": null,
-        "pixelsPerLabel": null,
-        "pixelsPerXLabel": null,
-        "pixelsPerYLabel": null,
-        "pointSize": 1,
-        "rangeSelectorHeight": 40,
-        "rangeSelectorPlotFillColor": "#A7B1C4",
-        "rangeSelectorPlotStrokeColor": "#808FAB",
-        "rightGap": 20,
-        "rollPeriod": 1,
-        "showLabelsOnHighlight": true,
-        "showRangeSelector": false,
-        "showRoller": false,
-        "sigFigs": null,
-        "sigma": 2,
-        "stackedGraph": false,
-        "stepPlot": false,
-        "strokePattern": null,
-        "strokeWidth": 3,
-        "ticker": null,
-        "title": null,
-        "titleHeight": 18,
-        "valueFormatter": null,
-        "valueRange": null,
-        "visibility": null,
-        "wilsonInterval": true,
-        "xAxisHeight": null,
-        "xAxisLabelFormatter": null,
-        "xAxisLabelWidth": 55,
-        "xLabelHeight": 18,
-        "xValueFormatter": null,
-        "xValueParser": null,
-        "xlabel": null,
-        "y2label": null,
-        "yAxisLabelFormatter": null,
-        "yAxisLabelWidth": 50,
-        "yLabelWidth": 18,
-        "yValueFormatter": null,
-        "ylabel": null
-    },
-    "elements": [
+    "id"     : "kbye",
+    "name"   : "kbyeee~",
+    "desc"   : "a gorgeous test-graph.",
+    "notes"  : "",
+    "tags"   : [],
+    
+    "width"  : "auto",
+    "height" : 500,
+    
+    "children": [
         {
-            "elementType": "LegendElement",
+            "nodeType": "legend",
             "label": "Legend",
-            "elements": []
+            "children": []
         },
         {
-            "elementType": "GroupElement",
+            "nodeType": "group",
             "data": null,
             "options": {},
-            "elements": [
+            "children": [
                 {
-                    "elementType": "ZoomBrushChartElement",
+                    "nodeType": "zoom-brush-chart",
                     "data": null,
                     "options": {"dimension": "x"},
-                    "elements": []
+                    "children": []
                 },
                 {
-                    "elementType": "AxisChartElement",
+                    "nodeType": "axis-chart",
                     "label": "",
                     "options": {"orient": "bottom", "dimension": "x"},
-                    "elements": []
+                    "children": []
                 },
                 {
-                    "elementType": "AxisChartElement",
+                    "nodeType": "axis-chart",
                     "label": "",
                     "options": {"orient": "left", "dimension": "y"},
-                    "elements": []
+                    "children": []
                 },
                 {
-                    "elementType": "DataViewportChartElement",
-                    "elements": [
+                    "nodeType": "data-viewport",
+                    "children": [
                         {
-                            "elementType": "GridChartElement",
+                            "nodeType": "grid",
                             "options": {"dimension": "x"}
                         },
                         {
-                            "elementType": "GridChartElement",
+                            "nodeType": "grid",
                             "options": {"dimension": "y"}
                         },
                         {
-                            "elementType": "LineGroupChartElement",
+                            "nodeType": "line-group",
                             "options": {},
-                            "elements": [
+                            "children": [
                                 {
-                                    "elementType": "LineChartElement",
+                                    "nodeType": "line",
                                     "disabled": false,
                                     "data": {
                                         "source_id": "rc_active_editors_count",
@@ -157,11 +61,13 @@
                                         "type": "int",
                                         "timespan": { "start": null, "end": null, "step": null }
                                     },
-                                    "options": {},
-                                    "elements": []
+                                    "options": {
+                                        "label" : "English Active Editors"
+                                    },
+                                    "children": []
                                 },
                                 {
-                                    "elementType": "LineChartElement",
+                                    "nodeType": "line",
                                     "disabled": false,
                                     "data": {
                                         "source_id": "rc_active_editors_count",
@@ -170,12 +76,12 @@
                                         "timespan": { "start": null, "end": null, "step": null }
                                     },
                                     "options": {},
-                                    "elements": []
+                                    "children": []
                                 }
                             ]
                         },
                         {
-                            "elementType": "LineGuideChartElement",
+                            "nodeType": "line-guide",
                             "options": {"dimension": "x"}
                         }
                     ]
