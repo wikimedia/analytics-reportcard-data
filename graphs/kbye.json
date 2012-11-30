@@ -16,12 +16,12 @@
         },
         {
             "nodeType": "group",
-            "data": null,
+            "metric": null,
             "options": {},
             "children": [
                 {
                     "nodeType": "zoom-brush-chart",
-                    "data": null,
+                    "metric": null,
                     "options": {"dimension": "x"},
                     "children": []
                 },
@@ -55,7 +55,7 @@
                                 {
                                     "nodeType": "line",
                                     "disabled": false,
-                                    "data": {
+                                    "metric": {
                                         "source_id": "rc_active_editors_count",
                                         "source_col": 1,
                                         "type": "int",
@@ -69,7 +69,7 @@
                                 {
                                     "nodeType": "line",
                                     "disabled": false,
-                                    "data": {
+                                    "metric": {
                                         "source_id": "rc_active_editors_count",
                                         "source_col": 2,
                                         "type": "int",

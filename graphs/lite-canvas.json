@@ -1,0 +1,51 @@
+{
+    "id"     : "lite-canvas",
+    "name"   : "lite canvas~",
+    "desc"   : "a gorgeous, lite canvas test-graph.",
+    "notes"  : "",
+    "tags"   : [],
+    
+    "root" : {
+        "nodeType" : "canvas",
+        "width"    : "auto",
+        "height"   : 500,
+        "children" : [
+            {
+                "nodeType": "group",
+                "children": []
+            },
+            {
+                "nodeType": "line-group",
+                "options": {},
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "rc_active_editors_count",
+                            "source_col": 1,
+                            "type": "int",
+                            "timespan": { "start": null, "end": null, "step": null }
+                        },
+                        "options": {
+                            "label" : "English Active Editors"
+                        },
+                        "children": []
+                    },
+                    {
+                        "nodeType": "line",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "rc_active_editors_count",
+                            "source_col": 2,
+                            "type": "int",
+                            "timespan": { "start": null, "end": null, "step": null }
+                        },
+                        "options": {},
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+}
