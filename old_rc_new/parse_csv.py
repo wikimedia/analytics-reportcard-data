@@ -143,7 +143,7 @@ def write_dygraph_file(data,dygraph_fn):
 				label = mapping.get(label,label)
 				if i == 0:
 					if label not in keys:
-						raise Exception('Yaml metadata file expects label \'%s\' but that label is not present in input data: %s' % (label, data))
+						raise Exception('To output "%s", metadata file "%s" expects label "%s" but that label is not present in input data: %s' % (fn, yaml_fn.name, label, data))
 						sys.exit(-1)
 				if label == 'project':
 					vals = data[label][i]
