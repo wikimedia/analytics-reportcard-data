@@ -127,21 +127,26 @@ def very_active_editors():
 
 def page_requests():
 	dygraph_fn='rc_page_requests'
+	metric="Page view totals non-mobile + mobile"
+	next_metric="=== Page view totals non-mobile ==="
 
 	startindex=9
 	endindex=-1
-	n_items=8
-	
-	data = p.parse_PageViews(metric="Page view totals non-mobile + mobile",next_metric="=== Page view totals non-mobile ===",startindex=startindex,endindex=endindex)
-	
+	n_items=7
+
+	data = p.parse_PageViews(metric,next_metric,startindex=startindex,endindex=endindex)
+
+
 	# hack hack, all projects is in different section
+
 	hackdata = p.parse_PageViews(metric='=== Page view totals per project - non-mobile + mobile ===',next_metric='Whatever....',startindex=startindex,endindex=endindex)
-	
+
+
 	# construct a copy and rearrange the needed data
 	copy_data = OrderedDict()
-	
+
 	copy_data['project'] = data['project']
-	
+
 	# add 'All projects' or 'Total' depending on what the input file wants
 	if 'All projects' in hackdata:
 		copy_data['Total'] = hackdata['All projects']
