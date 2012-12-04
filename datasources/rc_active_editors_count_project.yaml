@@ -1,0 +1,40 @@
+id: rc_active_editors_count_project
+name: Active Wikimedia Editors by Wikimedia Project (5+ edits per month)
+shortName : Active Editors by Project(5+)
+format: csv
+url: /data/datafiles/rc/rc_active_editors_count_project.csv
+
+timespan:
+    end: 2012/06/01
+    start: 2009/02/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - All projects
+    - Wikipedia
+    - Commons
+    - Other Wikis
+    - Wiktionary
+    - Wikibooks
+    - Wikisource
+    - Wikiquote
+    - Wikiversity
+    - Wikinews
+    - Wikivoyage
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs

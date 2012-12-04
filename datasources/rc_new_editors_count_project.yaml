@@ -1,0 +1,40 @@
+id: rc_new_editors_count_project
+name: New Editors by Wikimedia Project
+shortName : New Editors by Project
+format: csv
+url: /data/datafiles/rc/rc_new_editors_count_project.csv
+
+timespan:
+    end: 2012/06/01
+    start: 2009/02/01
+    step: 1mo
+
+columns:
+    labels:
+    - Month
+    - All projects
+    - Wikipedia
+    - Commons
+    - Other Wikis
+    - Wikibooks
+    - Wiktionary
+    - Wikiversity
+    - Wikiquote
+    - Wikisource
+    - Wikivoyage
+    - Wikinews
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs
