@@ -21,7 +21,8 @@
                 "articles",
                 "articles_per_day",
                 "edits",
-                "very_active_editors"
+                "very_active_editors",
+                "wikivoyage"
             ]
         }
     ]
