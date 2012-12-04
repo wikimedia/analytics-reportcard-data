@@ -61,7 +61,7 @@
         ],
         "palette": null
     },
-    "desc": "Aug 2010: Editors on Commons are no longer included in overall total, on the assumption that most also edit on one or more other projects. More precise detection of double counts between any projects and languages is in development(using Single User Login registration).",
+    "desc": "",
     "height": 250,
     "id": "wikivoyage",
     "name": "Wikivoyage Editors",
