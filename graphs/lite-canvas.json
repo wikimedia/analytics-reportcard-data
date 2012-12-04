@@ -16,7 +16,9 @@
             },
             {
                 "nodeType": "line-group",
-                "options": {},
+                "options": {
+                    "color" : "#254A59"
+                },
                 "children": [
                     {
                         "nodeType": "line",
@@ -28,7 +30,8 @@
                             "timespan": { "start": null, "end": null, "step": null }
                         },
                         "options": {
-                            "label" : "English Active Editors"
+                            "label" : "English Active Editors",
+                            "color" : "#0A9CFF"
                         },
                         "children": []
                     },
@@ -41,7 +44,9 @@
                             "type": "int",
                             "timespan": { "start": null, "end": null, "step": null }
                         },
-                        "options": {},
+                        "options": {
+                            "color" : "#F12B72"
+                        },
                         "children": []
                     }
                 ]
