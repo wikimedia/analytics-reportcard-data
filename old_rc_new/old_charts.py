@@ -119,6 +119,31 @@ def very_active_editors():
 	p.write_dygraph_file(data,dygraph_fn)
 
 
+def new_editors_absolute_per_project():
+	dygraph_fn = 'rc_new_editors_count_project'
+	metric = 'New editors - Absolute - Per Project'
+	next_metric = 'New editors - Indexed - Per Wiki'
+	n_lines = 12 # wikivoyage is 11
+	data = p.parse_StatisticsMonthly(metric,next_metric,n_lines)
+	p.write_dygraph_file(data,dygraph_fn)
+	
+	
+def active_editors_absolute_per_project():
+	dygraph_fn = 'rc_active_editors_count_project'
+	metric = 'Active editors - Absolute - Per Project'
+	next_metric = 'Active editors - Indexed - Per Wiki'
+	n_lines = 12 # wikivoyage is 12
+	data = p.parse_StatisticsMonthly(metric,next_metric,n_lines)
+	p.write_dygraph_file(data,dygraph_fn)
+	
+	
+def very_active_editors_absolute_per_project():
+	dygraph_fn = 'rc_very_active_editors_count_project'
+	metric = 'Very active editors - Absolute - Per Project'
+	next_metric = 'Very active editors - Indexed - Per Wiki'
+	n_lines = 12 # wikivoyage is 10
+	data = p.parse_StatisticsMonthly(metric,next_metric,n_lines)
+	p.write_dygraph_file(data,dygraph_fn)
 
 
 # # 
@@ -181,5 +206,10 @@ def create_all():
 	new_editors_count()
 	active_editors()
 	very_active_editors()
-
+	
+	# added for Wikivoyage on 2012-12-05
+	new_editors_absolute_per_project()
+	active_editors_absolute_per_project()
+	very_active_editors_absolute_per_project()
+	
 	page_requests()
