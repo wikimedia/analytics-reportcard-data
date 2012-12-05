@@ -15,6 +15,14 @@
                 "children": []
             },
             {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
                 "nodeType": "line-group",
                 "options": {
                     "color" : "#254A59"
