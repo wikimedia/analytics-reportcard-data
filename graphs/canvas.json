@@ -35,11 +35,7 @@
             },
             {
                 "nodeType": "callout",
-                "metric": {
-                    "source_id": "rc_active_editors_count",
-                    "source_col": 1,
-                    "timespan": { "start": null, "end": null, "step": null }
-                },
+                "metricRef": 0,
                 "options" : {
                     "precision" : 2,
                     "dateFormat" : "MMM YY"
