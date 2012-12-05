@@ -34,6 +34,9 @@
                 "options": {"dimension": "y"}
             },
             {
+                "nodeType": "zoom-pan"
+            },
+            {
                 "nodeType": "line-group",
                 "options": {
                     "palette": "spectral"
