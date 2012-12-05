@@ -5,6 +5,7 @@
         "lines": [],
         "metrics": [
             {
+                "color": "#FF0097",
                 "disabled": false,
                 "format_axis": null,
                 "format_value": null,
@@ -23,6 +24,7 @@
                 "visible": true
             },
             {
+                "color": "#EF8158",
                 "disabled": false,
                 "format_axis": null,
                 "format_value": null,
@@ -41,6 +43,7 @@
                 "visible": true
             },
             {
+                "color": "#83BB32",
                 "disabled": false,
                 "format_axis": null,
                 "format_value": null,
