@@ -11,32 +11,27 @@
         "height"   : 500,
         "children" : [
             {
-                "nodeType": "group",
-                "children": [
-                    {
-                        "nodeType": "axis",
-                        "options": {
-                            "orient": "bottom",
-                            "dimension": "x"
-                        }
-                    },
-                    {
-                        "nodeType": "axis",
-                        "options": {
-                            "label": "Editors",
-                            "orient": "left",
-                            "dimension": "y"
-                        }
-                    },
-                    {
-                        "nodeType": "grid",
-                        "options": {"dimension": "x"}
-                    },
-                    {
-                        "nodeType": "grid",
-                        "options": {"dimension": "y"}
-                    }
-                ]
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "label": "Editors",
+                    "orient": "left",
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
             },
             {
                 "nodeType": "line-group",
