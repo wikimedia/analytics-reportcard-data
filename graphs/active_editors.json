@@ -187,7 +187,7 @@
         ],
         "palette": null
     },
-    "desc": "Nov 2012: Editors in Wikivoyage are now included in the overall total, and users who share a name across multiple projects are counted as the same user (<a href='https://blog.wikimedia.org/2012/08/31/improving-the-accuracy-of-the-active-editors-metric/' target='_blank'>more details</a>).",
+    "desc": "Aug 2012: Editors in Commons are now included in the overall total, and users who share a name across multiple projects are counted as the same user (<a href='https://blog.wikimedia.org/2012/08/31/improving-the-accuracy-of-the-active-editors-metric/' target='_blank'>more details</a>).",
     "height": 250,
     "id": "active_editors",
     "name": "Active Wikimedia Editors for All Wikimedia Projects (5+ edits per month)",
