@@ -37,6 +37,14 @@
                 "nodeType": "zoom-pan"
             },
             {
+                "nodeType": "callout",
+                "metricRef": 0,
+                "options" : {
+                    "precision" : 2,
+                    "dateFormat" : "MMM YY"
+                }
+            },
+            {
                 "nodeType": "line-group",
                 "options": {
                     "palette": "spectral"
