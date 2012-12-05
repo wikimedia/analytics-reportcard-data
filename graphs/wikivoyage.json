@@ -5,26 +5,7 @@
         "lines": [],
         "metrics": [
             {
-                "color": "#FF0097",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "New Editors",
-                "scale": 1,
-                "source_col": 10,
-                "source_id": "rc_new_editors_count_project",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "color": "#EF8158",
+                "color": "#FF0000",
                 "disabled": false,
                 "format_axis": null,
                 "format_value": null,
@@ -43,7 +24,26 @@
                 "visible": true
             },
             {
-                "color": "#83BB32",
+                "color": "#0043B6",
+                "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "New Editors",
+                "scale": 1,
+                "source_col": 10,
+                "source_id": "rc_new_editors_count_project",
+                "timespan": {
+                    "end": null,
+                    "start": null,
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            },
+            {
+                "color": "#C00000",
                 "disabled": false,
                 "format_axis": null,
                 "format_value": null,
