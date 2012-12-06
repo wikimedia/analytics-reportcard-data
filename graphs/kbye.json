@@ -1,92 +1,88 @@
 {
+    "graph_version": "0.6.0",
     "id"     : "kbye",
     "name"   : "kbyeee~",
-    "desc"   : "a gorgeous test-graph.",
+    "desc"   : "a departing test-graph.",
     "notes"  : "",
     "tags"   : [],
     
-    "width"  : "auto",
-    "height" : 500,
-    
-    "children": [
-        {
-            "nodeType": "legend",
-            "label": "Legend",
-            "children": []
-        },
-        {
-            "nodeType": "group",
-            "metric": null,
-            "options": {},
-            "children": [
-                {
-                    "nodeType": "zoom-brush-chart",
-                    "metric": null,
-                    "options": {"dimension": "x"},
-                    "children": []
-                },
-                {
-                    "nodeType": "axis-chart",
-                    "label": "",
-                    "options": {"orient": "bottom", "dimension": "x"},
-                    "children": []
-                },
-                {
-                    "nodeType": "axis-chart",
-                    "label": "",
-                    "options": {"orient": "left", "dimension": "y"},
-                    "children": []
-                },
-                {
-                    "nodeType": "data-viewport",
-                    "children": [
-                        {
-                            "nodeType": "grid",
-                            "options": {"dimension": "x"}
-                        },
-                        {
-                            "nodeType": "grid",
-                            "options": {"dimension": "y"}
-                        },
-                        {
-                            "nodeType": "line-group",
-                            "options": {},
-                            "children": [
-                                {
-                                    "nodeType": "line",
-                                    "disabled": false,
-                                    "metric": {
-                                        "source_id": "rc_active_editors_count",
-                                        "source_col": 1,
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {
-                                        "label" : "English Active Editors"
-                                    },
-                                    "children": []
-                                },
-                                {
-                                    "nodeType": "line",
-                                    "disabled": false,
-                                    "metric": {
-                                        "source_id": "rc_active_editors_count",
-                                        "source_col": 2,
-                                        "type": "int",
-                                        "timespan": { "start": null, "end": null, "step": null }
-                                    },
-                                    "options": {},
-                                    "children": []
-                                }
-                            ]
-                        },
-                        {
-                            "nodeType": "line-guide",
-                            "options": {"dimension": "x"}
-                        }
-                    ]
+    "root" : {
+        "nodeType" : "canvas",
+        "width"    : "auto",
+        "height"   : 500,
+        "children" : [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
                 }
-            ]
-        }
-    ]
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "label": "Editors",
+                    "orient": "left",
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "callout",
+                "metricRef": 0,
+                "options" : {
+                    "precision" : 2,
+                    "dateFormat" : "MMM YY"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend!",
+                    "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "options": {
+                    "palette": "spectral"
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_active_editors_count",
+                            "source_col": 1,
+                            "type": "int",
+                            "timespan": { "start": null, "end": null, "step": null }
+                        },
+                        "options": {
+                            "label" : "Total Active Editors",
+                            "color" : "#0A9CFF"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_active_editors_count",
+                            "source_col": 2,
+                            "type": "int",
+                            "timespan": { "start": null, "end": null, "step": null }
+                        },
+                        "options": {
+                            "label" : "English Active Editors",
+                            "color" : "#F92672"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
 }
