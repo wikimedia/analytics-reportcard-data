@@ -42,6 +42,13 @@
                 }
             },
             {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "",
+                    
+                }
+            },
+            {
                 "nodeType": "line-group",
                 "options": {
                     "palette": "spectral"
