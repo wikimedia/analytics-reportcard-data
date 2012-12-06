@@ -47,8 +47,8 @@
             {
                 "nodeType": "legend",
                 "options": {
-                    "label" : "",
-                    
+                    "label" : "Legend!",
+                    "dateFormat" : "DD MMM YYYY"
                 }
             },
             {
