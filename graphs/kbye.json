@@ -63,7 +63,7 @@
                             "timespan": { "start": null, "end": null, "step": null }
                         },
                         "options": {
-                            "label" : "English Active Editors",
+                            "label" : "Total Active Editors",
                             "color" : "#0A9CFF"
                         }
                     },
@@ -75,7 +75,10 @@
                             "type": "int",
                             "timespan": { "start": null, "end": null, "step": null }
                         },
-                        "options": {}
+                        "options": {
+                            "label" : "English Active Editors",
+                            "color" : "#F92672"
+                        }
                     }
                 ]
             }
