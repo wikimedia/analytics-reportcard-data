@@ -52,6 +52,12 @@
                 }
             },
             {
+                "nodeType": "guide",
+                "options": {
+                    "dimension" : "x"
+                }
+            },
+            {
                 "nodeType": "line-group",
                 "options": {
                     "palette": "spectral"
