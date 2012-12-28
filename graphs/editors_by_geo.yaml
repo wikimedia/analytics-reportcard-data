@@ -1,0 +1,45 @@
+graph_version : 0.6.0
+
+id            : editors_by_geo
+name          : Editors by Country
+desc          : English Wikipedia editors by country.
+notes         : ''
+tags          : []
+
+root:
+    nodeType : canvas
+    width    : auto
+    height   : 500
+    children :
+        
+        -   nodeType: geo-map
+            metric:
+                source_id: map-world_countries
+            options:
+                projection: mercator
+            children:
+                
+                -   nodeType: geo-feature
+                    metric:
+                        source_id: geo-en_editors
+                        source_col: editors
+                    options:
+                        label : Total Active Editors
+                        color : '#F12B72'
+                
+                -   nodeType: geo-feature
+                    metric:
+                        source_id: geo-en_editors
+                        source_col: editors5
+                    options:
+                        label : Active Editors (5+ edits)
+                        color : '#0A3A4B'
+                
+                -   nodeType: geo-feature
+                    metric:
+                        source_id: geo-en_editors
+                        source_col: editors100
+                    options:
+                        label : Active Editors (100+ edits)
+                        color : '#0A9CFF'
+        

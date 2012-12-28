@@ -1,0 +1,8 @@
+id        : map-world_countries
+name      : "Map: World Countries"
+shortName : "Map: World Countries"
+
+type      : map-world
+format    : json
+url       : /data/geo/maps/world-countries.json
+
