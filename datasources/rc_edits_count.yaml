@@ -2,6 +2,7 @@ id: rc_edits_count
 name: Wikipedia Edits Per Month
 shortName : Edits
 format: csv
+type: timeseries
 url: /data/datafiles/rc/rc_edits_count.csv
 
 timespan:

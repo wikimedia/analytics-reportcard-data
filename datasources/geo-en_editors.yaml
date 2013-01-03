@@ -2,9 +2,9 @@ id        : geo-en_editors
 name      : Active Editors by Country
 shortName : Active Editors by Geo
 
-format    : csv
-type      : geo-world
-url       : /data/geo/data/en_geo_editors.fix.csv
+format    : json
+type      : series
+url       : /data/geo/data/en_geo_editors.fix.json
 
 timespan:
     end: 2012/02/01

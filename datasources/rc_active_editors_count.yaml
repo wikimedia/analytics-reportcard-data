@@ -2,6 +2,7 @@ id: rc_active_editors_count
 name: Active Wikimedia Editors for All Wikimedia Projects (5+ edits per month)
 shortName : Active Editors (5+)
 format: csv
+type: timeseries
 url: /data/datafiles/rc/rc_active_editors_count.csv
 
 timespan:
