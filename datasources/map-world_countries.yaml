@@ -4,5 +4,5 @@ shortName : "Map: World Countries"
 
 format    : json
 type      : geojson
-url       : /data/geo/maps/world-countries.json
+url       : /data/geo/rc/maps/world-countries.json
 
