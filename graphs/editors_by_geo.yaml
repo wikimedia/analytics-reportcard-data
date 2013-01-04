@@ -16,7 +16,9 @@ root:
             metric:
                 source_id: map-world_countries
             options:
-                projection: mercator
+                projection      : mercator
+                backgroundColor : 'white'
+                featuresColor   : '#EEEEEE'
             children:
                 
                 -   nodeType: geo-feature
@@ -25,8 +27,9 @@ root:
                         source_col: editors
                     options:
                         label : Total Active Editors
+                        # fill  : ['#FFFFFF', '#F2F4B7']
                         # fill  : ['#FFFFFF', '#F2F4B7', '#32938A', '#0A3A4B']
-                        fill  : ['#FFFFFF', '#0A3A4B']
+                        fill  : ['#D4E7ED', '#0A3A4B']
                 
                 -   nodeType: geo-feature
                     metric:
