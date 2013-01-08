@@ -21,6 +21,8 @@ root:
                 featuresColor   : '#EEEEEE'
             children:
                 
+                -   nodeType: zoom-pan
+                
                 -   nodeType: geo-feature
                     metric:
                         source_id: geo-en_editors
