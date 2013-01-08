@@ -1,0 +1,1437 @@
+[
+    {
+        "editors100": 221,
+        "editors5": 2088,
+        "editors": 6666,
+        "id": "CAN",
+        "name": "Canada"
+    },
+    {
+        "editors100": 0,
+        "editors5": 6,
+        "editors": 7,
+        "id": "",
+        "name": "Libyan Arab Jamahiriya"
+    },
+    {
+        "editors100": 1,
+        "editors5": 4,
+        "editors": 10,
+        "id": "FJI",
+        "name": "Fiji"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 1,
+        "id": "TKM",
+        "name": "Turkmenistan"
+    },
+    {
+        "editors100": 9,
+        "editors5": 95,
+        "editors": 284,
+        "id": "IRN",
+        "name": "Iran, Islamic Republic of"
+    },
+    {
+        "editors100": 0,
+        "editors5": 12,
+        "editors": 42,
+        "id": "KAZ",
+        "name": "Kazakhstan"
+    },
+    {
+        "editors100": 3,
+        "editors5": 31,
+        "editors": 94,
+        "id": "LTU",
+        "name": "Lithuania"
+    },
+    {
+        "editors100": 0,
+        "editors5": 6,
+        "editors": 39,
+        "id": "KHM",
+        "name": "Cambodia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 4,
+        "editors": 21,
+        "id": "ETH",
+        "name": "Ethiopia"
+    },
+    {
+        "editors100": 1,
+        "editors5": 3,
+        "editors": 5,
+        "id": "ABW",
+        "name": "Aruba"
+    },
+    {
+        "editors100": 9,
+        "editors5": 96,
+        "editors": 336,
+        "id": "ARG",
+        "name": "Argentina"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 24,
+        "id": "BOL",
+        "name": "Bolivia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 3,
+        "id": "CMR",
+        "name": "Cameroon"
+    },
+    {
+        "editors100": 1,
+        "editors5": 8,
+        "editors": 32,
+        "id": "GHA",
+        "name": "Ghana"
+    },
+    {
+        "editors100": 5,
+        "editors5": 57,
+        "editors": 194,
+        "id": "SAU",
+        "name": "Saudi Arabia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 1,
+        "id": "ASM",
+        "name": "American Samoa"
+    },
+    {
+        "editors100": 7,
+        "editors5": 41,
+        "editors": 158,
+        "id": "SVN",
+        "name": "Slovenia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 3,
+        "editors": 25,
+        "id": "GTM",
+        "name": "Guatemala"
+    },
+    {
+        "editors100": 3,
+        "editors5": 34,
+        "editors": 67,
+        "id": "BIH",
+        "name": "Bosnia and Herzegovina"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 1,
+        "id": "GIN",
+        "name": "Guinea"
+    },
+    {
+        "editors100": 24,
+        "editors5": 266,
+        "editors": 953,
+        "id": "RUS",
+        "name": "Russian Federation"
+    },
+    {
+        "editors100": 80,
+        "editors5": 823,
+        "editors": 2917,
+        "id": "DEU",
+        "name": "Germany"
+    },
+    {
+        "editors100": 0,
+        "editors5": 3,
+        "editors": 8,
+        "id": "VGB",
+        "name": "Virgin Islands, British"
+    },
+    {
+        "editors100": 0,
+        "editors5": 3,
+        "editors": 8,
+        "id": "DMA",
+        "name": "Dominica"
+    },
+    {
+        "editors100": 165,
+        "editors5": 1333,
+        "editors": 4459,
+        "id": "AUS",
+        "name": "Australia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 2,
+        "id": "LBR",
+        "name": "Liberia"
+    },
+    {
+        "editors100": 2,
+        "editors5": 17,
+        "editors": 45,
+        "id": "MDV",
+        "name": "Maldives"
+    },
+    {
+        "editors100": 1,
+        "editors5": 17,
+        "editors": 55,
+        "id": "ARM",
+        "name": "Armenia"
+    },
+    {
+        "editors100": 14,
+        "editors5": 190,
+        "editors": 687,
+        "id": "PAK",
+        "name": "Pakistan"
+    },
+    {
+        "editors100": 0,
+        "editors5": 8,
+        "editors": 30,
+        "id": "OMN",
+        "name": "Oman"
+    },
+    {
+        "editors100": 0,
+        "editors5": 7,
+        "editors": 17,
+        "id": "PSE",
+        "name": "Palestinian Territory"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "GRL",
+        "name": "Greenland"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 2,
+        "id": "GUF",
+        "name": "French Guiana"
+    },
+    {
+        "editors100": 21,
+        "editors5": 168,
+        "editors": 558,
+        "id": "FIN",
+        "name": "Finland"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 4,
+        "id": "MCO",
+        "name": "Monaco"
+    },
+    {
+        "editors100": 31,
+        "editors5": 260,
+        "editors": 832,
+        "id": "NZL",
+        "name": "New Zealand"
+    },
+    {
+        "editors100": 1,
+        "editors5": 1,
+        "editors": 5,
+        "id": "YEM",
+        "name": "Yemen"
+    },
+    {
+        "editors100": 2,
+        "editors5": 9,
+        "editors": 16,
+        "id": "JEY",
+        "name": "Jersey"
+    },
+    {
+        "editors100": 0,
+        "editors5": 11,
+        "editors": 35,
+        "id": "JAM",
+        "name": "Jamaica"
+    },
+    {
+        "editors100": 1,
+        "editors5": 15,
+        "editors": 40,
+        "id": "ALB",
+        "name": "Albania"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 2,
+        "id": "WSM",
+        "name": "Samoa"
+    },
+    {
+        "editors100": 0,
+        "editors5": 3,
+        "editors": 16,
+        "id": "MAC",
+        "name": "Macau"
+    },
+    {
+        "editors100": 1,
+        "editors5": 101,
+        "editors": 320,
+        "id": "ARE",
+        "name": "United Arab Emirates"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 4,
+        "id": "GUM",
+        "name": "Guam"
+    },
+    {
+        "editors100": 95,
+        "editors5": 1513,
+        "editors": 5417,
+        "id": "IND",
+        "name": "India"
+    },
+    {
+        "editors100": 2,
+        "editors5": 20,
+        "editors": 58,
+        "id": "AZE",
+        "name": "Azerbaijan"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 4,
+        "id": "MDG",
+        "name": "Madagascar"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 1,
+        "id": "CIV",
+        "name": "Cote D'Ivoire"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "LSO",
+        "name": "Lesotho"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "VCT",
+        "name": "Saint Vincent and the Grenadines"
+    },
+    {
+        "editors100": 0,
+        "editors5": 16,
+        "editors": 78,
+        "id": "KEN",
+        "name": "Kenya"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 2,
+        "id": "TJK",
+        "name": "Tajikistan"
+    },
+    {
+        "editors100": 11,
+        "editors5": 128,
+        "editors": 393,
+        "id": "TUR",
+        "name": "Turkey"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 13,
+        "id": "AFG",
+        "name": "Afghanistan"
+    },
+    {
+        "editors100": 0,
+        "editors5": 4,
+        "editors": 25,
+        "id": "PRY",
+        "name": "Paraguay"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 3,
+        "id": "MNP",
+        "name": "Northern Mariana Islands"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "SLB",
+        "name": "Solomon Islands"
+    },
+    {
+        "editors100": 1,
+        "editors5": 3,
+        "editors": 7,
+        "id": "LCA",
+        "name": "Saint Lucia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "SMR",
+        "name": "San Marino"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 3,
+        "id": "PYF",
+        "name": "French Polynesia"
+    },
+    {
+        "editors100": 31,
+        "editors5": 482,
+        "editors": 1760,
+        "id": "FRA",
+        "name": "France"
+    },
+    {
+        "editors100": 0,
+        "editors5": 3,
+        "editors": 6,
+        "id": "SYR",
+        "name": "Syrian Arab Republic"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 5,
+        "id": "BMU",
+        "name": "Bermuda"
+    },
+    {
+        "editors100": 2,
+        "editors5": 30,
+        "editors": 112,
+        "id": "SVK",
+        "name": "Slovakia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 4,
+        "id": "SOM",
+        "name": "Somalia"
+    },
+    {
+        "editors100": 2,
+        "editors5": 39,
+        "editors": 99,
+        "id": "PER",
+        "name": "Peru"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 2,
+        "id": "VUT",
+        "name": "Vanuatu"
+    },
+    {
+        "editors100": 20,
+        "editors5": 186,
+        "editors": 657,
+        "id": "NOR",
+        "name": "Norway"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 3,
+        "id": "MWI",
+        "name": "Malawi"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "BEN",
+        "name": "Benin"
+    },
+    {
+        "editors100": 1,
+        "editors5": 6,
+        "editors": 22,
+        "id": "CUB",
+        "name": "Cuba"
+    },
+    {
+        "editors100": 2,
+        "editors5": 9,
+        "editors": 16,
+        "id": "MNE",
+        "name": "Montenegro"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 5,
+        "id": "KNA",
+        "name": "Saint Kitts and Nevis"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 2,
+        "id": "VAT",
+        "name": "Holy See (Vatican City State)"
+    },
+    {
+        "editors100": 11,
+        "editors5": 153,
+        "editors": 587,
+        "id": "CHN",
+        "name": "China"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "FSM",
+        "name": "Micronesia, Federated States of"
+    },
+    {
+        "editors100": 1,
+        "editors5": 14,
+        "editors": 44,
+        "id": "DOM",
+        "name": "Dominican Republic"
+    },
+    {
+        "editors100": 5,
+        "editors5": 106,
+        "editors": 367,
+        "id": "UKR",
+        "name": "Ukraine"
+    },
+    {
+        "editors100": 1,
+        "editors5": 8,
+        "editors": 27,
+        "id": "BHR",
+        "name": "Bahrain"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 2,
+        "id": "TON",
+        "name": "Tonga"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 7,
+        "id": "CYM",
+        "name": "Cayman Islands"
+    },
+    {
+        "editors100": 13,
+        "editors5": 149,
+        "editors": 406,
+        "id": "IDN",
+        "name": "Indonesia"
+    },
+    {
+        "editors100": 1,
+        "editors5": 6,
+        "editors": 27,
+        "id": "MUS",
+        "name": "Mauritius"
+    },
+    {
+        "editors100": 28,
+        "editors5": 308,
+        "editors": 1006,
+        "id": "SWE",
+        "name": "Sweden"
+    },
+    {
+        "editors100": 1,
+        "editors5": 46,
+        "editors": 140,
+        "id": "VNM",
+        "name": "Vietnam"
+    },
+    {
+        "editors100": 4,
+        "editors5": 24,
+        "editors": 62,
+        "id": "MKD",
+        "name": "Macedonia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 3,
+        "editors": 6,
+        "id": "GUY",
+        "name": "Guyana"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 3,
+        "id": "MLI",
+        "name": "Mali"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 2,
+        "id": "CPV",
+        "name": "Cape Verde"
+    },
+    {
+        "editors100": 11,
+        "editors5": 85,
+        "editors": 232,
+        "id": "BGR",
+        "name": "Bulgaria"
+    },
+    {
+        "editors100": 1377,
+        "editors5": 14080,
+        "editors": 50197,
+        "id": "USA",
+        "name": "United States"
+    },
+    {
+        "editors100": 9,
+        "editors5": 130,
+        "editors": 351,
+        "id": "ROU",
+        "name": "Romania"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "AGO",
+        "name": "Angola"
+    },
+    {
+        "editors100": 12,
+        "editors5": 108,
+        "editors": 299,
+        "id": "PRT",
+        "name": "Portugal"
+    },
+    {
+        "editors100": 9,
+        "editors5": 115,
+        "editors": 366,
+        "id": "ZAF",
+        "name": "South Africa"
+    },
+    {
+        "editors100": 3,
+        "editors5": 24,
+        "editors": 77,
+        "id": "CYP",
+        "name": "Cyprus"
+    },
+    {
+        "editors100": 1,
+        "editors5": 8,
+        "editors": 12,
+        "id": "BRN",
+        "name": "Brunei Darussalam"
+    },
+    {
+        "editors100": 12,
+        "editors5": 177,
+        "editors": 470,
+        "id": "MYS",
+        "name": "Malaysia"
+    },
+    {
+        "editors100": 4,
+        "editors5": 90,
+        "editors": 379,
+        "id": "AUT",
+        "name": "Austria"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 6,
+        "id": "MOZ",
+        "name": "Mozambique"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 28,
+        "id": "UGA",
+        "name": "Uganda"
+    },
+    {
+        "editors100": 22,
+        "editors5": 210,
+        "editors": 695,
+        "id": "JPN",
+        "name": "Japan"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "NER",
+        "name": "Niger"
+    },
+    {
+        "editors100": 1,
+        "editors5": 6,
+        "editors": 27,
+        "id": "IMN",
+        "name": "Isle of Man"
+    },
+    {
+        "editors100": 25,
+        "editors5": 258,
+        "editors": 768,
+        "id": "BRA",
+        "name": "Brazil"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 8,
+        "id": "FRO",
+        "name": "Faroe Islands"
+    },
+    {
+        "editors100": 2,
+        "editors5": 20,
+        "editors": 60,
+        "id": "KWT",
+        "name": "Kuwait"
+    },
+    {
+        "editors100": 0,
+        "editors5": 12,
+        "editors": 33,
+        "id": "PAN",
+        "name": "Panama"
+    },
+    {
+        "editors100": 11,
+        "editors5": 151,
+        "editors": 412,
+        "id": "KOR",
+        "name": "Korea, Republic of"
+    },
+    {
+        "editors100": 0,
+        "editors5": 19,
+        "editors": 62,
+        "id": "CRI",
+        "name": "Costa Rica"
+    },
+    {
+        "editors100": 2,
+        "editors5": 20,
+        "editors": 58,
+        "id": "LUX",
+        "name": "Luxembourg"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 5,
+        "id": "VIR",
+        "name": "Virgin Islands, U.S."
+    },
+    {
+        "editors100": 0,
+        "editors5": 4,
+        "editors": 13,
+        "id": "BHS",
+        "name": "Bahamas"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 6,
+        "id": "",
+        "name": "Satellite Provider"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 5,
+        "id": "GIB",
+        "name": "Gibraltar"
+    },
+    {
+        "editors100": 27,
+        "editors5": 290,
+        "editors": 879,
+        "id": "IRL",
+        "name": "Ireland"
+    },
+    {
+        "editors100": 0,
+        "editors5": 14,
+        "editors": 79,
+        "id": "NGA",
+        "name": "Nigeria"
+    },
+    {
+        "editors100": 2,
+        "editors5": 24,
+        "editors": 52,
+        "id": "ECU",
+        "name": "Ecuador"
+    },
+    {
+        "editors100": 1,
+        "editors5": 81,
+        "editors": 248,
+        "id": "BGD",
+        "name": "Bangladesh"
+    },
+    {
+        "editors100": 2,
+        "editors5": 42,
+        "editors": 149,
+        "id": "",
+        "name": "Europe"
+    },
+    {
+        "editors100": 1,
+        "editors5": 24,
+        "editors": 67,
+        "id": "BLR",
+        "name": "Belarus"
+    },
+    {
+        "editors100": 0,
+        "editors5": 3,
+        "editors": 16,
+        "id": "DZA",
+        "name": "Algeria"
+    },
+    {
+        "editors100": 1,
+        "editors5": 3,
+        "editors": 19,
+        "id": "SLV",
+        "name": "El Salvador"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 1,
+        "id": "TUV",
+        "name": "Tuvalu"
+    },
+    {
+        "editors100": 11,
+        "editors5": 101,
+        "editors": 350,
+        "id": "CZE",
+        "name": "Czech Republic"
+    },
+    {
+        "editors100": 6,
+        "editors5": 67,
+        "editors": 201,
+        "id": "CHL",
+        "name": "Chile"
+    },
+    {
+        "editors100": 1,
+        "editors5": 30,
+        "editors": 92,
+        "id": "PRI",
+        "name": "Puerto Rico"
+    },
+    {
+        "editors100": 16,
+        "editors5": 149,
+        "editors": 541,
+        "id": "BEL",
+        "name": "Belgium"
+    },
+    {
+        "editors100": 11,
+        "editors5": 125,
+        "editors": 299,
+        "id": "THA",
+        "name": "Thailand"
+    },
+    {
+        "editors100": 0,
+        "editors5": 3,
+        "editors": 6,
+        "id": "HTI",
+        "name": "Haiti"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 7,
+        "id": "BLZ",
+        "name": "Belize"
+    },
+    {
+        "editors100": 8,
+        "editors5": 151,
+        "editors": 439,
+        "id": "HKG",
+        "name": "Hong Kong"
+    },
+    {
+        "editors100": 5,
+        "editors5": 35,
+        "editors": 67,
+        "id": "GEO",
+        "name": "Georgia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 7,
+        "id": "LAO",
+        "name": "Lao People's Democratic Republic"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "GMB",
+        "name": "Gambia"
+    },
+    {
+        "editors100": 15,
+        "editors5": 182,
+        "editors": 635,
+        "id": "POL",
+        "name": "Poland"
+    },
+    {
+        "editors100": 0,
+        "editors5": 9,
+        "editors": 47,
+        "id": "",
+        "name": "Asia/Pacific Region"
+    },
+    {
+        "editors100": 7,
+        "editors5": 67,
+        "editors": 176,
+        "id": "HRV",
+        "name": "Croatia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 6,
+        "editors": 20,
+        "id": "MNG",
+        "name": "Mongolia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 3,
+        "id": "GGY",
+        "name": "Guernsey"
+    },
+    {
+        "editors100": 11,
+        "editors5": 132,
+        "editors": 503,
+        "id": "CHE",
+        "name": "Switzerland"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 2,
+        "id": "GRD",
+        "name": "Grenada"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 2,
+        "id": "SYC",
+        "name": "Seychelles"
+    },
+    {
+        "editors100": 1,
+        "editors5": 7,
+        "editors": 21,
+        "id": "TZA",
+        "name": "Tanzania, United Republic of"
+    },
+    {
+        "editors100": 8,
+        "editors5": 55,
+        "editors": 126,
+        "id": "EST",
+        "name": "Estonia"
+    },
+    {
+        "editors100": 3,
+        "editors5": 20,
+        "editors": 60,
+        "id": "URY",
+        "name": "Uruguay"
+    },
+    {
+        "editors100": 10,
+        "editors5": 111,
+        "editors": 409,
+        "id": "MEX",
+        "name": "Mexico"
+    },
+    {
+        "editors100": 0,
+        "editors5": 28,
+        "editors": 79,
+        "id": "LBN",
+        "name": "Lebanon"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 12,
+        "id": "UZB",
+        "name": "Uzbekistan"
+    },
+    {
+        "editors100": 0,
+        "editors5": 43,
+        "editors": 159,
+        "id": "EGY",
+        "name": "Egypt"
+    },
+    {
+        "editors100": 0,
+        "editors5": 3,
+        "editors": 7,
+        "id": "RWA",
+        "name": "Rwanda"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 3,
+        "id": "ATG",
+        "name": "Antigua and Barbuda"
+    },
+    {
+        "editors100": 25,
+        "editors5": 301,
+        "editors": 1021,
+        "id": "ESP",
+        "name": "Spain"
+    },
+    {
+        "editors100": 5,
+        "editors5": 44,
+        "editors": 147,
+        "id": "COL",
+        "name": "Colombia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 4,
+        "id": "REU",
+        "name": "Reunion"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "BDI",
+        "name": "Burundi"
+    },
+    {
+        "editors100": 1,
+        "editors5": 73,
+        "editors": 238,
+        "id": "TWN",
+        "name": "Taiwan"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 1,
+        "id": "TCA",
+        "name": "Turks and Caicos Islands"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 6,
+        "id": "BRB",
+        "name": "Barbados"
+    },
+    {
+        "editors100": 2,
+        "editors5": 13,
+        "editors": 63,
+        "id": "QAT",
+        "name": "Qatar"
+    },
+    {
+        "editors100": 36,
+        "editors5": 404,
+        "editors": 1160,
+        "id": "ITA",
+        "name": "Italy"
+    },
+    {
+        "editors100": 12,
+        "editors5": 143,
+        "editors": 484,
+        "id": "DNK",
+        "name": "Denmark"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 10,
+        "id": "BTN",
+        "name": "Bhutan"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 12,
+        "id": "SDN",
+        "name": "Sudan"
+    },
+    {
+        "editors100": 1,
+        "editors5": 20,
+        "editors": 78,
+        "id": "NPL",
+        "name": "Nepal"
+    },
+    {
+        "editors100": 1,
+        "editors5": 16,
+        "editors": 62,
+        "id": "MLT",
+        "name": "Malta"
+    },
+    {
+        "editors100": 64,
+        "editors5": 459,
+        "editors": 1368,
+        "id": "NLD",
+        "name": "Netherlands"
+    },
+    {
+        "editors100": 3,
+        "editors5": 21,
+        "editors": 68,
+        "id": "",
+        "name": "Anonymous Proxy"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 4,
+        "id": "SUR",
+        "name": "Suriname"
+    },
+    {
+        "editors100": 2,
+        "editors5": 30,
+        "editors": 99,
+        "id": "VEN",
+        "name": "Venezuela"
+    },
+    {
+        "editors100": 0,
+        "editors5": 4,
+        "editors": 16,
+        "id": "",
+        "name": "Netherlands Antilles"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 4,
+        "id": "ALA",
+        "name": "Aland Islands"
+    },
+    {
+        "editors100": 23,
+        "editors5": 223,
+        "editors": 659,
+        "id": "ISR",
+        "name": "Israel"
+    },
+    {
+        "editors100": 2,
+        "editors5": 16,
+        "editors": 75,
+        "id": "ISL",
+        "name": "Iceland"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 5,
+        "id": "ZMB",
+        "name": "Zambia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 3,
+        "editors": 4,
+        "id": "SEN",
+        "name": "Senegal"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 3,
+        "id": "PNG",
+        "name": "Papua New Guinea"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "GAB",
+        "name": "Gabon"
+    },
+    {
+        "editors100": 3,
+        "editors5": 4,
+        "editors": 7,
+        "id": "",
+        "name": "Invalid IP"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 12,
+        "id": "ZWE",
+        "name": "Zimbabwe"
+    },
+    {
+        "editors100": 0,
+        "editors5": 20,
+        "editors": 52,
+        "id": "JOR",
+        "name": "Jordan"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 2,
+        "id": "MTQ",
+        "name": "Martinique"
+    },
+    {
+        "editors100": 39,
+        "editors5": 354,
+        "editors": 895,
+        "id": "PHL",
+        "name": "Philippines"
+    },
+    {
+        "editors100": 0,
+        "editors5": 8,
+        "editors": 32,
+        "id": "MDA",
+        "name": "Moldova, Republic of"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "MRT",
+        "name": "Mauritania"
+    },
+    {
+        "editors100": 1,
+        "editors5": 6,
+        "editors": 18,
+        "id": "KGZ",
+        "name": "Kyrgyzstan"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "COG",
+        "name": "Congo, The Democratic Republic of the"
+    },
+    {
+        "editors100": 0,
+        "editors5": 5,
+        "editors": 21,
+        "id": "IRQ",
+        "name": "Iraq"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 1,
+        "id": "AND",
+        "name": "Andorra"
+    },
+    {
+        "editors100": 0,
+        "editors5": 8,
+        "editors": 48,
+        "id": "TTO",
+        "name": "Trinidad and Tobago"
+    },
+    {
+        "editors100": 3,
+        "editors5": 34,
+        "editors": 72,
+        "id": "LVA",
+        "name": "Latvia"
+    },
+    {
+        "editors100": 11,
+        "editors5": 110,
+        "editors": 319,
+        "id": "HUN",
+        "name": "Hungary"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 3,
+        "id": "GLP",
+        "name": "Guadeloupe"
+    },
+    {
+        "editors100": 0,
+        "editors5": 2,
+        "editors": 18,
+        "id": "HND",
+        "name": "Honduras"
+    },
+    {
+        "editors100": 0,
+        "editors5": 1,
+        "editors": 2,
+        "id": "MMR",
+        "name": "Myanmar"
+    },
+    {
+        "editors100": 1,
+        "editors5": 9,
+        "editors": 38,
+        "id": "MAR",
+        "name": "Morocco"
+    },
+    {
+        "editors100": 0,
+        "editors5": 4,
+        "editors": 16,
+        "id": "TUN",
+        "name": "Tunisia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 6,
+        "editors": 14,
+        "id": "NIC",
+        "name": "Nicaragua"
+    },
+    {
+        "editors100": 17,
+        "editors5": 241,
+        "editors": 638,
+        "id": "SGP",
+        "name": "Singapore"
+    },
+    {
+        "editors100": 11,
+        "editors5": 107,
+        "editors": 293,
+        "id": "SRB",
+        "name": "Serbia"
+    },
+    {
+        "editors100": 642,
+        "editors5": 4835,
+        "editors": 15157,
+        "id": "GBR",
+        "name": "United Kingdom"
+    },
+    {
+        "editors100": 9,
+        "editors5": 129,
+        "editors": 392,
+        "id": "GRC",
+        "name": "Greece"
+    },
+    {
+        "editors100": 2,
+        "editors5": 46,
+        "editors": 177,
+        "id": "LKA",
+        "name": "Sri Lanka"
+    },
+    {
+        "editors100": 0,
+        "editors5": 3,
+        "editors": 9,
+        "id": "NAM",
+        "name": "Namibia"
+    },
+    {
+        "editors100": 0,
+        "editors5": 0,
+        "editors": 4,
+        "id": "BWA",
+        "name": "Botswana"
+    }
+]

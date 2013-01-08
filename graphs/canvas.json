@@ -1,8 +1,8 @@
 {
     "graph_version": "0.6.0",
-    "id"     : "kbye",
-    "name"   : "kbyeee~",
-    "desc"   : "a departing test-graph.",
+    "id"     : "canvas",
+    "name"   : "kbyeee canvas~",
+    "desc"   : "a gorgeous canvas test-graph.",
     "notes"  : "",
     "tags"   : [],
     
@@ -35,6 +35,9 @@
                 "options": {"dimension": "y"}
             },
             {
+                "nodeType": "zoom-brush"
+            },
+            {
                 "nodeType": "callout",
                 "metricRef": 0,
                 "options" : {
@@ -47,6 +50,12 @@
                 "options": {
                     "label" : "Legend!",
                     "dateFormat" : "DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "guide",
+                "options": {
+                    "dimension" : "x"
                 }
             },
             {

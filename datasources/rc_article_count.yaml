@@ -2,6 +2,7 @@ id: rc_article_count
 name: Wikipedia Articles
 shortName : Articles
 format: csv
+type: timeseries
 url: /data/datafiles/rc/rc_article_count.csv
 
 timespan:

@@ -2,6 +2,7 @@ id: rc_comscore_region_uv
 name: Unique Visitors for All Wikimedia Projects
 shortName : Unique Visitors
 format: csv
+type: timeseries
 url: /data/datafiles/rc/rc_comscore_region_uv.csv
 
 timespan:

@@ -1,0 +1,29 @@
+id        : geo-en_editors
+name      : Active Editors by Country
+shortName : Active Editors by Geo
+
+format    : json
+type      : series
+url       : /data/geo/rc/data/en_geo_editors.fix.json
+
+timespan:
+    end: 2012/02/01
+    start: 2012/03/01
+    step: 1mo
+
+columns:
+    -   id    : id
+        label : ID
+        type  : string
+    -   id    : name
+        label : Name
+        type  : string
+    -   id    : editors
+        label : Total Active Editors
+        type  : int
+    -   id    : editors5
+        label : Active Editors (5+ edits)
+        type  : int
+    -   id    : editors100
+        label : Active Editors (100+ edits)
+        type  : int

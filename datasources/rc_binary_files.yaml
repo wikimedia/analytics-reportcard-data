@@ -2,6 +2,7 @@ id: rc_binary_files
 name: Commons Binaries per Month
 shortName : Binaries
 format: csv
+type: timeseries
 url: /data/datafiles/rc/rc_binary_files.csv
 
 timespan:

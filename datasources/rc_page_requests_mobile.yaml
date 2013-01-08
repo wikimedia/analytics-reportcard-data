@@ -2,6 +2,7 @@ id: rc_page_requests_mobile
 name: Mobile Page Request
 shortName : Mobile
 format: csv
+type: timeseries
 notes: 
 url: /data/datafiles/rc/rc_page_requests_mobile.csv
 

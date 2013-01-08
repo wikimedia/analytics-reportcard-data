@@ -1,8 +1,7 @@
 {
-    "graph_version": "0.6.0",
-    "id"     : "kbye",
-    "name"   : "kbyeee~",
-    "desc"   : "a departing test-graph.",
+    "id"     : "lite-canvas",
+    "name"   : "lite canvas~",
+    "desc"   : "a gorgeous, lite canvas test-graph.",
     "notes"  : "",
     "tags"   : [],
     
@@ -12,19 +11,8 @@
         "height"   : 500,
         "children" : [
             {
-                "nodeType": "axis",
-                "options": {
-                    "orient": "bottom",
-                    "dimension": "x"
-                }
-            },
-            {
-                "nodeType": "axis",
-                "options": {
-                    "label": "Editors",
-                    "orient": "left",
-                    "dimension": "y"
-                }
+                "nodeType": "group",
+                "children": []
             },
             {
                 "nodeType": "grid",
@@ -35,28 +23,14 @@
                 "options": {"dimension": "y"}
             },
             {
-                "nodeType": "callout",
-                "metricRef": 0,
-                "options" : {
-                    "precision" : 2,
-                    "dateFormat" : "MMM YY"
-                }
-            },
-            {
-                "nodeType": "legend",
-                "options": {
-                    "label" : "Legend!",
-                    "dateFormat" : "DD MMM YYYY"
-                }
-            },
-            {
                 "nodeType": "line-group",
                 "options": {
-                    "palette": "spectral"
+                    "color" : "#254A59"
                 },
                 "children": [
                     {
                         "nodeType": "line",
+                        "disabled": false,
                         "metric": {
                             "source_id": "rc_active_editors_count",
                             "source_col": 1,
@@ -64,12 +38,14 @@
                             "timespan": { "start": null, "end": null, "step": null }
                         },
                         "options": {
-                            "label" : "Total Active Editors",
+                            "label" : "English Active Editors",
                             "color" : "#0A9CFF"
-                        }
+                        },
+                        "children": []
                     },
                     {
                         "nodeType": "line",
+                        "disabled": false,
                         "metric": {
                             "source_id": "rc_active_editors_count",
                             "source_col": 2,
@@ -77,9 +53,9 @@
                             "timespan": { "start": null, "end": null, "step": null }
                         },
                         "options": {
-                            "label" : "English Active Editors",
-                            "color" : "#F92672"
-                        }
+                            "color" : "#F12B72"
+                        },
+                        "children": []
                     }
                 ]
             }
