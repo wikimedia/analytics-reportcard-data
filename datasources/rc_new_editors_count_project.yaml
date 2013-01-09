@@ -2,6 +2,7 @@ id: rc_new_editors_count_project
 name: New Editors by Wikimedia Project
 shortName : New Editors by Project
 format: csv
+type: timeseries
 url: /data/datafiles/rc/rc_new_editors_count_project.csv
 
 timespan:

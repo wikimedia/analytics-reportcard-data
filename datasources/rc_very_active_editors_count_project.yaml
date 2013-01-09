@@ -2,6 +2,7 @@ id: rc_very_active_editors_count_project
 name: Very Active Editors by Wikimedia Project (100+ edits per month)
 shortName : Very Active Editors by Project (100+)
 format: csv
+type: timeseries
 url: /data/datafiles/rc/rc_very_active_editors_count_project.csv
 
 timespan:
