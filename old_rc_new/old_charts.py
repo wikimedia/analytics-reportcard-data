@@ -31,7 +31,7 @@ def article_count():
 	metric="Article count (official) - Absolute - Per Wiki"
 	next_metric="Article count (official) - Absolute - Per Project"
 
-	n_lines = 8
+	n_lines = 9
 
 	data = p.parse_StatisticsMonthly(metric,next_metric,n_lines=n_lines)
 
