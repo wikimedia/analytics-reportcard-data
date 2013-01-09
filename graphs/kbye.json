@@ -65,7 +65,9 @@
                         },
                         "options": {
                             "label" : "Total Active Editors",
-                            "color" : "#0A9CFF"
+                            "stroke": {
+                                "color" : "#0A9CFF"
+                            }
                         }
                     },
                     {
@@ -78,7 +80,10 @@
                         },
                         "options": {
                             "label" : "English Active Editors",
-                            "color" : "#F92672"
+                            "stroke": {
+                                "width" : 6,
+                                "color" : "#F92672"
+                            }
                         }
                     }
                 ]
