@@ -1,0 +1,156 @@
+{
+    "graph_version": "0.6.0",
+    "id": "pageviews_mobile_hourly",
+    "desc": "",
+    "name": "Pageviews To Mobile Site - Hourly",
+    "slug": "pageviews_mobile_hourly",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "YYYY/MM/DD HH:00"
+                }
+            },
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_hourly_mobile_pageviews_by_continent",
+                            "source_col": 1,
+                            "type": "int",
+                            "timespan": { "start": null, "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Africa",
+                            "stroke": {
+                                "color": "#d73027"
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_hourly_mobile_pageviews_by_continent",
+                            "source_col": 2,
+                            "type": "int",
+                            "timespan": { "start": null, "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Asia",
+                            "stroke": {
+                                "color": "#AD3238"
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_hourly_mobile_pageviews_by_continent",
+                            "source_col": 3,
+                            "type": "int",
+                            "timespan": { "start": null, "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Europe",
+                            "stroke": {
+                                "color": "#FF0097"
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_hourly_mobile_pageviews_by_continent",
+                            "source_col": 4,
+                            "type": "int",
+                            "timespan": { "start": null, "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "North America",
+                            "stroke": {
+                                "color": "#4596FF"
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_hourly_mobile_pageviews_by_continent",
+                            "source_col": 5,
+                            "type": "int",
+                            "timespan": { "start": null, "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Oceania",
+                            "stroke": {
+                                "color": "#83BB32"
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_hourly_mobile_pageviews_by_continent",
+                            "source_col": 6,
+                            "type": "int",
+                            "timespan": { "start": null, "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "South America",
+                            "stroke": {
+                                "color": "#FFB719"
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_hourly_mobile_pageviews_by_continent",
+                            "source_col": 7,
+                            "type": "int",
+                            "timespan": { "start": null, "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Unknown",
+                            "stroke": {
+                                "color": "#182B53"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

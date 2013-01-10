@@ -47,6 +47,9 @@
                 }
             },
             {
+                "nodeType": "zoom-brush"
+            },
+            {
                 "nodeType": "line-group",
                 "children": [
                     {

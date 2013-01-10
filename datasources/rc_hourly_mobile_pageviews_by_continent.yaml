@@ -1,0 +1,33 @@
+id: rc_active_editors_count_project
+name: Active Wikimedia Editors by Wikimedia Project (5+ edits per month)
+shortName : Active Editors by Project(5+)
+format: csv
+type: timeseries
+url: http://analytics1001.wikimedia.org:81/wmf/public/otto/hour_continent_mobile_pageviews/datafiles/hour_continent_mobile.csv
+
+timespan:
+    end: 2013-01-08_21
+    start: 2013-01-01_00
+    step: 1h
+
+columns:
+    labels:
+    - date
+    - Africa
+    - Asia
+    - Europe
+    - North America
+    - Oceania
+    - South America
+    - Unknown
+    types:
+    - date
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+    - int
+chart:
+    chartType: dygraphs

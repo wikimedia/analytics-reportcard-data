@@ -25,6 +25,11 @@
                 "very_active_editors",
                 "wikivoyage"
             ]
+        }, {
+            "name": "Hourly", 
+            "graph_ids":[
+                "pageviews_mobile_hourly"
+            ]
         }
     ]
 }
