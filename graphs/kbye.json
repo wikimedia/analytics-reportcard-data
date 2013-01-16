@@ -50,6 +50,9 @@
                 }
             },
             {
+                "nodeType": "smooth"
+            },
+            {
                 "nodeType": "line-group",
                 "options": {
                     "palette": "spectral"
