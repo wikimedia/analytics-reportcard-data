@@ -69,7 +69,8 @@
                         "options": {
                             "label" : "Total Active Editors",
                             "stroke": {
-                                "color" : "#0A9CFF"
+                                "color" : "#0A9CFF",
+                                "dashed" : 3
                             }
                         }
                     },
