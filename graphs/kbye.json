@@ -53,6 +53,9 @@
                 "nodeType": "smooth"
             },
             {
+                "nodeType": "zoom-brush"
+            },
+            {
                 "nodeType": "line-group",
                 "options": {
                     "palette": "spectral"
@@ -89,6 +92,16 @@
                                 "color" : "#F92672"
                             }
                         }
+                    }
+                ]
+            },
+            {
+                "nodeType": "annotation-group",
+                "children": [
+                    {
+                        "nodeType": "annotation",
+                        "x": "2011/03/01",
+                        "y": "37780"
                     }
                 ]
             }
