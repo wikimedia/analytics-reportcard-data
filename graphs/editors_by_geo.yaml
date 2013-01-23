@@ -1,7 +1,7 @@
 graph_version : 0.6.0
 
 id            : editors_by_geo
-name          : Editors by Country
+name          : Editors by Location, February 2012 | English Wikipedia
 desc          : English Wikipedia editors by country.
 notes         : ''
 tags          : []
@@ -9,7 +9,7 @@ tags          : []
 root:
     nodeType : canvas
     width    : auto
-    height   : 500
+    height   : 750
     children :
         
         -   nodeType: geo-map
@@ -17,11 +17,11 @@ root:
                 source_id: map-world_countries
             options:
                 projection      : mercator
-                backgroundColor : 'white'
+                backgroundColor : white
                 featuresColor   : '#EEEEEE'
             children:
-                
                 -   nodeType: zoom-pan
+                -   nodeType: infobox
                 
                 -   nodeType: geo-feature
                     metric:
@@ -29,8 +29,7 @@ root:
                         source_col: editors
                     options:
                         label : Total Active Editors
-                        # fill  : ['#FFFFFF', '#F2F4B7']
-                        # fill  : ['#FFFFFF', '#F2F4B7', '#32938A', '#0A3A4B']
+                        scale : log
                         fill  : ['#D4E7ED', '#0A3A4B']
                 
                 -   nodeType: geo-feature
@@ -39,11 +38,16 @@ root:
                         source_col: editors5
                     options:
                         label : Active Editors (5+ edits)
+                        scale : linear
+                        stroke :
+                            width   : 3.0
+                            color   : '#FFFFFF'
+                            opacity : [0, 1.0]
                 
                 -   nodeType: geo-feature
                     metric:
                         source_id: geo-en_editors
                         source_col: editors100
                     options:
-                        label : Active Editors (100+ edits)
+                        label : Very Active Editors (100+ edits)
         
