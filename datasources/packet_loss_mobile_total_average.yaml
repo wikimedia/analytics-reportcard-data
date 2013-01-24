@@ -1,0 +1,17 @@
+id: rc_active_editors_count_project
+name: Active Wikimedia Editors by Wikimedia Project (5+ edits per month)
+shortName : Active Editors by Project(5+)
+format: csv
+type: timeseries
+url: http://analytics1001.wikimedia.org:81/limn/datafiles/packet-loss-mobile-total-average.csv
+
+timespan:
+    step: 1d
+
+columns:
+    labels:
+    - date
+    - Percent
+    types:
+    - date
+    - int

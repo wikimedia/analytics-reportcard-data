@@ -1,0 +1,14 @@
+id: test_series
+name: Test datasource for series data
+shortName : Series
+format: csv
+type: series
+url: /data/datafiles/rc/test_series.csv
+
+columns:
+    labels:
+    - South America
+    - Europe
+    types:
+    - int
+    - int

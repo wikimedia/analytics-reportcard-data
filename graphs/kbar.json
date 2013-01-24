@@ -1,0 +1,84 @@
+{
+    "graph_version": "0.6.0",
+    "id"     : "kbar",
+    "name"   : "seriesly~",
+    "desc"   : "a series test graph.",
+    "notes"  : "",
+    "tags"   : [],
+    
+    "root" : {
+        "nodeType" : "canvas",
+        "width"    : "auto",
+        "height"   : 500,
+        "children" : [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "label": "New Editors This Year",
+                    "orient": "left",
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend!"
+                }
+            },
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "bar-group",
+                "options": {
+                    "palette": "spectral"
+                },
+                "children": [
+                    {
+                        "nodeType": "bar",
+                        "metric": {
+                            "source_id": "test_series",
+                            "source_col": 0,
+                            "type": "int"
+                        },
+                        "options": {
+                            "label" : "South America",
+                            "stroke": {
+                                "color" : "#0A9CFF"
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "bar",
+                        "metric": {
+                            "source_id": "test_series",
+                            "source_col": 1,
+                            "type": "int"
+                        },
+                        "options": {
+                            "label" : "Europe",
+                            "stroke": {
+                                "color" : "#F92672"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

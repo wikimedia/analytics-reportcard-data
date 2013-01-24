@@ -1,0 +1,78 @@
+{
+    "graph_version": "0.6.0",
+    "id"     : "mobile_packet_loss",
+    "name"   : "Mobile Packet Loss Total Average",
+    
+    "root" : {
+        "nodeType" : "canvas",
+        "width"    : "auto",
+        "height"   : 500,
+        "children" : [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "label": "Packet Loss",
+                    "orient": "left",
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "callout",
+                "metricRef": 0,
+                "options" : {
+                    "precision" : 2,
+                    "dateFormat" : "MMM YY"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend!",
+                    "dateFormat" : "HH:mm DD MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "smooth"
+            },
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "line-group",
+                "options": {
+                    "palette": "spectral"
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "packet_loss_mobile_total_average",
+                            "source_col": 1,
+                            "type": "int"
+                        },
+                        "options": {
+                            "stroke": {
+                                "color" : "#0A9CFF"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
