@@ -76,6 +76,28 @@
                                 "color" : "#F92672"
                             }
                         }
+                    },
+                    {
+                        "nodeType": "bar",
+                        "metric": {
+                            "source_id": "test_series",
+                            "source_col": 2,
+                            "type": "int"
+                        },
+                        "options": {
+                            "label" : "Asia"
+                        }
+                    },
+                    {
+                        "nodeType": "bar",
+                        "metric": {
+                            "source_id": "test_series",
+                            "source_col": 3,
+                            "type": "int"
+                        },
+                        "options": {
+                            "label" : "Africa"
+                        }
                     }
                 ]
             }
