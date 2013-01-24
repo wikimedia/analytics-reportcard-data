@@ -7,7 +7,7 @@
     "tags"   : [],
     
     "root" : {
-        "nodeType" : "canvas",
+        "nodeType" : "canvas-series",
         "width"    : "auto",
         "height"   : 500,
         "children" : [
