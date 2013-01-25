@@ -101,7 +101,14 @@
                     {
                         "nodeType": "annotation",
                         "x": "2011/03/01",
-                        "y": "37780"
+                        "y": "37780",
+                        "note": "Test Annotation text"
+                    },
+                    {
+                        "nodeType": "annotation",
+                        "x": "2012/01/01",
+                        "y": "83240",
+                        "note": "Longer test annotation\ntext to show sizing and new lines\nand more new lines\nand more"
                     }
                 ]
             }
