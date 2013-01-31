@@ -3,7 +3,7 @@ name      : Active Editors by Country
 shortName : Active Editors by Geo
 
 format    : json
-type      : series
+type      : geojson
 url       : /data/geo/rc/data/en_geo_editors.fix.json
 
 timespan:
