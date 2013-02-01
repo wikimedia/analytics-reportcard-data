@@ -18,7 +18,9 @@ def create_continent_dict(fh):
 	return continents
 
 def main():
-	fh1 = open('country-codes.json', 'r')
+	#make a spare copy of country-codes.bak and then run on the CMD
+	# python continent.py > country-codes.json
+	fh1 = open('country-codes.bak', 'r')
 	fh2 = open('a2_continent.csv', 'r')
 	fh3 = open('continent_name.csv', 'r')
 
@@ -43,7 +45,7 @@ def main():
 
 	print '['
 	for country in countries.values():
-		print '\t %s,' % (json.dumps(country))
+		print '\t %s,' % (json.dumps(country, sort_keys=True))
 	print ']'
 
 
