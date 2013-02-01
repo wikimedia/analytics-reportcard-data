@@ -247,5 +247,5 @@
 	 {"a2": "ID", "a3": "IDN", "continent": "AS", "continent_name": "Asia", "fifa": "INA", "id": "IDN", "ioc": "ID", "itu": "INS", "name": "Indonesia", "num": 360},
 	 {"a2": "UA", "a3": "UKR", "continent": "EU", "continent_name": "Europe", "fifa": "UKR", "id": "UKR", "ioc": "UP", "itu": "UKR", "name": "Ukraine", "num": 804},
 	 {"a2": "QA", "a3": "QAT", "continent": "AS", "continent_name": "Asia", "fifa": "QAT", "id": "QAT", "ioc": "QA", "itu": "QAT", "name": "Qatar", "num": 634},
-	 {"a2": "MZ", "a3": "MOZ", "continent": "AF", "continent_name": "Africa", "fifa": "MOZ", "id": "MOZ", "ioc": "MZ", "itu": "MOZ", "name": "Mozambique", "num": 508},
+	 {"a2": "MZ", "a3": "MOZ", "continent": "AF", "continent_name": "Africa", "fifa": "MOZ", "id": "MOZ", "ioc": "MZ", "itu": "MOZ", "name": "Mozambique", "num": 508}
 ]
