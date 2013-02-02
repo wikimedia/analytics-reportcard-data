@@ -2,6 +2,18 @@
 import csv
 import json
 
+class DictUnicodeProxy(object):
+    def __init__(self, d):
+        self.d = d
+    def __iter__(self):
+        return self.d.__iter__()
+    def get(self, item, default=None):
+        i = self.d.get(item, default)
+        if isinstance(i, unicode):
+            return i.encode('utf-8')
+        return i
+
+
 def write_json(countries):
 	output = open('country-codes.json', 'w')	
 	output.write('[\n')
@@ -11,11 +23,12 @@ def write_json(countries):
 	output.close()
 
 def write_csv(countries):
-	output = open('country-codes.csv' 'wb')
-	fieldnames = countries.get('NL').keys()
-	writer = csv.Dictwriter(output,fieldnames, quoting=csv.QUOTE_MINIMAL)
-	for a2, country in countries:iteritems():
-		writer.writerow(country)
+	output = open('country-codes.csv', 'wb')
+	fieldnames = ['id', 'name', 'a2', 'a3', 'num', 'itu', 'ioc', 'fifa', 'continent', 'continent_name']
+	writer = csv.DictWriter(output,fieldnames, quoting=csv.QUOTE_MINIMAL)
+	output.write('%s\n' % (','.join(fieldnames)))
+	for a2, country in countries.iteritems():
+		writer.writerow(DictUnicodeProxy(country))
 	output.close()
 
 def create_country_dict(json_data):
