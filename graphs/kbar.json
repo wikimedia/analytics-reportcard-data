@@ -46,7 +46,7 @@
             {
                 "nodeType": "bar-group",
                 "options": {
-                    "palette": "spectral"
+                    "palette": "category10"
                 },
                 "children": [
                     {
