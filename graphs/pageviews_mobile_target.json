@@ -4,18 +4,34 @@
         "id": "pageviews_mobile_target",
         "lines": [],
         "metrics": [
-            {
-                "disabled": false,
+            { "disabled": false,
                 "format_axis": null,
                 "format_value": null,
                 "index": 0,
                 "label": "Total",
                 "scale": 1,
                 "source_col": 1,
+                "source_id": "rc_page_requests_mobile",
+                "timespan": {
+                    "end": null,
+                    "start": "2012/06",
+                    "step": null
+                },
+                "transforms": [],
+                "type": "int",
+                "visible": true
+            },
+            { "disabled": false,
+                "format_axis": null,
+                "format_value": null,
+                "index": 0,
+                "label": "Projected",
+                "scale": 1,
+                "source_col": 1,
                 "source_id": "rc_page_requests_mobile_target",
                 "timespan": {
                     "end": null,
-                    "start": null,
+                    "start": "2012/06",
                     "step": null
                 },
                 "transforms": [],
@@ -29,11 +45,11 @@
                 "index": 0,
                 "label": "Target",
                 "scale": 1,
-                "source_col": 2,
+                "source_col": 4,
                 "source_id": "rc_page_requests_mobile_target",
                 "timespan": {
                     "end": null,
-                    "start": null,
+                    "start": "2012/06",
                     "step": null
                 },
                 "transforms": [],

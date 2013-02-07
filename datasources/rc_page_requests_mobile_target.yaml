@@ -1,25 +1,18 @@
 id: rc_page_requests_mobile_target
 name: Target for Mobile Page Requests
-shortName : Target Mobile
+shortName: Target Mobile
 format: csv
 type: timeseries
-notes: Are notes being displayed?
 url: /data/datafiles/rc/rc_page_requests_mobile_target.csv
 
-timespan:
-    end: 2012/06/01
-    start: 2010/06/01
-    step: 2592000
-
 columns:
-    labels:
-    - Month
-    - Total
-    - Target
-    types:
-    - date
-    - int
-    - int
-chart:
-    chartType: dygraphs
-    
+    - label: Month
+      type: date
+    - label: Mobile Web Projection
+      type: int
+    - label: Zero Projection
+      type: int
+    - label: Zero Gap
+      type: int
+    - label: Target
+      type: int
