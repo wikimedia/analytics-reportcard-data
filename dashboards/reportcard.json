@@ -26,11 +26,6 @@
                 "wikivoyage",
                 "active_editors_commons_target"
             ]
-        }, {
-            "name": "Hourly", 
-            "graph_ids":[
-                "pageviews_mobile_hourly"
-            ]
         }
     ]
 }
