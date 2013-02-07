@@ -12,6 +12,7 @@
         
         "width": "auto",
         "height": 500,
+        "yDomain" : [0, 4500000000],
         "xPadding": 0.001,
         "yPadding": 0.185,
         
