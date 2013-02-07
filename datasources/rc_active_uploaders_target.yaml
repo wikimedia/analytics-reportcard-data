@@ -1,0 +1,12 @@
+id: rc_active_uploaders_target
+name: Target for Active Uploaders (1+)
+shortName : Target Active Uploaders (1+)
+format: csv
+type: timeseries
+url: /data/datafiles/rc/rc_active_uploaders_target.csv
+
+columns:
+    - label: Month
+      type: date
+    - label: Commons Target (Annual Plan)
+      type: int

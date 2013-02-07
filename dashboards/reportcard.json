@@ -24,7 +24,8 @@
                 "edits",
                 "very_active_editors",
                 "wikivoyage",
-                "active_editors_commons_target"
+                "active_uploaders_commons_target",
+                "pageviews_mobile_target_stacked"
             ]
         }
     ]

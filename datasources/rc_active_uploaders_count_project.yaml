@@ -1,0 +1,12 @@
+id: rc_active_uploaders_count_project
+name: Active Wikimedia Uploaders by Wikimedia Project (1+ uploads per month)
+shortName : Active Uploaders by Project(1+)
+format: csv
+type: timeseries
+url: /data/datafiles/rc/rc_active_uploaders_count_project.csv
+
+columns:
+    - label: Month
+      type: date
+    - label: Commons
+      type: int

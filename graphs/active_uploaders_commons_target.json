@@ -1,8 +1,8 @@
 {
     "graph_version": "0.6.0",
-    "id": "active_editors_commons_target",
-    "slug": "active_editors_commons_target",
-    "name": "Active Editors Commons",
+    "id": "active_uploaders_commons_target",
+    "name": "Active Uploaders Commons (1+)",
+    "slug": "active_uploaders_commons_target",
     "root": {
         "nodeType": "canvas",
         "width": "auto",
@@ -51,8 +51,8 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "rc_active_editors_count_project",
-                            "source_col": 3,
+                            "source_id": "rc_active_uploaders_count_project",
+                            "source_col": 1,
                             "type": "int",
                             "timespan": { "start": "2012/06", "end": null, "step": null }
                         },
@@ -63,8 +63,8 @@
                     {
                         "nodeType": "line",
                         "metric": {
-                            "source_id": "rc_active_editors_target",
-                            "source_col": 3,
+                            "source_id": "rc_active_uploaders_target",
+                            "source_col": 1,
                             "type": "int",
                             "timespan": { "start": "2012/06", "end": null, "step": null }
                         },
