@@ -1,8 +1,8 @@
 {
     "graph_version": "0.6.0",
     "id": "active_editors_commons_target",
-    "name": "Active Editors Commons - Target",
     "slug": "active_editors_commons_target",
+    "name": "Active Editors Commons",
     "root": {
         "nodeType": "canvas",
         "width": "auto",
