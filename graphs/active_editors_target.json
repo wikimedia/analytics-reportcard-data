@@ -12,10 +12,10 @@
                 "label": "Total",
                 "scale": 1,
                 "source_col": 1,
-                "source_id": "rc_active_editors_target",
+                "source_id": "rc_active_editors_count",
                 "timespan": {
                     "end": null,
-                    "start": null,
+                    "start": "2012/06",
                     "step": null
                 },
                 "transforms": [],
@@ -27,13 +27,13 @@
                 "format_axis": null,
                 "format_value": null,
                 "index": 0,
-                "label": "Target",
+                "label": "Target (Annual Plan)",
                 "scale": 1,
                 "source_col": 2,
                 "source_id": "rc_active_editors_target",
                 "timespan": {
                     "end": null,
-                    "start": null,
+                    "start": "2012/06",
                     "step": null
                 },
                 "transforms": [],
@@ -48,11 +48,11 @@
                 "index": 0,
                 "label": "Projected",
                 "scale": 1,
-                "source_col": 3,
+                "source_col": 1,
                 "source_id": "rc_active_editors_target",
                 "timespan": {
                     "end": null,
-                    "start": null,
+                    "start": "2012/06",
                     "step": null
                 },
                 "transforms": [],

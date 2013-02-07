@@ -1,0 +1,79 @@
+{
+    "graph_version": "0.6.0",
+    "id": "active_editors_commons_target",
+    "name": "Active Editors Commons - Target",
+    "slug": "active_editors_commons_target",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "x"}
+            },
+            {
+                "nodeType": "grid",
+                "options": {"dimension": "y"}
+            },
+            {
+                "nodeType": "callout",
+                "metricRef": 0,
+                "options" : {
+                    "precision" : 2,
+                    "dateFormat" : "MMM YY"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_active_editors_count_project",
+                            "source_col": 3,
+                            "type": "int",
+                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Total"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_active_editors_target",
+                            "source_col": 3,
+                            "type": "int",
+                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Target"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

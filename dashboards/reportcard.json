@@ -23,7 +23,8 @@
                 "articles_per_day",
                 "edits",
                 "very_active_editors",
-                "wikivoyage"
+                "wikivoyage",
+                "active_editors_commons_target"
             ]
         }, {
             "name": "Hourly", 

@@ -1,0 +1,97 @@
+{
+    "graph_version": "0.6.0",
+    "id": "pageviews_mobile_target_stacked",
+    "name": "Mobile Page Views - Projections and Targets",
+    "slug": "Mobile Page Views",
+    "root": {
+        "nodeType": "canvas",
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "bottom",
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "axis",
+                "options": {
+                    "orient": "left",
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "options": {
+                    "label" : "Legend",
+                    "dateFormat" : "MMM YYYY"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_page_requests_mobile_target",
+                            "source_col": 4,
+                            "type": "int",
+                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Target"
+                        }
+                    }
+                ]
+            },
+            {
+                "nodeType": "line-group",
+                "options": {
+                    "palette": "category10",
+                    "shape": "bar",
+                    "stack": true
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_page_requests_mobile_target",
+                            "source_col": 1,
+                            "type": "int",
+                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Mobile Web Projection"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_page_requests_mobile_target",
+                            "source_col": 2,
+                            "type": "int",
+                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Zero Projection"
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "source_id": "rc_page_requests_mobile_target",
+                            "source_col": 3,
+                            "type": "int",
+                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Zero Gap Projection"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

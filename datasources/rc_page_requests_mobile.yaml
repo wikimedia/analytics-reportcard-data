@@ -3,13 +3,7 @@ name: Mobile Page Request
 shortName : Mobile
 format: csv
 type: timeseries
-notes: 
 url: /data/datafiles/rc/rc_page_requests_mobile.csv
-
-timespan:
-    end: 2012/06/01
-    start: 2010/06/01
-    step: 2592000
 
 columns:
     labels:
@@ -34,4 +28,3 @@ columns:
     - int
 chart:
     chartType: dygraphs
-    

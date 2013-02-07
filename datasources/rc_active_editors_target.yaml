@@ -1,27 +1,16 @@
 id: rc_active_editors_target
-name: Target for Active Editors (5+) 
-shortName : Target Active editors (5+) 
+name: Target for Active Editors (5+)
+shortName : Target Active editors (5+)
 format: csv
 type: timeseries
-notes: Are notes being displayed?
 url: /data/datafiles/rc/rc_active_editors_target.csv
 
-timespan:
-    end: 2012/06/01
-    start: 2009/02/01
-    step: 2592000
-
 columns:
-    labels:
-    - Month
-    - Total
-    - Target
-    - Projected
-    types:
-    - date
-    - int
-    - int
-    - int
-chart:
-    chartType: dygraphs
-    
+    - label: Month
+      type: date
+    - label: Projected
+      type: int
+    - label: Target (Annual Plan)
+      type: int
+    - label: Commons Target (Annual Plan)
+      type: int
