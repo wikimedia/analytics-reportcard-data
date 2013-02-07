@@ -85,6 +85,7 @@ def dygraphOutput(out_fn,tss,actual,target,a_names,t_names,error_bar=0,error_bar
 			out.write(','.join(vals)+'\n')
 
 def active_editors_target(min_ts,max_ts):
+	return
 	# input files
 
 	metricfile = os.path.join(old_to_new.output_folder,'rc_active_editors_count.csv')
@@ -97,9 +98,10 @@ def active_editors_target(min_ts,max_ts):
 	target = extractData(targetfile, '\t','MMM-YY',[('Projected',1),('Target',2)])
 	actual = extractData(metricfile, ',','YYYY/MM/DD',[('Total',1)])
 
-	dygraphOutput('rc_active_editors_target.csv',tss,actual,target,['Total'],['Target','Projected'],error_bar=2)#,error_bar_names=['Target','Projected'])
+	# NOTE: disabling dygraphOutput('rc_active_editors_target.csv',tss,actual,target,['Total'],['Target','Projected'],error_bar=2)#,error_bar_names=['Target','Projected'])
 
 def mobile_pageviews_target(min_ts,max_ts):
+	return
 	# input files
 	metricfile = '../datafiles/rc_page_requests_mobile.csv'
 	targetfile = '../misc/targets/mobile_target.csv'
@@ -110,10 +112,9 @@ def mobile_pageviews_target(min_ts,max_ts):
 	target = extractData(targetfile, '\t','MMM-YY',[('Target',3)])
 	actual = extractData(metricfile, ',','YYYY/MM/DD',[('Total',1)])
 
-	dygraphOutput('rc_page_requests_mobile_target.csv',tss,actual,target,['Total'],['Target'],error_bar=4)
+	# NOTE: disabling dygraphOutput('rc_page_requests_mobile_target.csv',tss,actual,target,['Total'],['Target'],error_bar=4)
 
 def create_all():
-
-	active_editors_target(min_ts='200903',max_ts='201206')
-	mobile_pageviews_target(min_ts='201006',max_ts='201206')
-
+	# active_editors_target(min_ts='200903',max_ts='201206')
+	# mobile_pageviews_target(min_ts='201006',max_ts='201206')
+	print 'NOTE: Dan Andreescu disabled targets because they are currently being manually updated'

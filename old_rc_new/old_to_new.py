@@ -100,7 +100,8 @@ def create_all():
     # target charts 
     # TODO: start/end date for projection are hard-coded in target.py
     # Note that it used previously deployed data to /data/datasources/rc to create datafiles.
-    targets.create_all()
+    # NOTE: Dan Andreescu disabling because targets are currently manually maintained
+    # targets.create_all()
 
 
     #HACK! #HACK! #HACK!
@@ -120,8 +121,9 @@ def create_all():
     dataset_ui_json('rc_comscore_region_reach',color=False)
     dataset_ui_json('rc_comscore_properties',color=False)
 
-    dataset_ui_json('rc_active_editors_target')
-    dataset_ui_json('rc_page_requests_mobile_target')
+    # NOTE: Dan Andreescu disabling because targets are currently manually maintained
+    # dataset_ui_json('rc_active_editors_target')
+    # dataset_ui_json('rc_page_requests_mobile_target')
 
 
     # print seen_labels
