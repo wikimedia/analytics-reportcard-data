@@ -107,7 +107,7 @@
                             "timespan": { "start": "2012/06", "end": null, "step": null }
                         },
                         "options": {
-                            "label": "Target",
+                            "label": "Targets",
                             "stroke": {
                                 "color": "#0E625B"
                             }

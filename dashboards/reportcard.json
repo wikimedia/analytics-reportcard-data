@@ -24,12 +24,8 @@
                 "edits",
                 "very_active_editors",
                 "wikivoyage",
-                "active_editors_commons_target"
-            ]
-        }, {
-            "name": "Hourly", 
-            "graph_ids":[
-                "pageviews_mobile_hourly"
+                "active_uploaders_commons_target",
+                "pageviews_mobile_target_stacked"
             ]
         }
     ]
