@@ -12,3 +12,5 @@ columns:
       type: int
     - label: Target (Annual Plan)
       type: int
+    - label: Commons Target (Annual Plan)
+      type: int
