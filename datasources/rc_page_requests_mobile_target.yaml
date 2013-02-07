@@ -12,7 +12,7 @@ columns:
       type: int
     - label: Zero Projection
       type: int
-    - label: Zero Gap
+    - label: Zero Gap Projection
       type: int
     - label: Target
       type: int
