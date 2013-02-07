@@ -58,8 +58,8 @@
             },
             {
                 "nodeType": "line-group",
-                "shape": "area",
                 "options": {
+                    "shape": "area",
                     "palette": "spectral"
                 },
                 "children": [
