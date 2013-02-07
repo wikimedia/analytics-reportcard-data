@@ -1,12 +1,20 @@
 {
     "graph_version": "0.6.0",
     "id": "pageviews_mobile_target_stacked",
+    "slug": "pageviews_mobile_target_stacked",
     "name": "Mobile Page Views - Projections and Targets",
-    "slug": "Mobile Page Views",
+    "shortName": "Mobile Page Views",
+    
+    "desc" : "For Jun 12-Dec 12, Mobile Web and Zero views are Actuals; from Jan 13-Jun 13, they are projections (mobile web based on organic growth)",
+    
     "root": {
         "nodeType": "canvas",
+        
         "width": "auto",
         "height": 500,
+        "xPadding": 0.001,
+        "yPadding": 0.185,
+        
         "children": [
             {
                 "nodeType": "axis",
@@ -30,6 +38,63 @@
                 }
             },
             {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "bar-group",
+                "options": {
+                    "palette": "category10",
+                    "bands" : {
+                        "padding": 0.4,
+                        "outerPadding": 0
+                    },
+                    "stack": {
+                        "enabled" : true
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "bar",
+                        "metric": {
+                            "source_id": "rc_page_requests_mobile_target",
+                            "source_col": 1,
+                            "type": "int",
+                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Mobile Web",
+                            "fill": "#7EA8E8"
+                        }
+                    },
+                    {
+                        "nodeType": "bar",
+                        "metric": {
+                            "source_id": "rc_page_requests_mobile_target",
+                            "source_col": 2,
+                            "type": "int",
+                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Zero",
+                            "fill": "#980011"
+                        }
+                    },
+                    {
+                        "nodeType": "bar",
+                        "metric": {
+                            "source_id": "rc_page_requests_mobile_target",
+                            "source_col": 3,
+                            "type": "int",
+                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                        },
+                        "options": {
+                            "label": "Zero Gap",
+                            "fill": "#FF6458"
+                        }
+                    }
+                ]
+            },
+            {
                 "nodeType": "line-group",
                 "children": [
                     {
@@ -41,53 +106,10 @@
                             "timespan": { "start": "2012/06", "end": null, "step": null }
                         },
                         "options": {
-                            "label": "Target"
-                        }
-                    }
-                ]
-            },
-            {
-                "nodeType": "line-group",
-                "options": {
-                    "palette": "category10",
-                    "shape": "bar",
-                    "stack": true
-                },
-                "children": [
-                    {
-                        "nodeType": "line",
-                        "metric": {
-                            "source_id": "rc_page_requests_mobile_target",
-                            "source_col": 1,
-                            "type": "int",
-                            "timespan": { "start": "2012/06", "end": null, "step": null }
-                        },
-                        "options": {
-                            "label": "Mobile Web Projection"
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "metric": {
-                            "source_id": "rc_page_requests_mobile_target",
-                            "source_col": 2,
-                            "type": "int",
-                            "timespan": { "start": "2012/06", "end": null, "step": null }
-                        },
-                        "options": {
-                            "label": "Zero Projection"
-                        }
-                    },
-                    {
-                        "nodeType": "line",
-                        "metric": {
-                            "source_id": "rc_page_requests_mobile_target",
-                            "source_col": 3,
-                            "type": "int",
-                            "timespan": { "start": "2012/06", "end": null, "step": null }
-                        },
-                        "options": {
-                            "label": "Zero Gap Projection"
+                            "label": "Target",
+                            "stroke": {
+                                "color": "#0E625B"
+                            }
                         }
                     }
                 ]
