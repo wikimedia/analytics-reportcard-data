@@ -9,13 +9,11 @@
                 "unique_visitors",
                 "pageviews",
                 "pageviews_mobile",
-                "pageviews_mobile_target",
                 "new_editors",
-                "active_editors",
-                "active_editors_target"
+                "active_editors"
             ]
         }, {
-            "name": "Secondary", 
+            "name": "Secondary",
             "graph_ids":[
                 "reach",
                 "commons",
@@ -23,7 +21,13 @@
                 "articles_per_day",
                 "edits",
                 "very_active_editors",
-                "wikivoyage",
+                "wikivoyage"
+            ]
+        }, {
+            "name": "Annual Plan 2012-13 Targets",
+            "graph_ids":[
+                "pageviews_mobile_target",
+                "active_editors_target",
                 "active_uploaders_commons_target",
                 "pageviews_mobile_target_stacked"
             ]
