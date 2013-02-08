@@ -137,6 +137,20 @@
                                 "color": "#BFBFBF"
                             }
                         }
+                    },
+                    {
+                        "nodeType": "scatterplot",
+                        "metric": {
+                            "source_id": "rc_page_requests_mobile_target",
+                            "source_col": 4,
+                            "type": "int",
+                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                        },
+                        "options": {
+                            "radius" : 4.0,
+                            "noLegend" : true,
+                            "fill": "#BFBFBF"
+                        }
                     }
                 ]
             }
