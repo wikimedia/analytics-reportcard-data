@@ -25,17 +25,21 @@
             },
             {
                 "nodeType": "grid",
-                "options": {"dimension": "x"}
+                "options": {
+                    "dimension": "x"
+                }
             },
             {
                 "nodeType": "grid",
-                "options": {"dimension": "y"}
+                "options": {
+                    "dimension": "y"
+                }
             },
             {
                 "nodeType": "legend",
                 "options": {
-                    "label" : "Legend",
-                    "dateFormat" : "YYYY/MM/DD HH:00"
+                    "label": "Legend",
+                    "dateFormat": "YYYY/MM/DD HH:00"
                 }
             },
             {
@@ -50,7 +54,11 @@
                             "source_id": "rc_hourly_mobile_pageviews_by_continent",
                             "source_col": 1,
                             "type": "int",
-                            "timespan": { "start": null, "end": null, "step": null }
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Africa",
@@ -65,7 +73,11 @@
                             "source_id": "rc_hourly_mobile_pageviews_by_continent",
                             "source_col": 2,
                             "type": "int",
-                            "timespan": { "start": null, "end": null, "step": null }
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Asia",
@@ -80,7 +92,11 @@
                             "source_id": "rc_hourly_mobile_pageviews_by_continent",
                             "source_col": 3,
                             "type": "int",
-                            "timespan": { "start": null, "end": null, "step": null }
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Europe",
@@ -95,7 +111,11 @@
                             "source_id": "rc_hourly_mobile_pageviews_by_continent",
                             "source_col": 4,
                             "type": "int",
-                            "timespan": { "start": null, "end": null, "step": null }
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "North America",
@@ -110,7 +130,11 @@
                             "source_id": "rc_hourly_mobile_pageviews_by_continent",
                             "source_col": 5,
                             "type": "int",
-                            "timespan": { "start": null, "end": null, "step": null }
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Oceania",
@@ -125,7 +149,11 @@
                             "source_id": "rc_hourly_mobile_pageviews_by_continent",
                             "source_col": 6,
                             "type": "int",
-                            "timespan": { "start": null, "end": null, "step": null }
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "South America",
@@ -140,7 +168,11 @@
                             "source_id": "rc_hourly_mobile_pageviews_by_continent",
                             "source_col": 7,
                             "type": "int",
-                            "timespan": { "start": null, "end": null, "step": null }
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Unknown",

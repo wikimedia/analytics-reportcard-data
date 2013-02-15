@@ -4,18 +4,17 @@
     "slug": "pageviews_mobile_target_stacked",
     "name": "Mobile Page Views - Projections and Targets",
     "shortName": "Mobile Page Views",
-    
-    "desc" : "For Jun 12-Dec 12, Mobile Web and Zero views are Actuals; from Jan 13-Jun 13, they are projections (mobile web based on organic growth)",
-    
+    "desc": "For Jun 12-Dec 12, Mobile Web and Zero views are Actuals; from Jan 13-Jun 13, they are projections (mobile web based on organic growth)",
     "root": {
         "nodeType": "canvas",
-        
         "width": "auto",
         "height": 500,
-        "yDomain" : [0, 4500000000],
+        "yDomain": [
+            0,
+            4500000000
+        ],
         "xPadding": 0.001,
         "yPadding": 0.185,
-        
         "children": [
             {
                 "nodeType": "axis",
@@ -34,8 +33,8 @@
             {
                 "nodeType": "legend",
                 "options": {
-                    "label" : "Legend",
-                    "dateFormat" : "MMM YYYY"
+                    "label": "Legend",
+                    "dateFormat": "MMM YYYY"
                 }
             },
             {
@@ -45,12 +44,12 @@
                 "nodeType": "bar-group",
                 "options": {
                     "palette": "category10",
-                    "bands" : {
+                    "bands": {
                         "padding": 0.4,
                         "outerPadding": 0
                     },
                     "stack": {
-                        "enabled" : true
+                        "enabled": true
                     }
                 },
                 "children": [
@@ -60,7 +59,11 @@
                             "source_id": "rc_page_requests_mobile_target",
                             "source_col": 1,
                             "type": "int",
-                            "timespan": { "start": "2012/06/01", "end": null, "step": null }
+                            "timespan": {
+                                "start": "2012/06/01",
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Mobile Web (Projected)",
@@ -73,7 +76,11 @@
                             "source_id": "rc_page_requests_mobile_target",
                             "source_col": 2,
                             "type": "int",
-                            "timespan": { "start": "2012/06/01", "end": null, "step": null }
+                            "timespan": {
+                                "start": "2012/06/01",
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Zero",
@@ -86,7 +93,11 @@
                             "source_id": "rc_page_requests_mobile_target",
                             "source_col": 3,
                             "type": "int",
-                            "timespan": { "start": "2012/06/01", "end": null, "step": null }
+                            "timespan": {
+                                "start": "2012/06/01",
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Zero Gap",
@@ -99,7 +110,7 @@
                 "nodeType": "bar-group",
                 "options": {
                     "palette": "category10",
-                    "bands" : {
+                    "bands": {
                         "padding": 0.4,
                         "outerPadding": 0
                     }
@@ -111,7 +122,11 @@
                             "source_id": "rc_page_requests_mobile",
                             "source_col": 1,
                             "type": "int",
-                            "timespan": { "start": "2012/06/01", "end": "2013/01/01", "step": null }
+                            "timespan": {
+                                "start": "2012/06/01",
+                                "end": "2013/01/01",
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Mobile Web (Actual)",
@@ -129,7 +144,11 @@
                             "source_id": "rc_page_requests_mobile_target",
                             "source_col": 4,
                             "type": "int",
-                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                            "timespan": {
+                                "start": "2012/06",
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Targets",
@@ -144,11 +163,15 @@
                             "source_id": "rc_page_requests_mobile_target",
                             "source_col": 4,
                             "type": "int",
-                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                            "timespan": {
+                                "start": "2012/06",
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
-                            "radius" : 4.0,
-                            "noLegend" : true,
+                            "radius": 4,
+                            "noLegend": true,
                             "fill": "#BFBFBF"
                         }
                     }

@@ -24,25 +24,29 @@
             },
             {
                 "nodeType": "grid",
-                "options": {"dimension": "x"}
+                "options": {
+                    "dimension": "x"
+                }
             },
             {
                 "nodeType": "grid",
-                "options": {"dimension": "y"}
+                "options": {
+                    "dimension": "y"
+                }
             },
             {
                 "nodeType": "callout",
                 "metricRef": 0,
-                "options" : {
-                    "precision" : 2,
-                    "dateFormat" : "MMM YY"
+                "options": {
+                    "precision": 2,
+                    "dateFormat": "MMM YY"
                 }
             },
             {
                 "nodeType": "legend",
                 "options": {
-                    "label" : "Legend",
-                    "dateFormat" : "MMM YYYY"
+                    "label": "Legend",
+                    "dateFormat": "MMM YYYY"
                 }
             },
             {
@@ -57,7 +61,11 @@
                             "source_id": "rc_active_uploaders_count_project",
                             "source_col": 1,
                             "type": "int",
-                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                            "timespan": {
+                                "start": "2012/06",
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Total"
@@ -69,7 +77,11 @@
                             "source_id": "rc_active_uploaders_target",
                             "source_col": 1,
                             "type": "int",
-                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                            "timespan": {
+                                "start": "2012/06",
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Target"
