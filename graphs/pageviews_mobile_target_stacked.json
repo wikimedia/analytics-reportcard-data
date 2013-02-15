@@ -12,6 +12,7 @@
         
         "width": "auto",
         "height": 500,
+        "yDomain" : [0, 4500000000],
         "xPadding": 0.001,
         "yPadding": 0.185,
         
@@ -59,10 +60,10 @@
                             "source_id": "rc_page_requests_mobile_target",
                             "source_col": 1,
                             "type": "int",
-                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                            "timespan": { "start": "2012/06/01", "end": null, "step": null }
                         },
                         "options": {
-                            "label": "Mobile Web",
+                            "label": "Mobile Web (Projected)",
                             "fill": "#7EA8E8"
                         }
                     },
@@ -72,7 +73,7 @@
                             "source_id": "rc_page_requests_mobile_target",
                             "source_col": 2,
                             "type": "int",
-                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                            "timespan": { "start": "2012/06/01", "end": null, "step": null }
                         },
                         "options": {
                             "label": "Zero",
@@ -85,11 +86,36 @@
                             "source_id": "rc_page_requests_mobile_target",
                             "source_col": 3,
                             "type": "int",
-                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                            "timespan": { "start": "2012/06/01", "end": null, "step": null }
                         },
                         "options": {
                             "label": "Zero Gap",
                             "fill": "#FF6458"
+                        }
+                    }
+                ]
+            },
+            {
+                "nodeType": "bar-group",
+                "options": {
+                    "palette": "category10",
+                    "bands" : {
+                        "padding": 0.4,
+                        "outerPadding": 0
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "bar",
+                        "metric": {
+                            "source_id": "rc_page_requests_mobile",
+                            "source_col": 1,
+                            "type": "int",
+                            "timespan": { "start": "2012/06/01", "end": "2013/01/01", "step": null }
+                        },
+                        "options": {
+                            "label": "Mobile Web (Actual)",
+                            "fill": "#2E62C9"
                         }
                     }
                 ]
@@ -108,8 +134,22 @@
                         "options": {
                             "label": "Targets",
                             "stroke": {
-                                "color": "#0E625B"
+                                "color": "#BFBFBF"
                             }
+                        }
+                    },
+                    {
+                        "nodeType": "scatterplot",
+                        "metric": {
+                            "source_id": "rc_page_requests_mobile_target",
+                            "source_col": 4,
+                            "type": "int",
+                            "timespan": { "start": "2012/06", "end": null, "step": null }
+                        },
+                        "options": {
+                            "radius" : 4.0,
+                            "noLegend" : true,
+                            "fill": "#BFBFBF"
                         }
                     }
                 ]
