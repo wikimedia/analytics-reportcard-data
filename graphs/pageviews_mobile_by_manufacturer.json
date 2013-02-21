@@ -361,6 +361,32 @@
                         }
                     },
                     {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "Total",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "Total",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
                         "nodeType": "zoom-pan",
                         "disabled": false,
                         "options": {
