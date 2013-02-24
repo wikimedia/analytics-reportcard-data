@@ -12,11 +12,15 @@
         
         "width": "auto",
         "height": 500,
-        "yDomain" : [0, 4500000000],
-        "xPadding": 0.001,
-        "yPadding": 0.185,
+        "x" : { "padding": 0.001 },
+        "y" : {
+            "domain"  : [0, 4500000000],
+            "padding" : 0.185
+        },
         
         "children": [
+            {   "nodeType": "grid",         "options": {"dimension": "x"} },
+            {   "nodeType": "grid",         "options": {"dimension": "y"} },
             {
                 "nodeType": "axis",
                 "options": {
@@ -38,9 +42,7 @@
                     "dateFormat" : "MMM YYYY"
                 }
             },
-            {
-                "nodeType": "zoom-brush"
-            },
+            {   "nodeType": "zoom-brush" },
             {
                 "nodeType": "bar-group",
                 "options": {
