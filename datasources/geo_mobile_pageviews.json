@@ -1,0 +1,103 @@
+{
+    "slug": "geo_mobile_pageviews",
+    "format": "log",
+    "type": "geojson",
+    "url": "http://stats.wikimedia.org/kraken-public/aggregated/mobile/pageview_by_devices_monthly.tsv",
+    "name": "Mobile Page Views By Country By Manufacturer",
+    "shortName": "",
+    "desc": "",
+    "notes": "",
+    "columns": [
+        {
+            "id": "id",
+            "label": "ID",
+            "type": "string",
+            "index": 0
+        },
+        {
+            "id": "name",
+            "label": "Name",
+            "type": "string",
+            "index": 1
+        },
+        {
+            "id": "apple",
+            "label": "Apple",
+            "type": "int",
+            "index": 2
+        },
+        {
+            "id": "generic",
+            "label": "Generic",
+            "type": "int",
+            "index": 3
+        },
+        {
+            "id": "unknown",
+            "label": "Unknown",
+            "type": "int",
+            "index": 4
+        },
+        {
+            "id": "lg",
+            "label": "LG",
+            "type": "int",
+            "index": 5
+        },
+        {
+            "id": "htc",
+            "label": "HTC",
+            "type": "int",
+            "index": 6
+        },
+        {
+            "id": "rim",
+            "label": "RIM",
+            "type": "int",
+            "index": 7
+        },
+        {
+            "id": "zte",
+            "label": "ZTE",
+            "type": "int",
+            "index": 8
+        },
+        {
+            "id": "acer",
+            "label": "Acer",
+            "type": "int",
+            "index": 9
+        },
+        {
+            "id": "nokia",
+            "label": "Nokia",
+            "type": "int",
+            "index": 10
+        },
+        {
+            "id": "access",
+            "label": "Access",
+            "type": "int",
+            "index": 11
+        },
+        {
+            "id": "samsung",
+            "label": "Samsung",
+            "type": "int",
+            "index": 12
+        },
+        {
+            "id": "desktop",
+            "label": "Desktop",
+            "type": "int",
+            "index": 13
+        },
+        {
+            "id": "motorola",
+            "label": "Motorola",
+            "type": "int",
+            "index": 14
+        }
+    ],
+    "id": "geo_mobile_pageviews"
+}

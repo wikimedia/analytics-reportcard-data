@@ -25,25 +25,29 @@
             },
             {
                 "nodeType": "grid",
-                "options": {"dimension": "x"}
+                "options": {
+                    "dimension": "x"
+                }
             },
             {
                 "nodeType": "grid",
-                "options": {"dimension": "y"}
+                "options": {
+                    "dimension": "y"
+                }
             },
             {
                 "nodeType": "callout",
                 "metricRef": 0,
-                "options" : {
-                    "precision" : 2,
-                    "dateFormat" : "MMM YY"
+                "options": {
+                    "precision": 2,
+                    "dateFormat": "MMM YY"
                 }
             },
             {
                 "nodeType": "legend",
                 "options": {
-                    "label" : "Legend",
-                    "dateFormat" : "MMM YYYY"
+                    "label": "Legend",
+                    "dateFormat": "MMM YYYY"
                 }
             },
             {
@@ -58,7 +62,11 @@
                             "source_id": "rc_active_editors_count_project",
                             "source_col": 11,
                             "type": "int",
-                            "timespan": { "start": null, "end": null, "step": null }
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Active Editors",
@@ -74,7 +82,11 @@
                             "source_id": "rc_new_editors_count_project",
                             "source_col": 10,
                             "type": "int",
-                            "timespan": { "start": null, "end": null, "step": null }
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "New Editors",
@@ -90,7 +102,11 @@
                             "source_id": "rc_very_active_editors_count_project",
                             "source_col": 9,
                             "type": "int",
-                            "timespan": { "start": null, "end": null, "step": null }
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            }
                         },
                         "options": {
                             "label": "Very Active Editors",

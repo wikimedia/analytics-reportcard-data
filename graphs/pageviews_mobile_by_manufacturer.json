@@ -1,0 +1,411 @@
+{
+    "graph_version": "0.6.0",
+    "slug": "",
+    "name": "All Metrics in Mobile Page Views By Country By Manufacturer",
+    "shortName": "",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "disabled": false,
+        "children": [
+            {
+                "nodeType": "geo-map",
+                "disabled": false,
+                "metric": {
+                    "source_id": "map-world_countries",
+                    "type": "int"
+                },
+                "options": {
+                    "projection": "mercator",
+                    "featuresColor": "#EEEEEE",
+                    "backgroundColor": "white"
+                },
+                "children": [
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "apple",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "Apple",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "generic",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "Generic",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "unknown",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "Unknown",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "lg",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "LG",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "htc",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "HTC",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "rim",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "RIM",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "zte",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "ZTE",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "acer",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "Acer",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "nokia",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "Nokia",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "access",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "Access",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "samsung",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "Samsung",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "desktop",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "Desktop",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "motorola",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "Motorola",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "geo-feature",
+                        "disabled": false,
+                        "metric": {
+                            "source_id": "geo_mobile_pageviews",
+                            "source_col": "Total",
+                            "type": "int"
+                        },
+                        "options": {
+                            "label": "Total",
+                            "scale": "log",
+                            "valueFormat": ",.2s",
+                            "fill": [
+                                "#D4E7ED",
+                                "#0A3A4B"
+                            ]
+                        },
+                        "stroke": {
+                            "width": 3,
+                            "color": "#FFFFFF",
+                            "opacity": [
+                                0,
+                                1
+                            ]
+                        }
+                    },
+                    {
+                        "nodeType": "zoom-pan",
+                        "disabled": false,
+                        "options": {
+                            "min": 1,
+                            "max": 10
+                        }
+                    },
+                    {
+                        "nodeType": "infobox",
+                        "disabled": false
+                    }
+                ]
+            }
+        ],
+        "width": "auto",
+        "minWidth": 750,
+        "height": 750,
+        "minHeight": 500,
+        "xPadding": 0,
+        "yPadding": 0.1
+    }
+}
