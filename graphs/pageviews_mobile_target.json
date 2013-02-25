@@ -1,4 +1,5 @@
 {
+    "graph_version": "0.6.0",
     "id": "pageviews_mobile_target",
     "slug": "pageviews_mobile_target",
     "name": "Page Views to Mobile Site - Target",
