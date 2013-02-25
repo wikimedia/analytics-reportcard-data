@@ -1,8 +1,11 @@
 {
+    "id": "geo_mobile_pageviews",
     "slug": "geo_mobile_pageviews",
-    "format": "log",
-    "type": "geojson",
+    
+    "format": "tsv",
+    "type": "mobile_device_by_geo",
     "url": "http://stats.wikimedia.org/kraken-public/aggregated/mobile/pageview_by_devices_monthly.tsv",
+    
     "name": "Mobile Page Views By Country By Manufacturer",
     "shortName": "",
     "desc": "",
@@ -98,6 +101,5 @@
             "type": "int",
             "index": 14
         }
-    ],
-    "id": "geo_mobile_pageviews"
+    ]
 }
