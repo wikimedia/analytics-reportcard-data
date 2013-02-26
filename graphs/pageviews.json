@@ -5,7 +5,7 @@
     "desc": "Due to server problems page view counts from squid logs for December 2009 - March 2010 are too low, estimated underreporting 10%-25%. View counts for all months have been normalized to 30 days.",
     "root": {
         "nodeType": "canvas",
-        "scaling": "log",
+        "y": {"scaleType": "log"},
         "width": "auto",
         "height": 500,
         "children": [

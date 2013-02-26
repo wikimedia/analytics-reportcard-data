@@ -5,8 +5,8 @@
     "desc": "",
     "root": {
         "nodeType": "canvas",
-        "scaling": "log",
         "width": "auto",
+        "y": {"scaleType": "log"},
         "height": 500,
         "children": [
             {
