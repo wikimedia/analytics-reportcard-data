@@ -1,261 +1,256 @@
 {
-    "chartType": "dygraphs",
-    "data": {
-        "id": "pageviews_mobile",
-        "lines": [],
-        "metrics": [
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Total",
-                "scale": 1,
-                "source_col": 1,
-                "source_id": "rc_page_requests_mobile",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "English Mobile",
-                "scale": 1,
-                "source_col": 2,
-                "source_id": "rc_page_requests_mobile",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Japanese Mobile",
-                "scale": 1,
-                "source_col": 3,
-                "source_id": "rc_page_requests_mobile",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "German Mobile",
-                "scale": 1,
-                "source_col": 4,
-                "source_id": "rc_page_requests_mobile",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Spanish Mobile",
-                "scale": 1,
-                "source_col": 5,
-                "source_id": "rc_page_requests_mobile",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "French Mobile",
-                "scale": 1,
-                "source_col": 6,
-                "source_id": "rc_page_requests_mobile",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Russian Mobile",
-                "scale": 1,
-                "source_col": 7,
-                "source_id": "rc_page_requests_mobile",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Italian Mobile",
-                "scale": 1,
-                "source_col": 8,
-                "source_id": "rc_page_requests_mobile",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            }
-        ],
-        "palette": null
-    },
-    "desc": "",
-    "height": 250,
     "id": "pageviews_mobile",
-    "name": "Page Views to Mobile Site",
-    "options": {
-        "animatedZooms": true,
-        "avoidMinZero": false,
-        "axis": null,
-        "axisLabelColor": "#666666",
-        "axisLabelFontSize": 14,
-        "axisLabelFormatter": null,
-        "axisLabelWidth": 50,
-        "axisLineColor": "#AAAAAA",
-        "axisLineWidth": 0.3,
-        "axisTickSize": 3,
-        "colorSaturation": 1,
-        "colorValue": 0.5,
-        "colors": [
-            "#FF0097",
-            "#EF8158",
-            "#83BB32",
-            "#182B53",
-            "#4596FF",
-            "#553DC9",
-            "#AD3238",
-            "#00FFBC",
-            "#F1D950"
-        ],
-        "connectSeparatedPoints": false,
-        "customBars": false,
-        "dateWindow": null,
-        "delimiter": ",",
-        "digitsAfterDecimal": 2,
-        "displayAnnotations": false,
-        "drawPoints": true,
-        "drawXAxis": true,
-        "drawXGrid": true,
-        "drawYAxis": true,
-        "drawYGrid": true,
-        "errorBars": false,
-        "file": null,
-        "fillAlpha": 0.15,
-        "fillGraph": false,
-        "fractions": false,
-        "gridLineColor": "#D8D8D8",
-        "gridLineWidth": 0.3,
-        "hideOverlayOnMouseOut": false,
-        "highlightCircleSize": 4,
-        "includeZero": false,
-        "interactionModel": null,
-        "isZoomedIgnoreProgrammaticZoom": false,
-        "labels": null,
-        "labelsDiv": null,
-        "labelsDivStyles": null,
-        "labelsDivWidth": 250,
-        "labelsKMB": true,
-        "labelsKMG2": false,
-        "labelsSeparateLines": true,
-        "labelsShowZeroValues": true,
-        "legend": "always",
-        "logscale": true,
-        "maxNumberWidth": 30,
-        "panEdgeFraction": null,
-        "pixelsPerLabel": null,
-        "pixelsPerXLabel": null,
-        "pixelsPerYLabel": null,
-        "pointSize": 1,
-        "rangeSelectorHeight": 40,
-        "rangeSelectorPlotFillColor": "#A7B1C4",
-        "rangeSelectorPlotStrokeColor": "#808FAB",
-        "rightGap": 20,
-        "rollPeriod": 1,
-        "showLabelsOnHighlight": true,
-        "showRangeSelector": false,
-        "showRoller": false,
-        "sigFigs": null,
-        "sigma": 2,
-        "stackedGraph": false,
-        "stepPlot": false,
-        "strokePattern": null,
-        "strokeWidth": 3,
-        "ticker": null,
-        "title": null,
-        "titleHeight": 18,
-        "valueFormatter": null,
-        "valueRange": null,
-        "visibility": null,
-        "wilsonInterval": true,
-        "xAxisHeight": null,
-        "xAxisLabelFormatter": null,
-        "xAxisLabelWidth": 55,
-        "xLabelHeight": 18,
-        "xValueFormatter": null,
-        "xValueParser": null,
-        "xlabel": null,
-        "y2label": null,
-        "yAxisLabelFormatter": null,
-        "yAxisLabelWidth": 50,
-        "yLabelWidth": 18,
-        "yValueFormatter": null,
-        "ylabel": null
-    },
-    "parents": [
-        "root"
-    ],
     "slug": "pageviews_mobile",
-    "width": "auto"
+    "name": "Page Views to Mobile Site",
+    "desc": "",
+    "root": {
+        "nodeType": "canvas",
+        "y": {"scaleType": "log"},
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "axis",
+                "enabled": true,
+                "options": {
+                    "dimension": "x",
+                    "orient": "bottom",
+                    "label": null
+                }
+            },
+            {
+                "nodeType": "axis",
+                "enabled": true,
+                "options": {
+                    "dimension": "y",
+                    "orient": "left",
+                    "label": null
+                }
+            },
+            {
+                "nodeType": "grid",
+                "enabled": true,
+                "options": {
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "enabled": true,
+                "options": {
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "callout",
+                "metricRef": 0,
+                "options": {
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "deltaFormat": "+,.2%"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "enabled": true,
+                "options": {
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "options": {
+                    "palette": "wmf_projects",
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 3,
+                        "pattern": null
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_page_requests_mobile",
+                            "source_col": 1
+                        },
+                        "options": {
+                            "label": "Total",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_page_requests_mobile",
+                            "source_col": 2
+                        },
+                        "options": {
+                            "label": "English Mobile",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_page_requests_mobile",
+                            "source_col": 3
+                        },
+                        "options": {
+                            "label": "Japanese Mobile",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_page_requests_mobile",
+                            "source_col": 4
+                        },
+                        "options": {
+                            "label": "German Mobile",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_page_requests_mobile",
+                            "source_col": 5
+                        },
+                        "options": {
+                            "label": "Spanish Mobile",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_page_requests_mobile",
+                            "source_col": 6
+                        },
+                        "options": {
+                            "label": "French Mobile",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_page_requests_mobile",
+                            "source_col": 7
+                        },
+                        "options": {
+                            "label": "Russian Mobile",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_page_requests_mobile",
+                            "source_col": 8
+                        },
+                        "options": {
+                            "label": "Italian Mobile",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
 }

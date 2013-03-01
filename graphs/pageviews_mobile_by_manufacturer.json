@@ -1,10 +1,14 @@
 {
     "graph_version": "0.6.0",
-    "slug": "",
-    "name": "All Metrics in Mobile Page Views By Country By Manufacturer",
+    
+    "id": "pageviews_mobile_by_manufacturer",
+    "slug": "pageviews_mobile_by_manufacturer",
+    
+    "name": "Mobile Pageviews by Country by Manufacturer",
     "shortName": "",
     "desc": "",
     "notes": "",
+    
     "root": {
         "nodeType": "canvas",
         "disabled": false,

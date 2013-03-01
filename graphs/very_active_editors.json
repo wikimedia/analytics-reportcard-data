@@ -1,297 +1,300 @@
 {
-    "chartType": "dygraphs",
-    "data": {
-        "id": "very_active_editors",
-        "lines": [],
-        "metrics": [
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Total",
-                "scale": 1,
-                "source_col": 1,
-                "source_id": "rc_very_active_editors_count",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "English",
-                "scale": 1,
-                "source_col": 2,
-                "source_id": "rc_very_active_editors_count",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Commons",
-                "scale": 1,
-                "source_col": 3,
-                "source_id": "rc_very_active_editors_count",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "German",
-                "scale": 1,
-                "source_col": 4,
-                "source_id": "rc_very_active_editors_count",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "French",
-                "scale": 1,
-                "source_col": 5,
-                "source_id": "rc_very_active_editors_count",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Russian",
-                "scale": 1,
-                "source_col": 6,
-                "source_id": "rc_very_active_editors_count",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Spanish",
-                "scale": 1,
-                "source_col": 7,
-                "source_id": "rc_very_active_editors_count",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Italian",
-                "scale": 1,
-                "source_col": 8,
-                "source_id": "rc_very_active_editors_count",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Japanese",
-                "scale": 1,
-                "source_col": 9,
-                "source_id": "rc_very_active_editors_count",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Polish",
-                "scale": 1,
-                "source_col": 10,
-                "source_id": "rc_very_active_editors_count",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            }
-        ],
-        "palette": null
-    },
-    "desc": "<p>Nov 2012: Editors in Wikivoyage are now included in the overall total.</p><p>Aug 2012: Editors in Commons are now included in the overall total, and users who share a name across multiple projects are counted as the same user (<a href='https://blog.wikimedia.org/2012/08/31/improving-the-accuracy-of-the-active-editors-metric/' target='_blank'>more details</a>).</p><p>Aug 2010: Editors on Commons are no longer included in overall total, on the assumption that most also edit on one or more other projects. More precise detection of double counts between any projects and languages is in development(using Single User Login registration).</p>",
-    "height": 250,
     "id": "very_active_editors",
-    "name": "Very Active Editors for All Wikimedia Projects (100+ edits per month)",
-    "options": {
-        "animatedZooms": true,
-        "avoidMinZero": false,
-        "axis": null,
-        "axisLabelColor": "#666666",
-        "axisLabelFontSize": 11,
-        "axisLabelFormatter": null,
-        "axisLabelWidth": 50,
-        "axisLineColor": "#AAAAAA",
-        "axisLineWidth": 0.3,
-        "axisTickSize": 3,
-        "colorSaturation": 1,
-        "colorValue": 0.5,
-        "colors": [
-            "#FF0097",
-            "#EF8158",
-            "#83BB32",
-            "#182B53",
-            "#4596FF",
-            "#553DC9",
-            "#AD3238",
-            "#00FFBC",
-            "#F1D950"
-        ],
-        "connectSeparatedPoints": false,
-        "customBars": false,
-        "dateWindow": null,
-        "delimiter": ",",
-        "digitsAfterDecimal": 2,
-        "displayAnnotations": false,
-        "drawPoints": true,
-        "drawXAxis": true,
-        "drawXGrid": true,
-        "drawYAxis": true,
-        "drawYGrid": true,
-        "errorBars": false,
-        "file": null,
-        "fillAlpha": 0.15,
-        "fillGraph": false,
-        "fractions": false,
-        "gridLineColor": "#D8D8D8",
-        "gridLineWidth": 0.3,
-        "hideOverlayOnMouseOut": false,
-        "highlightCircleSize": 4,
-        "includeZero": false,
-        "interactionModel": null,
-        "isZoomedIgnoreProgrammaticZoom": false,
-        "labels": null,
-        "labelsDiv": null,
-        "labelsDivStyles": null,
-        "labelsDivWidth": 250,
-        "labelsKMB": true,
-        "labelsKMG2": false,
-        "labelsSeparateLines": true,
-        "labelsShowZeroValues": true,
-        "legend": "always",
-        "logscale": true,
-        "maxNumberWidth": 30,
-        "panEdgeFraction": null,
-        "pixelsPerLabel": null,
-        "pixelsPerXLabel": null,
-        "pixelsPerYLabel": null,
-        "pointSize": 1,
-        "rangeSelectorHeight": 40,
-        "rangeSelectorPlotFillColor": "#A7B1C4",
-        "rangeSelectorPlotStrokeColor": "#808FAB",
-        "rightGap": 20,
-        "rollPeriod": 1,
-        "showLabelsOnHighlight": true,
-        "showRangeSelector": false,
-        "showRoller": false,
-        "sigFigs": null,
-        "sigma": 2,
-        "stackedGraph": false,
-        "stepPlot": false,
-        "strokePattern": null,
-        "strokeWidth": 3,
-        "ticker": null,
-        "title": null,
-        "titleHeight": 18,
-        "valueFormatter": null,
-        "valueRange": null,
-        "visibility": null,
-        "wilsonInterval": true,
-        "xAxisHeight": null,
-        "xAxisLabelFormatter": null,
-        "xAxisLabelWidth": 55,
-        "xLabelHeight": 18,
-        "xValueFormatter": null,
-        "xValueParser": null,
-        "xlabel": null,
-        "y2label": null,
-        "yAxisLabelFormatter": null,
-        "yAxisLabelWidth": 50,
-        "yLabelWidth": 18,
-        "yValueFormatter": null,
-        "ylabel": "Number of Editors"
-    },
-    "parents": [
-        "root"
-    ],
     "slug": "very_active_editors",
-    "width": "auto"
+    "name": "Very Active Editors for All Wikimedia Projects (100+ edits per month)",
+    "desc": "<p>Nov 2012: Editors in Wikivoyage are now included in the overall total.</p><p>Aug 2012: Editors in Commons are now included in the overall total, and users who share a name across multiple projects are counted as the same user (<a href='https://blog.wikimedia.org/2012/08/31/improving-the-accuracy-of-the-active-editors-metric/' target='_blank'>more details</a>).</p><p>Aug 2010: Editors on Commons are no longer included in overall total, on the assumption that most also edit on one or more other projects. More precise detection of double counts between any projects and languages is in development(using Single User Login registration).</p>",
+    "root": {
+        "nodeType": "canvas",
+        "y": {"scaleType": "log"},
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "axis",
+                "enabled": true,
+                "options": {
+                    "dimension": "x",
+                    "orient": "bottom",
+                    "label": null
+                }
+            },
+            {
+                "nodeType": "axis",
+                "enabled": true,
+                "options": {
+                    "dimension": "y",
+                    "orient": "left",
+                    "label": "Number of Editors"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "enabled": true,
+                "options": {
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "enabled": true,
+                "options": {
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "callout",
+                "metricRef": 0,
+                "options": {
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "deltaFormat": "+,.2%"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "enabled": true,
+                "options": {
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "options": {
+                    "palette": "wmf_projects",
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 3,
+                        "pattern": null
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_very_active_editors_count",
+                            "source_col": 1
+                        },
+                        "options": {
+                            "label": "Total",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_very_active_editors_count",
+                            "source_col": 2
+                        },
+                        "options": {
+                            "label": "English",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_very_active_editors_count",
+                            "source_col": 3
+                        },
+                        "options": {
+                            "label": "Commons",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_very_active_editors_count",
+                            "source_col": 4
+                        },
+                        "options": {
+                            "label": "German",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_very_active_editors_count",
+                            "source_col": 5
+                        },
+                        "options": {
+                            "label": "French",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_very_active_editors_count",
+                            "source_col": 6
+                        },
+                        "options": {
+                            "label": "Russian",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_very_active_editors_count",
+                            "source_col": 7
+                        },
+                        "options": {
+                            "label": "Spanish",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_very_active_editors_count",
+                            "source_col": 8
+                        },
+                        "options": {
+                            "label": "Italian",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_very_active_editors_count",
+                            "source_col": 9
+                        },
+                        "options": {
+                            "label": "Japanese",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_very_active_editors_count",
+                            "source_col": 10
+                        },
+                        "options": {
+                            "label": "Polish",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
 }

@@ -1,327 +1,323 @@
 {
-    "chartType": "dygraphs",
-    "data": {
-        "id": "commons",
-        "lines": [],
-        "metrics": [
-            {
-                "color": "#182B53",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 0,
-                "label": "Total",
-                "scale": 1,
-                "source_col": 1,
-                "source_id": "rc_binary_files",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "color": "#FF0097",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 1,
-                "label": "jpg",
-                "scale": 1,
-                "source_col": 2,
-                "source_id": "rc_binary_files",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "color": "#FF0097",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 1,
-                "label": "png",
-                "scale": 1,
-                "source_col": 3,
-                "source_id": "rc_binary_files",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "color": "#EF8158",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 1,
-                "label": "svg",
-                "scale": 1,
-                "source_col": 4,
-                "source_id": "rc_binary_files",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "color": "#1A9380",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 1,
-                "label": "ogg",
-                "scale": 1,
-                "source_col": 5,
-                "source_id": "rc_binary_files",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "color": "#FF87FF",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 1,
-                "label": "gif",
-                "scale": 1,
-                "source_col": 6,
-                "source_id": "rc_binary_files",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "color": "#B64926",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 1,
-                "label": "tif",
-                "scale": 1,
-                "source_col": 7,
-                "source_id": "rc_binary_files",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "color": "#5DD2A4",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 1,
-                "label": "pdf",
-                "scale": 1,
-                "source_col": 8,
-                "source_id": "rc_binary_files",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "color": "#FA0000",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 1,
-                "label": "djvu",
-                "scale": 1,
-                "source_col": 9,
-                "source_id": "rc_binary_files",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "color": "#FFB719",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 1,
-                "label": "ogv",
-                "scale": 1,
-                "source_col": 10,
-                "source_id": "rc_binary_files",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            },
-            {
-                "color": "#00675B",
-                "disabled": false,
-                "format_axis": null,
-                "format_value": null,
-                "index": 1,
-                "label": "mid",
-                "scale": 1,
-                "source_col": 11,
-                "source_id": "rc_binary_files",
-                "timespan": {
-                    "end": null,
-                    "start": null,
-                    "step": null
-                },
-                "transforms": [],
-                "type": "int",
-                "visible": true
-            }
-        ],
-        "palette": null
-    },
-    "desc": "",
-    "height": 250,
     "id": "commons",
-    "name": "Commons Binaries (log scale)",
-    "notes": "",
-    "options": {
-        "animatedZooms": true,
-        "avoidMinZero": false,
-        "axis": null,
-        "axisLabelColor": "#666666",
-        "axisLabelFontSize": 11,
-        "axisLabelFormatter": null,
-        "axisLabelWidth": 50,
-        "axisLineColor": "#AAAAAA",
-        "axisLineWidth": 0.3,
-        "axisTickSize": 3,
-        "colorSaturation": 1,
-        "colorValue": 0.5,
-        "colors": [
-            "#FF0097",
-            "#EF8158",
-            "#83BB32",
-            "#182B53",
-            "#4596FF",
-            "#553DC9",
-            "#AD3238",
-            "#00FFBC",
-            "#F1D950"
-        ],
-        "connectSeparatedPoints": false,
-        "customBars": false,
-        "dateWindow": null,
-        "delimiter": ",",
-        "digitsAfterDecimal": 2,
-        "displayAnnotations": false,
-        "drawPoints": true,
-        "drawXAxis": true,
-        "drawXGrid": true,
-        "drawYAxis": true,
-        "drawYGrid": true,
-        "errorBars": false,
-        "file": null,
-        "fillAlpha": 0.15,
-        "fillGraph": false,
-        "fractions": false,
-        "gridLineColor": "#D8D8D8",
-        "gridLineWidth": 0.3,
-        "hideOverlayOnMouseOut": false,
-        "highlightCircleSize": 4,
-        "includeZero": false,
-        "interactionModel": null,
-        "isZoomedIgnoreProgrammaticZoom": false,
-        "labels": null,
-        "labelsDiv": null,
-        "labelsDivStyles": null,
-        "labelsDivWidth": 250,
-        "labelsKMB": true,
-        "labelsKMG2": false,
-        "labelsSeparateLines": true,
-        "labelsShowZeroValues": true,
-        "legend": "always",
-        "logscale": true,
-        "maxNumberWidth": 30,
-        "panEdgeFraction": null,
-        "pixelsPerLabel": null,
-        "pixelsPerXLabel": null,
-        "pixelsPerYLabel": null,
-        "pointSize": 1,
-        "rangeSelectorHeight": 40,
-        "rangeSelectorPlotFillColor": "#A7B1C4",
-        "rangeSelectorPlotStrokeColor": "#808FAB",
-        "rightGap": 20,
-        "rollPeriod": 1,
-        "showLabelsOnHighlight": true,
-        "showRangeSelector": false,
-        "showRoller": false,
-        "sigFigs": null,
-        "sigma": 2,
-        "stackedGraph": false,
-        "stepPlot": false,
-        "strokePattern": null,
-        "strokeWidth": 3,
-        "ticker": null,
-        "title": null,
-        "titleHeight": 18,
-        "valueFormatter": null,
-        "valueRange": null,
-        "visibility": null,
-        "wilsonInterval": true,
-        "xAxisHeight": null,
-        "xAxisLabelFormatter": null,
-        "xAxisLabelWidth": 55,
-        "xLabelHeight": 18,
-        "xValueFormatter": null,
-        "xValueParser": null,
-        "xlabel": null,
-        "y2label": null,
-        "yAxisLabelFormatter": null,
-        "yAxisLabelWidth": 50,
-        "yLabelWidth": 18,
-        "yValueFormatter": null,
-        "ylabel": "Number of Files (log)"
-    },
-    "parents": [
-        "root"
-    ],
     "slug": "commons",
-    "width": "auto"
+    "name": "Commons Binaries (log scale)",
+    "desc": "",
+    "notes": "",
+    "root": {
+        "nodeType": "canvas",
+        "y": {"scaleType": "log"},
+        "width": "auto",
+        "height": 500,
+        "children": [
+            {
+                "nodeType": "axis",
+                "enabled": true,
+                "options": {
+                    "dimension": "x",
+                    "orient": "bottom",
+                    "label": null
+                }
+            },
+            {
+                "nodeType": "axis",
+                "enabled": true,
+                "options": {
+                    "dimension": "y",
+                    "orient": "left",
+                    "label": "Number of Files (log)"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "enabled": true,
+                "options": {
+                    "dimension": "x"
+                }
+            },
+            {
+                "nodeType": "grid",
+                "enabled": true,
+                "options": {
+                    "dimension": "y"
+                }
+            },
+            {
+                "nodeType": "zoom-brush"
+            },
+            {
+                "nodeType": "callout",
+                "metricRef": 0,
+                "options": {
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "deltaFormat": "+,.2%"
+                }
+            },
+            {
+                "nodeType": "legend",
+                "enabled": true,
+                "options": {
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s"
+                }
+            },
+            {
+                "nodeType": "line-group",
+                "options": {
+                    "palette": "wmf_projects",
+                    "dateFormat": "MMM YYYY",
+                    "valueFormat": ",.2s",
+                    "stroke": {
+                        "width": 3,
+                        "pattern": null
+                    }
+                },
+                "children": [
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_binary_files",
+                            "source_col": 1
+                        },
+                        "options": {
+                            "label": "Total",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_binary_files",
+                            "source_col": 2
+                        },
+                        "options": {
+                            "label": "jpg",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_binary_files",
+                            "source_col": 3
+                        },
+                        "options": {
+                            "label": "png",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_binary_files",
+                            "source_col": 4
+                        },
+                        "options": {
+                            "label": "svg",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_binary_files",
+                            "source_col": 5
+                        },
+                        "options": {
+                            "label": "ogg",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_binary_files",
+                            "source_col": 6
+                        },
+                        "options": {
+                            "label": "gif",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_binary_files",
+                            "source_col": 7
+                        },
+                        "options": {
+                            "label": "tif",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_binary_files",
+                            "source_col": 8
+                        },
+                        "options": {
+                            "label": "pdf",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_binary_files",
+                            "source_col": 9
+                        },
+                        "options": {
+                            "label": "djvu",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_binary_files",
+                            "source_col": 10
+                        },
+                        "options": {
+                            "label": "ogv",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_binary_files",
+                            "source_col": 11
+                        },
+                        "options": {
+                            "label": "mid",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
 }
