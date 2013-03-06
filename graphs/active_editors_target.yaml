@@ -40,12 +40,12 @@ root :
                 bands:      { padding: 0.4, outerPadding: 0 }
             children:
                 -   nodeType:   'bar'
-                    metric:     { source_id: 'rc_active_editors_target_aligned', source_col: 1 }
-                    options:    { label: 'Total' }
-                
-                -   nodeType:   'bar'
                     metric:     { source_id: 'rc_active_editors_target_aligned', source_col: 2 }
                     options:    { label: 'Projected' }
+                
+                -   nodeType:   'bar'
+                    metric:     { source_id: 'rc_active_editors_target_aligned', source_col: 1 }
+                    options:    { label: 'Total' }
         
         -   nodeType:       'line-group'
             children:
