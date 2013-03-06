@@ -1,0 +1,14 @@
+id: rc_active_uploaders_target_aligned
+name: Active Uploaders (1+) (Aligned with Targets)
+shortName : Active Uploaders (Aligned with Targets)
+format: csv
+type: timeseries
+url: /data/datafiles/rc/rc_active_uploaders_target_aligned.csv
+
+columns:
+    - label: Month
+      type: date
+    - label: Total (Actual)
+      type: int
+    - label: Target (Annual Plan)
+      type: int

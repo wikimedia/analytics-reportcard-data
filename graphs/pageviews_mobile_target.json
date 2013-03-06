@@ -6,9 +6,9 @@
     "desc": "",
     "root": {
         "nodeType": "canvas",
-        "scaling": "linear",
         "width": "auto",
         "height": 500,
+        
         "children": [
             {
                 "nodeType": "axis",

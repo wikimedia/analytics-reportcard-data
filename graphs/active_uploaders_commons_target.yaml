@@ -1,0 +1,57 @@
+graph_version : '0.6.0'
+id            : 'active_uploaders_commons_target'
+
+name          : 'Active Uploaders Commons (1+)'
+shortName     : 'Active Uploaders Commons'
+tags          : [ 'commons', 'upload', 'target' ]
+
+root : 
+    nodeType : 'canvas'
+    width    : 'auto'
+    height   : 500
+    x        : { padding: 0.001 }
+    y        : { padding: 0.185 }
+    
+    children :
+        -   nodeType:       'grid'
+            options:        { dimension: 'x' }
+        -   nodeType:       'grid'
+            options:        { dimension: 'y' }
+        
+        -   nodeType:       'axis'
+            options:        { orient: 'bottom',  dimension: 'x' }
+        -   nodeType:       'axis'
+            options:        { orient: 'left',    dimension: 'y' }
+        
+        -   nodeType:       'callout'
+            metricRef:      0
+            options:        { dateFormat: 'MMM YY', precision: 2 }
+        
+        -   nodeType:       'legend'
+            options:        { dateFormat: 'MMM YYYY' }
+        
+        -   nodeType:       'zoom-brush'
+        
+        -   nodeType:       'bar-group'
+            options:
+                palette:    'category10'
+                bands:      { padding: 0.4, outerPadding: 0 }
+                stack:      { enabled: true }
+            children:
+                -   nodeType:   'bar'
+                    metric:     { source_id: 'rc_active_uploaders_target_aligned', source_col: 1, timespan: { start: '2012/06/01' } }
+                    options:    { label: 'Total' }
+        
+        -   nodeType:       'line-group'
+            children:
+                -   nodeType:   'line'
+                    metric:     { source_id: 'rc_active_uploaders_target_aligned', source_col: 2, timespan: { start: '2012/06/01' } }
+                    options:    { label: 'Target', stroke: { color: '#BFBFBF' } }
+                
+                -   nodeType:   'scatterplot'
+                    metric:     { source_id: 'rc_active_uploaders_target_aligned', source_col: 2, timespan: { start: '2012/06/01' } }
+                    options:    { noLegend: true, radius: 4, stroke: { color: '#BFBFBF' } }
+                
+        
+    
+
