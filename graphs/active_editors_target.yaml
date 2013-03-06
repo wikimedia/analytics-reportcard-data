@@ -1,0 +1,63 @@
+graph_version : '0.6.0'
+
+id            : 'active_editors_target'
+
+name          : 'Active Editors (5+)'
+shortName     : 'Active Editors'
+tags          : [ 'active_editors', 'editors', 'target' ]
+
+root : 
+    nodeType : 'canvas'
+    width    : 'auto'
+    height   : 500
+    x        : { padding: 0.001 }
+    y        : { scaleType: 'log', padding: 0.185 }
+    
+    children :
+        -   nodeType:       'grid'
+            options:        { dimension: 'x' }
+        -   nodeType:       'grid'
+            options:        { dimension: 'y' }
+        
+        -   nodeType:       'axis'
+            options:        { orient: 'bottom',  dimension:   'x' }
+        -   nodeType:       'axis'
+            options:        { orient: 'left',    dimension:   'y' }
+        
+        -   nodeType:       'callout'
+            metricRef:      0
+            options:        { dateFormat: 'MMM YYYY', precision: 2, valueFormat: ',.2s', deltaFormat: '+,.2%' }
+        
+        -   nodeType:       'legend'
+            options:        { dateFormat: 'MMM YYYY', valueFormat: ',.2s' }
+        
+        -   nodeType:       'zoom-brush'
+        
+        -   nodeType:       'bar-group'
+            options:
+                palette:    'wmf_projects'
+                valueFormat: ',.2s'
+                bands:      { padding: 0.4, outerPadding: 0 }
+                stack:      { enabled: true }
+            children:
+                -   nodeType:   'bar'
+                    metric:     { source_id: 'rc_active_editors_target_aligned', source_col: 1 }
+                    options:    { label: 'Total' }
+                
+                -   nodeType:   'bar'
+                    metric:     { source_id: 'rc_active_editors_target_aligned', source_col: 2 }
+                    options:    { label: 'Projected' }
+        
+        -   nodeType:       'line-group'
+            children:
+                -   nodeType:   'line'
+                    metric:     { source_id: 'rc_active_editors_target_aligned', source_col: 3 }
+                    options:    { label: 'Target', stroke: { color: '#BFBFBF' } }
+                
+                -   nodeType:   'scatterplot'
+                    metric:     { source_id: 'rc_active_editors_target_aligned', source_col: 3 }
+                    options:    { noLegend: true, radius: 4, stroke: { color: '#BFBFBF' } }
+                
+        
+    
+

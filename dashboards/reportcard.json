@@ -26,10 +26,9 @@
         }, {
             "name": "Annual Plan 2012-13 Targets",
             "graph_ids":[
-                "pageviews_mobile_target",
+                "pageviews_mobile_target_stacked",
                 "active_editors_target",
-                "active_uploaders_commons_target",
-                "pageviews_mobile_target_stacked"
+                "active_uploaders_commons_target"
             ]
         }
     ]

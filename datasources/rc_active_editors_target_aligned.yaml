@@ -1,0 +1,16 @@
+id: rc_active_editors_target_aligned
+name: Active Editors (5+) (Aligned with Targets)
+shortName : Active Editors (Aligned with Targets)
+format: csv
+type: timeseries
+url: /data/datafiles/rc/rc_active_editors_target_aligned.csv
+
+columns:
+    - label: Month
+      type: date
+    - label: Total (Actual)
+      type: int
+    - label: Projected
+      type: int
+    - label: Target (Annual Plan)
+      type: int
