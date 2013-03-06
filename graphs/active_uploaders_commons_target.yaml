@@ -36,7 +36,6 @@ root :
             options:
                 palette:    'category10'
                 bands:      { padding: 0.4, outerPadding: 0 }
-                stack:      { enabled: true }
             children:
                 -   nodeType:   'bar'
                     metric:     { source_id: 'rc_active_uploaders_target_aligned', source_col: 1, timespan: { start: '2012/06/01' } }
