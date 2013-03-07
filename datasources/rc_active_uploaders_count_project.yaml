@@ -6,7 +6,11 @@ type: timeseries
 url: /data/datafiles/rc/rc_active_uploaders_count_project.csv
 
 columns:
-    - label: Month
-      type: date
-    - label: Commons
-      type: int
+    -   id         : month
+        label      : Month
+        type       : date
+    
+    -   id         : commons
+        label      : Commons
+        type       : int
+        metricRefs : upload

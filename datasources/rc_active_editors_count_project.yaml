@@ -11,31 +11,62 @@ timespan:
     step: 1mo
 
 columns:
-    labels:
-    - Month
-    - All projects
-    - Wikipedia
-    - Commons
-    - Other Wikis
-    - Wiktionary
-    - Wikibooks
-    - Wikisource
-    - Wikiquote
-    - Wikiversity
-    - Wikinews
-    - Wikivoyage
-    types:
-    - date
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-chart:
-    chartType: dygraphs
+    -   id         : month
+        label      : Month
+        type       : date
+    
+    -   id         : total
+        label      : All Projects
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : wikipedia
+        label      : Wikipedia
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : commons
+        label      : Commons
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : other_wikis
+        label      : Other Wikis
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : wiktionary
+        label      : Wiktionary
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : wikibooks
+        label      : Wikibooks
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : wikisource
+        label      : Wikisource
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : wikiquote
+        label      : Wikiquote
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : wikiversity
+        label      : Wikiversity
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : wikinews
+        label      : Wikinews
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : wikivoyage
+        label      : Wikivoyage
+        type       : int
+        metricRefs : active_editor
+    

@@ -11,19 +11,32 @@ timespan:
     step: 1mo
 
 columns:
-    labels:
-    - Month
-    - Total
-    - English
-    - French
-    - German
-    - Russian
-    types:
-    - date
-    - int
-    - int
-    - int
-    - int
-    - int
-chart:
-    chartType: dygraphs
+    -   id         : month
+        label      : Month
+        type       : date
+    
+    -   id         : total
+        label      : Total
+        type       : int
+        metricRefs : edit
+    
+    -   id         : english
+        label      : English
+        type       : int
+        metricRefs : edit
+    
+    -   id         : french
+        label      : French
+        type       : int
+        metricRefs : edit
+    
+    -   id         : german
+        label      : German
+        type       : int
+        metricRefs : edit
+    
+    -   id         : russian
+        label      : Russian
+        type       : int
+        metricRefs : edit
+    

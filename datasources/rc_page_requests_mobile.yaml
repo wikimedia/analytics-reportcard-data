@@ -1,30 +1,51 @@
 id: rc_page_requests_mobile
-name: Mobile Page Request
-shortName : Mobile
+name: Mobile Pageviews
 format: csv
 type: timeseries
 url: /data/datafiles/rc/rc_page_requests_mobile.csv
 
 columns:
-    labels:
-    - Month
-    - Total
-    - English Mobile
-    - Japanese Mobile
-    - German Mobile
-    - Spanish Mobile
-    - French Mobile
-    - Russian Mobile
-    - Italian Mobile
-    types:
-    - date
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-chart:
-    chartType: dygraphs
+    -   id         : month
+        label      : Month
+        type       : date
+    
+    -   id         : total
+        label      : Total Mobile
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : english_mobile
+        label      : English Mobile
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : japanese_mobile
+        label      : Japanese Mobile
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : german_mobile
+        label      : German Mobile
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : spanish_mobile
+        label      : Spanish Mobile
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : french_mobile
+        label      : French Mobile
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : russian_mobile
+        label      : Russian Mobile
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : italian_mobile
+        label      : Italian Mobile
+        type       : int
+        metricRefs : pageview
+    

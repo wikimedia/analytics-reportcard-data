@@ -11,29 +11,62 @@ timespan:
     step: 1mo
 
 columns:
-    labels:
-    - Month
-    - Total
-    - English
-    - Commons
-    - German
-    - French
-    - Russian
-    - Spanish
-    - Japanese
-    - Italian
-    - Chinese
-    types:
-    - date
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-chart:
-    chartType: dygraphs
+    -   id         : month
+        label      : Month
+        type       : date
+    
+    -   id         : month
+        label      : Month
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : total
+        label      : Total
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : english
+        label      : English
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : commons
+        label      : Commons
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : german
+        label      : German
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : french
+        label      : French
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : russian
+        label      : Russian
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : spanish
+        label      : Spanish
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : japanese
+        label      : Japanese
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : italian
+        label      : Italian
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : chinese
+        label      : Chinese
+        type       : int
+        metricRefs : active_editor
+    

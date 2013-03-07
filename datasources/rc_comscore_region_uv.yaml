@@ -1,35 +1,59 @@
-id: rc_comscore_region_uv
-name: Unique Visitors for All Wikimedia Projects
+id        : rc_comscore_region_uv
+
+name      : Unique Visitors for All Wikimedia Projects
 shortName : Unique Visitors
-format: csv
-type: timeseries
-url: /data/datafiles/rc/rc_comscore_region_uv.csv
+
+format    : csv
+type      : timeseries
+url       : /data/datafiles/rc/rc_comscore_region_uv.csv
 
 timespan:
-    end: 2012/06/01
-    start: 2008/01/01
-    step: 1mo
+    start : 2008/01/01
+    end   : 2013/01/01
+    step  : 1mo
 
 columns:
-    labels:
-    - Month
-    - World
-    - Asia Pacific
-    - China
-    - Europe
-    - India
-    - Latin America
-    - Middle East/Africa
-    - North America
-    types:
-    - date
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-chart:
-    chartType: dygraphs
+    -   id         : month
+        label      : Month
+        type       : date
+    
+    -   id         : world
+        label      : World
+        type       : int
+        metricRefs : unique_visitor_comscore
+    
+    -   id         : asia
+        label      : Asia Pacific
+        type       : int
+        metricRefs : unique_visitor_comscore
+    
+    -   id         : china
+        label      : China
+        type       : int
+        metricRefs : unique_visitor_comscore
+    
+    -   id         : europe
+        label      : Europe
+        type       : int
+        metricRefs : unique_visitor_comscore
+    
+    -   id         : india
+        label      : India
+        type       : int
+        metricRefs : unique_visitor_comscore
+    
+    -   id         : latin_america
+        label      : Latin America
+        type       : int
+        metricRefs : unique_visitor_comscore
+    
+    -   id         : middle_east_africa
+        label      : Middle East/Africa
+        type       : int
+        metricRefs : unique_visitor_comscore
+    
+    -   id         : north_america
+        label      : North America
+        type       : int
+        metricRefs : unique_visitor_comscore
+    

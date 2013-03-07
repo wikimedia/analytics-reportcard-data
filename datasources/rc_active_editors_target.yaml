@@ -6,9 +6,17 @@ type: timeseries
 url: /data/datafiles/rc/rc_active_editors_target.csv
 
 columns:
-    - label: Month
-      type: date
-    - label: Projected
-      type: int
-    - label: Target (Annual Plan)
-      type: int
+    -   id         : month
+        label      : Month
+        type       : date
+    
+    -   id         : projected
+        label      : Projected
+        type       : int
+        metricRefs : active_editor
+    
+    -   id         : target
+        label      : Target (Annual Plan)
+        type       : int
+        metricRefs : active_editor
+    

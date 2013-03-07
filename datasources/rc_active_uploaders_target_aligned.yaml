@@ -6,9 +6,17 @@ type: timeseries
 url: /data/datafiles/rc/rc_active_uploaders_target_aligned.csv
 
 columns:
-    - label: Month
-      type: date
-    - label: Total (Actual)
-      type: int
-    - label: Target (Annual Plan)
-      type: int
+    -   id         : month
+        label      : Month
+        type       : date
+    
+    -   id         : commons
+        label      : Total (Actual)
+        type       : int
+        metricRefs : upload
+    
+    -   id         : commons_target
+        label      : Target (Annual Plan)
+        type       : int
+        metricRefs : upload
+    

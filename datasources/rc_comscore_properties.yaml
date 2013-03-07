@@ -11,15 +11,22 @@ timespan:
     step: 1mo
 
 columns:
-    labels:
-    - Month
-    - Google
-    - Total Internet
-    - Wikimedia
-    types:
-    - date
-    - int
-    - int
-    - int
-chart:
-    chartType: dygraphs
+    -   id         : month
+        label      : Month
+        type       : date
+    
+    -   id         : google
+        label      : Google
+        type       : int
+        metricRefs : unique_visitor_comscore
+    
+    -   id         : total_internet
+        label      : Total Internet
+        type       : int
+        metricRefs : unique_visitor_comscore
+    
+    -   id         : wikimedia
+        label      : Wikimedia
+        type       : int
+        metricRefs : unique_visitor_comscore
+    

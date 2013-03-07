@@ -6,28 +6,47 @@ type: timeseries
 url: http://analytics1001.wikimedia.org:81/wmf/public/otto/hour_continent_mobile_pageviews/datafiles/hour_continent_mobile.csv
 
 timespan:
-    end: 2013-01-08_21
     start: 2013-01-01_00
+    end: 2013-01-08_21
     step: 1h
 
 columns:
-    labels:
-    - date
-    - Africa
-    - Asia
-    - Europe
-    - North America
-    - Oceania
-    - South America
-    - Unknown
-    types:
-    - date
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-chart:
-    chartType: dygraphs
+    -   id         : date
+        label      : Date
+        type       : date
+    
+    -   id         : africa
+        label      : Africa
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : asia
+        label      : Asia
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : europe
+        label      : Europe
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : north_america
+        label      : North America
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : oceania
+        label      : Oceania
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : south_america
+        label      : South America
+        type       : int
+        metricRefs : pageview
+    
+    -   id         : unknown
+        label      : Unknown
+        type       : int
+        metricRefs : pageview
+    
