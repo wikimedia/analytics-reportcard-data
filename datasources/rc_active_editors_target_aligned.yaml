@@ -13,15 +13,15 @@ columns:
     -   id         : total
         label      : Total (Actual)
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : projected
         label      : Projected
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : target
         label      : Target (Annual Plan)
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     

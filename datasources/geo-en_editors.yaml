@@ -23,14 +23,14 @@ columns:
     -   id    : editors
         label : Total Active Editors
         type  : int
-        metricRefs : ['active_editor', 'very_active_editor']
+        metricDefs : ['active_editor', 'very_active_editor']
     
     -   id    : editors5
         label : Active Editors (5+ edits)
         type  : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id    : editors100
         label : Active Editors (100+ edits)
         type  : int
-        metricRefs : very_active_editor
+        metricDefs : very_active_editor

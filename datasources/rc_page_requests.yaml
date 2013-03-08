@@ -18,35 +18,35 @@ columns:
     -   id         : total
         label      : All Wikipedias (+Mobile)
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : english
         label      : English
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : japanese
         label      : Japanese
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : spanish
         label      : Spanish
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : german
         label      : German
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : russian
         label      : Russian
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : french
         label      : French
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     

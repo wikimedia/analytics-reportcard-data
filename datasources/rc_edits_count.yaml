@@ -18,25 +18,25 @@ columns:
     -   id         : total
         label      : Total
         type       : int
-        metricRefs : edit
+        metricDefs : edit
     
     -   id         : english
         label      : English
         type       : int
-        metricRefs : edit
+        metricDefs : edit
     
     -   id         : french
         label      : French
         type       : int
-        metricRefs : edit
+        metricDefs : edit
     
     -   id         : german
         label      : German
         type       : int
-        metricRefs : edit
+        metricDefs : edit
     
     -   id         : russian
         label      : Russian
         type       : int
-        metricRefs : edit
+        metricDefs : edit
     

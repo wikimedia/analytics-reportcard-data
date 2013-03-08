@@ -18,40 +18,40 @@ columns:
     -   id         : total
         label      : Total
         type       : int
-        metricRefs : article
+        metricDefs : article
     
     -   id         : english
         label      : English
         type       : int
-        metricRefs : article
+        metricDefs : article
     
     -   id         : german
         label      : German
         type       : int
-        metricRefs : article
+        metricDefs : article
     
     -   id         : french
         label      : French
         type       : int
-        metricRefs : article
+        metricDefs : article
     
     -   id         : dutch
         label      : Dutch
         type       : int
-        metricRefs : article
+        metricDefs : article
     
     -   id         : italian
         label      : Italian
         type       : int
-        metricRefs : article
+        metricDefs : article
     
     -   id         : polish
         label      : Polish
         type       : int
-        metricRefs : article
+        metricDefs : article
     
     -   id         : spanish
         label      : Spanish
         type       : int
-        metricRefs : article
+        metricDefs : article
     

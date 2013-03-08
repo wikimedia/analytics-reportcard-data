@@ -12,40 +12,40 @@ columns:
     -   id         : total
         label      : Total Mobile
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : english_mobile
         label      : English Mobile
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : japanese_mobile
         label      : Japanese Mobile
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : german_mobile
         label      : German Mobile
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : spanish_mobile
         label      : Spanish Mobile
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : french_mobile
         label      : French Mobile
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : russian_mobile
         label      : Russian Mobile
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : italian_mobile
         label      : Italian Mobile
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     

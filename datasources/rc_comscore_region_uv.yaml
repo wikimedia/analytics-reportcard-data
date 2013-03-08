@@ -20,40 +20,40 @@ columns:
     -   id         : world
         label      : World
         type       : int
-        metricRefs : unique_visitor_comscore
+        metricDefs : unique_visitor_comscore
     
     -   id         : asia
         label      : Asia Pacific
         type       : int
-        metricRefs : unique_visitor_comscore
+        metricDefs : unique_visitor_comscore
     
     -   id         : china
         label      : China
         type       : int
-        metricRefs : unique_visitor_comscore
+        metricDefs : unique_visitor_comscore
     
     -   id         : europe
         label      : Europe
         type       : int
-        metricRefs : unique_visitor_comscore
+        metricDefs : unique_visitor_comscore
     
     -   id         : india
         label      : India
         type       : int
-        metricRefs : unique_visitor_comscore
+        metricDefs : unique_visitor_comscore
     
     -   id         : latin_america
         label      : Latin America
         type       : int
-        metricRefs : unique_visitor_comscore
+        metricDefs : unique_visitor_comscore
     
     -   id         : middle_east_africa
         label      : Middle East/Africa
         type       : int
-        metricRefs : unique_visitor_comscore
+        metricDefs : unique_visitor_comscore
     
     -   id         : north_america
         label      : North America
         type       : int
-        metricRefs : unique_visitor_comscore
+        metricDefs : unique_visitor_comscore
     

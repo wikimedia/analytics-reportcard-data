@@ -13,4 +13,4 @@ columns:
     -   id         : commons
         label      : Commons
         type       : int
-        metricRefs : upload
+        metricDefs : upload

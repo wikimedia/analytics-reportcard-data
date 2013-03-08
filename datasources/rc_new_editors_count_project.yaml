@@ -18,55 +18,55 @@ columns:
     -   id         : total
         label      : All Projects
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : wikipedia
         label      : Wikipedia
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : commons
         label      : Commons
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : other_wikis
         label      : Other Wikis
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : wikibooks
         label      : Wikibooks
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : wiktionary
         label      : Wiktionary
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : wikiversity
         label      : Wikiversity
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : wikiquote
         label      : Wikiquote
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : wikisource
         label      : Wikisource
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : wikivoyage
         label      : Wikivoyage
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : wikinews
         label      : Wikinews
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     

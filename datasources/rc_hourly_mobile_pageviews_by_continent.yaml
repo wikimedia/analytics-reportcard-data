@@ -18,35 +18,35 @@ columns:
     -   id         : africa
         label      : Africa
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : asia
         label      : Asia
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : europe
         label      : Europe
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : north_america
         label      : North America
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : oceania
         label      : Oceania
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : south_america
         label      : South America
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   id         : unknown
         label      : Unknown
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     

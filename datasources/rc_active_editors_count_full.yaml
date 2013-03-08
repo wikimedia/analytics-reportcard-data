@@ -18,120 +18,120 @@ columns:
     -   id         : total
         label      : Total
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : english
         label      : English
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : commons
         label      : Commons
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : german
         label      : German
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : french
         label      : French
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : russian
         label      : Russian
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : spanish
         label      : Spanish
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : japanese
         label      : Japanese
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : italian
         label      : Italian
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : chinese
         label      : Chinese
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : portuguese
         label      : Portuguese
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : polish
         label      : Polish
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : dutch
         label      : Dutch
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : swedish
         label      : Swedish
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : hebrew
         label      : Hebrew
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : persian
         label      : Persian
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : korean
         label      : Korean
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : czech
         label      : Czech
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : ukrainian
         label      : Ukrainian
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : arabic
         label      : Arabic
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : hungarian
         label      : Hungarian
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : finnish
         label      : Finnish
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : turkish
         label      : Turkish
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     
     -   id         : norwegian
         label      : Norwegian
         type       : int
-        metricRefs : active_editor
+        metricDefs : active_editor
     

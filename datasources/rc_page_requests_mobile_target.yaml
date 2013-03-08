@@ -11,17 +11,17 @@ columns:
     
     -   label      : Mobile Web Projection
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   label      : Zero Projection
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   label      : Zero Gap Projection
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     
     -   label      : Target
         type       : int
-        metricRefs : pageview
+        metricDefs : pageview
     

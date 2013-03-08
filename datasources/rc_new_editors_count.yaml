@@ -18,50 +18,50 @@ columns:
     -   id         : total
         label      : Total
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : english
         label      : English
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : commons
         label      : Commons
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : spanish
         label      : Spanish
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : french
         label      : French
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : german
         label      : German
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : russian
         label      : Russian
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : japanese
         label      : Japanese
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : italian
         label      : Italian
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     
     -   id         : chinese
         label      : Chinese
         type       : int
-        metricRefs : new_editor
+        metricDefs : new_editor
     

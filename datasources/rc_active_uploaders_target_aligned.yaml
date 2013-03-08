@@ -13,10 +13,10 @@ columns:
     -   id         : commons
         label      : Total (Actual)
         type       : int
-        metricRefs : upload
+        metricDefs : upload
     
     -   id         : commons_target
         label      : Target (Annual Plan)
         type       : int
-        metricRefs : upload
+        metricDefs : upload
     

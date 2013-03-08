@@ -18,15 +18,15 @@ columns:
     -   id         : google
         label      : Google
         type       : int
-        metricRefs : unique_visitor_comscore
+        metricDefs : unique_visitor_comscore
     
     -   id         : total_internet
         label      : Total Internet
         type       : int
-        metricRefs : unique_visitor_comscore
+        metricDefs : unique_visitor_comscore
     
     -   id         : wikimedia
         label      : Wikimedia
         type       : int
-        metricRefs : unique_visitor_comscore
+        metricDefs : unique_visitor_comscore
     

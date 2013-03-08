@@ -13,5 +13,5 @@ columns:
     -   id         : commons_target
         label      : Commons Target (Annual Plan)
         type       : int
-        metricRefs : upload
+        metricDefs : upload
     
