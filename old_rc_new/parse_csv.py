@@ -24,9 +24,10 @@ def parse_StatisticsMonthly(metric,next_metric,startindex=2,endindex=-2,n_lines=
 	data = OrderedDict()
 
 
-	if n_lines!='all':
-		# account for the time labels
-		n_lines+=1
+	# the n_lines parameter causes problems on a monthly basis.
+	# Dan Andreescu sees no reason it should not always be 'all'
+	# considering that performance is not an issue with this project
+	n_lines = 'all'
 	n_collected = 0
 
 	with open(old_to_new.monthly_stats,'r') as f:
@@ -68,6 +69,10 @@ def parse_PageViews(metric,next_metric,key_index=8,startindex=8,endindex=-1,n_li
 	collect = False
 	data = OrderedDict()
 	
+	# the n_lines parameter causes problems on a monthly basis.
+	# Dan Andreescu sees no reason it should not always be 'all'
+	# considering that performance is not an issue with this project
+	n_lines = 'all'
 	n_collected = 0
 
 	with open(old_to_new.page_views,'r') as f:
@@ -84,10 +89,10 @@ def parse_PageViews(metric,next_metric,key_index=8,startindex=8,endindex=-1,n_li
 				# linebreaks are '\r\n'
 				vals = line[:-1].split(',')
 				# filter the empty lines
-				if len(vals) > 2:				
+				if len(vals) > 2:
 
 					# print vals[startindex:endindex]
-					k = vals[key_index]					
+					k = vals[key_index]
 					
 					if k not in data:
 
@@ -130,13 +135,27 @@ def write_dygraph_file(data,dygraph_fn):
 	yaml_fn = '%s.yaml' % (dygraph_fn)
 	yaml_fn = open('%s' % (os.path.join('../datasources/', yaml_fn)), 'r')	
 	config = yaml.load(yaml_fn, Loader=Loader)
+	
+	translated = False
+	# translate new format into old format
+	if not 'labels' in config['columns']:
+		newColumns = config['columns']
+		columnLabels = []
+		for column in newColumns:
+			columnLabels.append(column['label'])
+		config['columns'] = {'labels': columnLabels}
+		translated = True
+	if translated:
+		print '*********************************************'
+		print 'Converting new datasource into old datasource'
+		print '*********************************************'
+		print config
 
 	with open(fn,'w') as o:
-		mapping = {'Month':'project','All Wikipedias (+Mobile)': 'All projects'}
+		mapping = {'Month':'project','All Wikipedias (+Mobile)': 'All projects','All Projects': 'All projects','Total Mobile': 'Total'}
 		labels = 'Date,%s\n'%(','.join(data.keys()[1:]))
 		keys = data.keys()
 		o.write(labels)
-		
 		
 		for i in range(m):
 			for label in config['columns']['labels']:
@@ -152,8 +171,3 @@ def write_dygraph_file(data,dygraph_fn):
 			vals = '%s\n' % vals
 			#print vals
 			o.write(vals)
-		
-			
-			
-
-
