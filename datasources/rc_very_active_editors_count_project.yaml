@@ -5,37 +5,63 @@ format: csv
 type: timeseries
 url: /data/datafiles/rc/rc_very_active_editors_count_project.csv
 
-timespan:
-    end: 2012/06/01
-    start: 2009/02/01
-    step: 1mo
-
 columns:
-    labels:
-    - Month
-    - All projects
-    - Wikipedia
-    - Commons
-    - Wiktionary
-    - Other Wikis
-    - Wikisource
-    - Wikiquote
-    - Wikibooks
-    - Wikivoyage
-    - Wikiversity
-    - Wikinews
-    types:
-    - date
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-chart:
-    chartType: dygraphs
+    - id            : Month
+      label         : Month
+      type          : date
+      metricDefs    : very_active_editor
+
+    - id            : All projects
+      label         : All projects
+      type          : int
+      metricDefs    : very_active_editor
+
+    - id            : Wikipedia
+      label         : Wikipedia
+      type          : int
+      metricDefs    : very_active_editor
+
+    - id            : Commons
+      label         : Commons
+      type          : int
+      metricDefs    : very_active_editor
+
+    - id            : Wiktionary
+      label         : Wiktionary
+      type          : int
+      metricDefs    : very_active_editor
+
+    - id            : Other Wikis
+      label         : Other Wikis
+      type          : int
+      metricDefs    : very_active_editor
+
+    - id            : Wikisource
+      label         : Wikisource
+      type          : int
+      metricDefs    : very_active_editor
+
+    - id            : Wikiquote
+      label         : Wikiquote
+      type          : int
+      metricDefs    : very_active_editor
+
+    - id            : Wikibooks
+      label         : Wikibooks
+      type          : int
+      metricDefs    : very_active_editor
+
+    - id            : Wikivoyage
+      label         : Wikivoyage
+      type          : int
+      metricDefs    : very_active_editor
+
+    - id            : Wikiversity
+      label         : Wikiversity
+      type          : int
+      metricDefs    : very_active_editor
+
+    - id            : Wikinews
+      label         : Wikinews
+      type          : int
+      metricDefs    : very_active_editor

@@ -5,31 +5,39 @@ format: csv
 type: timeseries
 url: /data/datafiles/rc/rc_comscore_region_reach.csv
 
-timespan:
-    end: 2012/06/01
-    start: 2008/01/01
-    step: 1mo
-
 columns:
-    labels:
-    - Month
-    - Asia Pacific
-    - China
-    - Europe
-    - India
-    - Latin-America
-    - Middle-East/Africa
-    - North-America
-    - World
-    types:
-    - date
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-chart:
-    chartType: dygraphs
+    -   id      : month
+        label   : Month
+        type    : date
+
+    -   id      : asia_pacific
+        label   : Asia Pacific
+        type    : int
+
+    -   id      : china
+        label   : China
+        type    : int
+
+    -   id      : europe
+        label   : Europe
+        type    : int
+
+    -   id      : india
+        label   : India
+        type    : int
+
+    -   id      : latin_america
+        label   : Latin-America
+        type    : int
+
+    -   id      : middle_east_africa
+        label   : Middle-East/Africa
+        type    : int
+
+    -   id      : north_america
+        label   : North-America
+        type    : int
+
+    -   id      : world
+        label   : World
+        type    : int

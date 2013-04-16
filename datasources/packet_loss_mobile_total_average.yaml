@@ -9,9 +9,10 @@ timespan:
     step: 1d
 
 columns:
-    labels:
-    - date
-    - Percent
-    types:
-    - date
-    - int
+    -   id         : date
+        label      : Date
+        type       : date
+    
+    -   id         : percent
+        label      : Percent
+        type       : int

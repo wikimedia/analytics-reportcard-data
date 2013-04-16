@@ -15,11 +15,6 @@ columns:
         label      : Month
         type       : date
     
-    -   id         : month
-        label      : Month
-        type       : int
-        metricDefs : active_editor
-    
     -   id         : total
         label      : Total
         type       : int

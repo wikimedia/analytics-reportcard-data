@@ -6,22 +6,27 @@ type: timeseries
 url: /data/datafiles/rc/rc_page_requests_mobile_target.csv
 
 columns:
-    -   label      : Month
+    -   id         : month
+        label      : Month
         type       : date
     
-    -   label      : Mobile Web Projection
+    -   id         : mobile_web_projection
+        label      : Mobile Web Projection
         type       : int
         metricDefs : pageview
     
-    -   label      : Zero Projection
+    -   id         : zero_projection
+        label      : Zero Projection
         type       : int
         metricDefs : pageview
     
-    -   label      : Zero Gap Projection
+    -   id         : zero_gap_projection
+        label      : Zero Gap Projection
         type       : int
         metricDefs : pageview
     
-    -   label      : Target
+    -   id         : target
+        label      : Target
         type       : int
         metricDefs : pageview
     

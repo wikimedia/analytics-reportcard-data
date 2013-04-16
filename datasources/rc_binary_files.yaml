@@ -5,37 +5,52 @@ format: csv
 type: timeseries
 url: /data/datafiles/rc/rc_binary_files.csv
 
-timespan:
-    end: 2012/06/01
-    start: 2009/02/01
-    step: 1mo
-
 columns:
-    labels:
-    - Month
-    - Total
-    - jpg
-    - png
-    - svg
-    - ogg
-    - gif
-    - tif
-    - pdf
-    - djvu
-    - ogv
-    - mid
-    types:
-    - date
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-    - int
-chart:
-    chartType: dygraphs
+    -   id         : month
+        label      : Month
+        type       : date
+
+    -   id         : total
+        label      : Total
+        type       : int
+
+    -   id         : jpg
+        label      : jpg
+        type       : int
+
+    -   id         : png
+        label      : png
+        type       : int
+
+    -   id         : svg
+        label      : svg
+        type       : int
+
+    -   id         : ogg
+        label      : ogg
+        type       : int
+
+    -   id         : gif
+        label      : gif
+        type       : int
+
+    -   id         : tif
+        label      : tif
+        type       : int
+
+    -   id         : pdf
+        label      : pdf
+        type       : int
+
+    -   id         : djvu
+        label      : djvu
+        type       : int
+
+    -   id         : ogv
+        label      : ogv
+        type       : int
+
+    -   id         : mid
+        label      : mid
+        type       : int
+
