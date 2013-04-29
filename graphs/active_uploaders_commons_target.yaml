@@ -3,6 +3,7 @@ id            : 'active_uploaders_commons_target'
 
 name          : 'Active Uploaders Commons (1+)'
 shortName     : 'Active Uploaders Commons'
+desc          : '<p>December 2012: An experiment to show logged out users the upload image feature resulted in many uploads that were copyrighted.  A lot of these were removed by Commons Admins between April 4-11 2013.</p>'
 tags          : [ 'commons', 'upload', 'target' ]
 
 root : 
