@@ -22,11 +22,6 @@ columns:
         type       : int
         metricDefs : unique_visitor_comscore
     
-    -   id         : asia
-        label      : Asia Pacific
-        type       : int
-        metricDefs : unique_visitor_comscore
-    
     -   id         : china
         label      : China
         type       : int
@@ -57,3 +52,7 @@ columns:
         type       : int
         metricDefs : unique_visitor_comscore
     
+    -   id         : asia_pacific
+        label      : Asia Pacific
+        type       : int
+        metricDefs : unique_visitor_comscore

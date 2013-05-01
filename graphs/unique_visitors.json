@@ -84,7 +84,7 @@
                                 "step": null
                             },
                             "source_id": "rc_comscore_region_uv",
-                            "source_col": 1
+                            "source_col": "world"
                         },
                         "options": {
                             "label": "World",
@@ -106,7 +106,7 @@
                                 "step": null
                             },
                             "source_id": "rc_comscore_region_uv",
-                            "source_col": 2
+                            "source_col": "china"
                         },
                         "options": {
                             "label": "China",
@@ -128,7 +128,7 @@
                                 "step": null
                             },
                             "source_id": "rc_comscore_region_uv",
-                            "source_col": 3
+                            "source_col": "europe"
                         },
                         "options": {
                             "label": "Europe",
@@ -150,7 +150,7 @@
                                 "step": null
                             },
                             "source_id": "rc_comscore_region_uv",
-                            "source_col": 4
+                            "source_col": "india"
                         },
                         "options": {
                             "label": "India",
@@ -172,7 +172,7 @@
                                 "step": null
                             },
                             "source_id": "rc_comscore_region_uv",
-                            "source_col": 5
+                            "source_col": "latin_america"
                         },
                         "options": {
                             "label": "Latin America",
@@ -194,7 +194,7 @@
                                 "step": null
                             },
                             "source_id": "rc_comscore_region_uv",
-                            "source_col": 6
+                            "source_col": "middle_east_africa"
                         },
                         "options": {
                             "label": "Middle East/Africa",
@@ -216,7 +216,7 @@
                                 "step": null
                             },
                             "source_id": "rc_comscore_region_uv",
-                            "source_col": 7
+                            "source_col": "north_america"
                         },
                         "options": {
                             "label": "North America",
@@ -238,7 +238,7 @@
                                 "step": null
                             },
                             "source_id": "rc_comscore_region_uv",
-                            "source_col": 8
+                            "source_col": "asia_pacific"
                         },
                         "options": {
                             "label": "Asia Pacific",
