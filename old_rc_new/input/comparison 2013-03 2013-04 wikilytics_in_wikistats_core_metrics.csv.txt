@@ -1,0 +1,693 @@
+Oldest file: /a/wikistats_git/analytics/csv/2013-03/wikilytics_in_wikistats_core_metrics.csv
+Newest file: /a/wikistats_git/analytics/csv/2013-04/wikilytics_in_wikistats_core_metrics.csv
+
+Section found: Binaries per month - Absolute
+Section found: Article count (official) - Absolute - Per Project
+Section found: Edits per month - Indexed - Per Wiki
+Section found: Active editors - Absolute - Per Project
+Section found: Edits per month - Absolute - Per Project
+Section found: New articles per day - Indexed - Per Wiki
+Section found: Article count (official) - Indexed - Per Project
+Section found: Active editors - Indexed - Per Wiki
+Section found: Very active editors - Absolute - Per Project
+Section found: New editors - Indexed - Per Project
+Section found: Binaries per month - Indexed
+Section found: New editors - Absolute - Per Project
+Section found: Article count (official) - Absolute - Per Wiki
+Section found: New articles per day - Absolute - Per Wiki
+Section found: Article count (official) - Indexed - Per Wiki
+Section found: Very active editors - Absolute - Per Wiki
+Section found: New editors - Indexed - Per Wiki
+Section found: Active editors - Indexed - Per Project
+Section found: Very active editors - Indexed - Per Wiki
+Section found: New articles per day - Indexed - Per Project
+Section found: New editors - Absolute - Per Wiki
+Section found: Edits per month - Indexed - Per Project
+Section found: Edits per month - Absolute - Per Wiki
+Section found: Active editors - Absolute - Per Wiki
+Section found: New articles per day - Absolute - Per Project
+Section found: Very active editors - Indexed - Per Project
+
+
+Months which occur only in oldest file:  2010-03 
+Months which occur only in newest file:  2013-04 
+
+For months which occur in both files:
+
+Metric only in newest file: 'Active editors - Absolute - Per Wiki' / 'Catalan'
+Metric only in newest file: 'Active editors - Indexed - Per Wiki' / 'Catalan'
+Metric only in newest file: 'Edits per month - Absolute - Per Wiki' / 'Indonesian'
+Metric only in newest file: 'Edits per month - Absolute - Per Wiki' / 'Romanian'
+Metric only in newest file: 'Edits per month - Absolute - Per Wiki' / 'Turkish'
+Metric only in newest file: 'Edits per month - Indexed - Per Wiki' / 'Indonesian'
+Metric only in newest file: 'Edits per month - Indexed - Per Wiki' / 'Romanian'
+Metric only in newest file: 'Edits per month - Indexed - Per Wiki' / 'Turkish'
+Metric only in newest file: 'New articles per day - Absolute - Per Wiki' / 'Bosnian'
+Metric only in newest file: 'New articles per day - Absolute - Per Wiki' / 'Croatian'
+Metric only in newest file: 'New articles per day - Absolute - Per Wiki' / 'Finnish'
+Metric only in newest file: 'New articles per day - Indexed - Per Wiki' / 'Bosnian'
+Metric only in newest file: 'New articles per day - Indexed - Per Wiki' / 'Croatian'
+Metric only in newest file: 'New articles per day - Indexed - Per Wiki' / 'Finnish'
+Metric only in newest file: 'New editors - Absolute - Per Wiki' / 'Catalan'
+Metric only in newest file: 'New editors - Absolute - Per Wiki' / 'Meta-Wiki'
+Metric only in newest file: 'New editors - Indexed - Per Wiki' / 'Catalan'
+Metric only in newest file: 'New editors - Indexed - Per Wiki' / 'Meta-Wiki'
+Metric only in oldest file: 'Active editors - Absolute - Per Wiki' / 'Turkish'
+Metric only in oldest file: 'Active editors - Indexed - Per Wiki' / 'Turkish'
+Metric only in oldest file: 'Edits per month - Absolute - Per Wiki' / 'Arabic'
+Metric only in oldest file: 'Edits per month - Absolute - Per Wiki' / 'Hungarian'
+Metric only in oldest file: 'Edits per month - Absolute - Per Wiki' / 'Serbian'
+Metric only in oldest file: 'Edits per month - Indexed - Per Wiki' / 'Arabic'
+Metric only in oldest file: 'Edits per month - Indexed - Per Wiki' / 'Hungarian'
+Metric only in oldest file: 'Edits per month - Indexed - Per Wiki' / 'Serbian'
+Metric only in oldest file: 'New articles per day - Absolute - Per Wiki' / 'Norwegian'
+Metric only in oldest file: 'New articles per day - Absolute - Per Wiki' / 'Persian'
+Metric only in oldest file: 'New articles per day - Absolute - Per Wiki' / 'Tatar'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Norwegian'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Persian'
+Metric only in oldest file: 'New articles per day - Indexed - Per Wiki' / 'Tatar'
+Metric only in oldest file: 'New editors - Absolute - Per Wiki' / 'Indonesian'
+Metric only in oldest file: 'New editors - Absolute - Per Wiki' / 'Turkish'
+Metric only in oldest file: 'New editors - Indexed - Per Wiki' / 'Indonesian'
+Metric only in oldest file: 'New editors - Indexed - Per Wiki' / 'Turkish'
+
+For metrics which occur in both files:
+
+
+Values for shared months/metrics which occur only in oldest file: 0
+Values for shared months/metrics which occur only in newest file: 0
+
+Values differ more than 2%: 12.8% 2011-12 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 108175, new 122019 =  12.8%
+Values differ more than 2%: 12.7% 2012-01 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 109677, new 123569 =  12.7%
+Values differ more than 2%: 12.6% 2012-02 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 110799, new 124718 =  12.6%
+Values differ more than 2%: 12.5% 2012-03 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 111787, new 125748 =  12.5%
+Values differ more than 2%: 12.4% 2012-04 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 112637, new 126628 =  12.4%
+Values differ more than 2%: 12.4% 2012-05 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 113578, new 127608 =  12.4%
+Values differ more than 2%: 12.3% 2012-06 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 114352, new 128404 =  12.3%
+Values differ more than 2%: 12.2% 2012-07 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 115363, new 129463 =  12.2%
+Values differ more than 2%: 12.2% 2012-08 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 116185, new 130330 =  12.2%
+Values differ more than 2%: 12.1% 2012-09 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 117095, new 131284 =  12.1%
+Values differ more than 2%: 12.1% 2012-10 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 117999, new 132233 =  12.1%
+Values differ more than 2%: 12.0% 2012-11 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 118797, new 133062 =  12.0%
+Values differ more than 2%: 11.9% 2012-12 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 119784, new 134072 =  11.9%
+Values differ more than 2%: 11.9% 2013-01 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 120780, new 135127 =  11.9%
+Values differ more than 2%: 11.8% 2013-02 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 121887, new 136304 =  11.8%
+Values differ more than 2%: 11.8% 2013-03 'Article count (official) - Absolute - Per Project' / 'Wikinews' : old 122935, new 137405 =  11.8%
+Values differ more than 2%:  2.1% 2012-11 'Article count (official) - Absolute - Per Project' / 'Wikipedia' : old 23836872, new 24326473 =   2.1%
+Values differ more than 2%:  2.0% 2012-12 'Article count (official) - Absolute - Per Project' / 'Wikipedia' : old 24095873, new 24589230 =   2.0%
+Values differ more than 2%:  2.2% 2013-01 'Article count (official) - Absolute - Per Project' / 'Wikipedia' : old 24604382, new 25147652 =   2.2%
+Values differ more than 2%:  2.5% 2013-02 'Article count (official) - Absolute - Per Project' / 'Wikipedia' : old 25225183, new 25849854 =   2.5%
+Values differ more than 2%:  2.6% 2013-03 'Article count (official) - Absolute - Per Project' / 'Wikipedia' : old 26022272, new 26699912 =   2.6%
+Values differ more than 2%:  2.0% 2011-03 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 116532, new 118841 =   2.0%
+Values differ more than 2%:  2.0% 2011-04 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 119334, new 121728 =   2.0%
+Values differ more than 2%:  2.0% 2011-05 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 120399, new 122865 =   2.0%
+Values differ more than 2%:  2.1% 2011-06 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 121736, new 124283 =   2.1%
+Values differ more than 2%:  2.1% 2011-07 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 123005, new 125633 =   2.1%
+Values differ more than 2%:  2.2% 2011-08 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 124257, new 126930 =   2.2%
+Values differ more than 2%:  2.2% 2011-09 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 125401, new 128122 =   2.2%
+Values differ more than 2%:  2.3% 2011-10 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 126703, new 129622 =   2.3%
+Values differ more than 2%:  2.6% 2011-11 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 128026, new 131324 =   2.6%
+Values differ more than 2%:  2.7% 2011-12 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 129386, new 132942 =   2.7%
+Values differ more than 2%:  2.7% 2012-01 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 131529, new 135134 =   2.7%
+Values differ more than 2%:  2.8% 2012-02 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 134311, new 138062 =   2.8%
+Values differ more than 2%:  2.9% 2012-03 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 136152, new 140110 =   2.9%
+Values differ more than 2%:  3.2% 2012-04 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 137351, new 141726 =   3.2%
+Values differ more than 2%:  3.4% 2012-05 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 138546, new 143253 =   3.4%
+Values differ more than 2%:  3.4% 2012-06 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 139456, new 144248 =   3.4%
+Values differ more than 2%:  3.5% 2012-07 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 140880, new 145843 =   3.5%
+Values differ more than 2%:  3.7% 2012-08 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 142749, new 148005 =   3.7%
+Values differ more than 2%:  3.9% 2012-09 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 144055, new 149650 =   3.9%
+Values differ more than 2%:  4.0% 2012-10 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 146024, new 151831 =   4.0%
+Values differ more than 2%:  4.1% 2012-11 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 147261, new 153254 =   4.1%
+Values differ more than 2%:  4.2% 2012-12 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 148980, new 155203 =   4.2%
+Values differ more than 2%:  4.2% 2013-01 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 150711, new 157063 =   4.2%
+Values differ more than 2%:  4.3% 2013-02 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 151865, new 158332 =   4.3%
+Values differ more than 2%:  4.3% 2013-03 'Article count (official) - Absolute - Per Project' / 'Wikiquote' : old 153947, new 160528 =   4.3%
+Values differ more than 2%:  4.5% 2010-04 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 28612, new 27327 =  -4.5%
+Values differ more than 2%:  4.5% 2010-05 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 29010, new 27717 =  -4.5%
+Values differ more than 2%:  4.4% 2010-06 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 29286, new 27993 =  -4.4%
+Values differ more than 2%:  4.3% 2010-07 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 30320, new 29017 =  -4.3%
+Values differ more than 2%:  4.3% 2010-08 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 30689, new 29384 =  -4.3%
+Values differ more than 2%:  4.2% 2010-09 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 31292, new 29981 =  -4.2%
+Values differ more than 2%:  4.2% 2010-10 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 31661, new 30335 =  -4.2%
+Values differ more than 2%:  4.2% 2010-11 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 32067, new 30722 =  -4.2%
+Values differ more than 2%:  4.1% 2010-12 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 32708, new 31363 =  -4.1%
+Values differ more than 2%:  4.1% 2011-01 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 33404, new 32051 =  -4.1%
+Values differ more than 2%:  4.0% 2011-02 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 34072, new 32701 =  -4.0%
+Values differ more than 2%:  3.3% 2011-03 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 35216, new 34052 =  -3.3%
+Values differ more than 2%:  3.2% 2011-04 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 35983, new 34821 =  -3.2%
+Values differ more than 2%:  3.2% 2011-05 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 36588, new 35425 =  -3.2%
+Values differ more than 2%:  3.1% 2011-06 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 37287, new 36119 =  -3.1%
+Values differ more than 2%:  3.1% 2011-07 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 37841, new 36666 =  -3.1%
+Values differ more than 2%:  3.1% 2011-08 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 38190, new 37012 =  -3.1%
+Values differ more than 2%:  3.0% 2011-09 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 38780, new 37601 =  -3.0%
+Values differ more than 2%:  3.0% 2011-10 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 39409, new 38236 =  -3.0%
+Values differ more than 2%:  2.9% 2011-11 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 40120, new 38937 =  -2.9%
+Values differ more than 2%:  3.0% 2011-12 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 39891, new 38713 =  -3.0%
+Values differ more than 2%:  2.9% 2012-01 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 40422, new 39242 =  -2.9%
+Values differ more than 2%:  2.0% 2012-02 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 40931, new 40095 =  -2.0%
+Values differ more than 2%:  2.0% 2012-03 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 41675, new 40839 =  -2.0%
+Values differ more than 2%:  2.0% 2012-04 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 42208, new 41370 =  -2.0%
+Values differ more than 2%:  2.0% 2012-05 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 42948, new 42092 =  -2.0%
+Values differ more than 2%:  2.0% 2012-06 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 43707, new 42846 =  -2.0%
+Values differ more than 2%:  2.1% 2012-07 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 44567, new 43647 =  -2.1%
+Values differ more than 2%:  2.1% 2012-08 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 45554, new 44614 =  -2.1%
+Values differ more than 2%:  2.1% 2012-09 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 46281, new 45328 =  -2.1%
+Values differ more than 2%:  2.1% 2012-10 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 47090, new 46118 =  -2.1%
+Values differ more than 2%:  2.2% 2012-11 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 47827, new 46794 =  -2.2%
+Values differ more than 2%:  2.3% 2012-12 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 48465, new 47370 =  -2.3%
+Values differ more than 2%:  2.3% 2013-01 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 49245, new 48127 =  -2.3%
+Values differ more than 2%:  2.3% 2013-02 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 50055, new 48916 =  -2.3%
+Values differ more than 2%:  2.3% 2013-03 'Article count (official) - Absolute - Per Project' / 'Wikiversity' : old 51047, new 49869 =  -2.3%
+Values differ more than 2%:  2.6% 2013-03 'Active editors - Absolute - Per Project' / 'Commons' : old 7590, new 7392 =  -2.6%
+Values differ more than 2%:  3.4% 2012-10 'Active editors - Absolute - Per Project' / 'Wikibooks' : old 565, new 584 =   3.4%
+Values differ more than 2%:  2.6% 2012-11 'Active editors - Absolute - Per Project' / 'Wikibooks' : old 616, new 632 =   2.6%
+Values differ more than 2%:  3.5% 2013-03 'Active editors - Absolute - Per Project' / 'Wikibooks' : old 346, new 358 =   3.5%
+Values differ more than 2%:  3.3% 2010-08 'Active editors - Absolute - Per Project' / 'Wikinews' : old 183, new 177 =  -3.3%
+Values differ more than 2%:  3.8% 2010-09 'Active editors - Absolute - Per Project' / 'Wikinews' : old 159, new 153 =  -3.8%
+Values differ more than 2%:  2.4% 2010-10 'Active editors - Absolute - Per Project' / 'Wikinews' : old 165, new 161 =  -2.4%
+Values differ more than 2%:  2.1% 2012-02 'Active editors - Absolute - Per Project' / 'Wikinews' : old 142, new 139 =  -2.1%
+Values differ more than 2%:  2.5% 2012-12 'Active editors - Absolute - Per Project' / 'Wikinews' : old 118, new 121 =   2.5%
+Values differ more than 2%:  3.6% 2011-07 'Active editors - Absolute - Per Project' / 'Wikiquote' : old 303, new 292 =  -3.6%
+Values differ more than 2%:  3.6% 2013-03 'Active editors - Absolute - Per Project' / 'Wikiquote' : old 304, new 293 =  -3.6%
+Values differ more than 2%:  6.7% 2010-04 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 165, new 154 =  -6.7%
+Values differ more than 2%:  8.2% 2010-05 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 159, new 146 =  -8.2%
+Values differ more than 2%:  2.9% 2010-06 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 139, new 135 =  -2.9%
+Values differ more than 2%:  4.2% 2010-07 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 118, new 113 =  -4.2%
+Values differ more than 2%:  6.4% 2010-08 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 140, new 131 =  -6.4%
+Values differ more than 2%:  2.3% 2010-09 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 219, new 214 =  -2.3%
+Values differ more than 2%:  3.2% 2010-11 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 311, new 301 =  -3.2%
+Values differ more than 2%:  5.1% 2010-12 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 175, new 166 =  -5.1%
+Values differ more than 2%:  3.4% 2011-01 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 175, new 169 =  -3.4%
+Values differ more than 2%:  3.0% 2011-02 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 234, new 227 =  -3.0%
+Values differ more than 2%:  6.6% 2011-03 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 242, new 226 =  -6.6%
+Values differ more than 2%:  4.2% 2011-04 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 239, new 229 =  -4.2%
+Values differ more than 2%:  4.5% 2011-05 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 245, new 234 =  -4.5%
+Values differ more than 2%:  2.3% 2011-06 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 175, new 171 =  -2.3%
+Values differ more than 2%:  3.6% 2011-07 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 137, new 132 =  -3.6%
+Values differ more than 2%:  4.9% 2011-09 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 204, new 194 =  -4.9%
+Values differ more than 2%:  3.4% 2011-10 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 261, new 252 =  -3.4%
+Values differ more than 2%:  2.6% 2011-11 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 387, new 377 =  -2.6%
+Values differ more than 2%:  7.0% 2011-12 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 199, new 185 =  -7.0%
+Values differ more than 2%:  3.0% 2012-02 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 237, new 230 =  -3.0%
+Values differ more than 2%:  2.6% 2012-03 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 228, new 222 =  -2.6%
+Values differ more than 2%:  6.6% 2012-06 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 122, new 114 =  -6.6%
+Values differ more than 2%:  4.8% 2012-07 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 124, new 118 =  -4.8%
+Values differ more than 2%:  8.3% 2012-08 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 120, new 110 =  -8.3%
+Values differ more than 2%:  2.4% 2012-09 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 245, new 239 =  -2.4%
+Values differ more than 2%:  3.8% 2012-10 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 262, new 252 =  -3.8%
+Values differ more than 2%:  4.6% 2012-11 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 261, new 249 =  -4.6%
+Values differ more than 2%:  5.6% 2012-12 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 249, new 235 =  -5.6%
+Values differ more than 2%:  2.1% 2013-01 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 195, new 191 =  -2.1%
+Values differ more than 2%:  2.2% 2013-02 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 226, new 221 =  -2.2%
+Values differ more than 2%:  4.6% 2013-03 'Active editors - Absolute - Per Project' / 'Wikiversity' : old 219, new 209 =  -4.6%
+Values differ more than 2%:  6.1% 2010-04 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 313, new 294 =  -6.1%
+Values differ more than 2%:  5.0% 2010-05 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 261, new 248 =  -5.0%
+Values differ more than 2%:  5.1% 2010-06 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 275, new 261 =  -5.1%
+Values differ more than 2%:  3.1% 2010-07 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 292, new 283 =  -3.1%
+Values differ more than 2%:  3.5% 2010-08 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 287, new 277 =  -3.5%
+Values differ more than 2%:  6.3% 2010-09 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 315, new 295 =  -6.3%
+Values differ more than 2%:  4.7% 2010-10 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 360, new 343 =  -4.7%
+Values differ more than 2%:  6.1% 2010-11 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 309, new 290 =  -6.1%
+Values differ more than 2%:  4.4% 2010-12 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 275, new 263 =  -4.4%
+Values differ more than 2%:  4.1% 2011-01 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 318, new 305 =  -4.1%
+Values differ more than 2%:  4.7% 2011-02 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 301, new 287 =  -4.7%
+Values differ more than 2%:  6.3% 2011-03 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 315, new 295 =  -6.3%
+Values differ more than 2%:  4.2% 2011-04 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 377, new 361 =  -4.2%
+Values differ more than 2%:  3.7% 2011-05 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 326, new 314 =  -3.7%
+Values differ more than 2%:  4.0% 2011-06 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 302, new 290 =  -4.0%
+Values differ more than 2%:  5.8% 2011-07 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 277, new 261 =  -5.8%
+Values differ more than 2%:  2.6% 2011-08 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 270, new 263 =  -2.6%
+Values differ more than 2%:  6.0% 2011-09 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 248, new 233 =  -6.0%
+Values differ more than 2%:  3.7% 2011-10 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 295, new 284 =  -3.7%
+Values differ more than 2%:  5.0% 2011-11 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 262, new 249 =  -5.0%
+Values differ more than 2%:  5.7% 2011-12 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 229, new 216 =  -5.7%
+Values differ more than 2%:  6.2% 2012-01 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 290, new 272 =  -6.2%
+Values differ more than 2%:  4.9% 2012-02 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 243, new 231 =  -4.9%
+Values differ more than 2%:  2.1% 2012-03 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 283, new 277 =  -2.1%
+Values differ more than 2%:  5.3% 2012-04 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 265, new 251 =  -5.3%
+Values differ more than 2%:  3.9% 2012-05 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 229, new 220 =  -3.9%
+Values differ more than 2%:  5.6% 2012-06 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 232, new 219 =  -5.6%
+Values differ more than 2%:  4.7% 2012-07 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 258, new 246 =  -4.7%
+Values differ more than 2%:  2.8% 2012-08 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 71, new 69 =  -2.8%
+Values differ more than 2%:  3.8% 2012-11 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 212, new 204 =  -3.8%
+Values differ more than 2%:  3.9% 2013-01 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 1710, new 1643 =  -3.9%
+Values differ more than 2%:  3.0% 2013-02 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 572, new 555 =  -3.0%
+Values differ more than 2%:  3.8% 2013-03 'Active editors - Absolute - Per Project' / 'Wikivoyage' : old 451, new 434 =  -3.8%
+Values differ more than 2%:  3.8% 2010-09 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 26, new 25 =  -3.8%
+Values differ more than 2%:  2.9% 2011-02 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 35, new 34 =  -2.9%
+Values differ more than 2%:  3.0% 2011-03 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 33, new 32 =  -3.0%
+Values differ more than 2%:  2.8% 2011-04 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 36, new 35 =  -2.8%
+Values differ more than 2%:  2.7% 2011-05 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 37, new 36 =  -2.7%
+Values differ more than 2%:  4.0% 2011-06 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 25, new 24 =  -4.0%
+Values differ more than 2%:  2.7% 2011-07 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 37, new 36 =  -2.7%
+Values differ more than 2%:  2.3% 2011-08 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 44, new 43 =  -2.3%
+Values differ more than 2%:  2.0% 2011-09 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 50, new 49 =  -2.0%
+Values differ more than 2%:  2.0% 2011-12 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 51, new 52 =   2.0%
+Values differ more than 2%:  2.3% 2012-01 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 44, new 45 =   2.3%
+Values differ more than 2%:  2.0% 2012-03 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 51, new 50 =  -2.0%
+Values differ more than 2%:  2.2% 2012-04 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 46, new 45 =  -2.2%
+Values differ more than 2%:  2.4% 2012-06 'Very active editors - Absolute - Per Project' / 'Other Wikis' : old 42, new 41 =  -2.4%
+Values differ more than 2%:  4.0% 2010-07 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 25, new 24 =  -4.0%
+Values differ more than 2%:  5.9% 2010-08 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 17, new 18 =   5.9%
+Values differ more than 2%:  4.5% 2010-10 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 22, new 21 =  -4.5%
+Values differ more than 2%:  4.0% 2010-11 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 25, new 24 =  -4.0%
+Values differ more than 2%:  3.2% 2010-12 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 31, new 32 =   3.2%
+Values differ more than 2%:  3.6% 2011-04 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 28, new 27 =  -3.6%
+Values differ more than 2%:  8.0% 2011-06 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 25, new 23 =  -8.0%
+Values differ more than 2%:  4.2% 2011-10 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 24, new 23 =  -4.2%
+Values differ more than 2%:  5.0% 2011-11 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 20, new 19 =  -5.0%
+Values differ more than 2%:  6.9% 2012-02 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 29, new 27 =  -6.9%
+Values differ more than 2%:  5.0% 2012-12 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 20, new 19 =  -5.0%
+Values differ more than 2%: 11.8% 2013-01 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 17, new 15 = -11.8%
+Values differ more than 2%:  5.0% 2013-03 'Very active editors - Absolute - Per Project' / 'Wikinews' : old 20, new 21 =   5.0%
+Values differ more than 2%:  3.7% 2010-06 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 27, new 26 =  -3.7%
+Values differ more than 2%:  2.9% 2010-08 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 35, new 34 =  -2.9%
+Values differ more than 2%:  3.6% 2010-10 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 28, new 27 =  -3.6%
+Values differ more than 2%:  3.7% 2010-11 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 27, new 28 =   3.7%
+Values differ more than 2%:  2.8% 2011-01 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 36, new 37 =   2.8%
+Values differ more than 2%:  2.9% 2011-02 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 35, new 34 =  -2.9%
+Values differ more than 2%:  8.0% 2011-05 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 25, new 23 =  -8.0%
+Values differ more than 2%:  3.2% 2011-09 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 31, new 30 =  -3.2%
+Values differ more than 2%:  4.8% 2012-03 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 42, new 40 =  -4.8%
+Values differ more than 2%:  3.1% 2012-04 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 32, new 33 =   3.1%
+Values differ more than 2%:  6.2% 2012-07 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 32, new 30 =  -6.2%
+Values differ more than 2%:  2.4% 2012-08 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 41, new 40 =  -2.4%
+Values differ more than 2%:  2.4% 2012-10 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 42, new 41 =  -2.4%
+Values differ more than 2%:  5.7% 2012-11 'Very active editors - Absolute - Per Project' / 'Wikiquote' : old 35, new 33 =  -5.7%
+Values differ more than 2%:  2.1% 2010-06 'Very active editors - Absolute - Per Project' / 'Wikisource' : old 96, new 98 =   2.1%
+Values differ more than 2%:  2.1% 2010-08 'Very active editors - Absolute - Per Project' / 'Wikisource' : old 95, new 97 =   2.1%
+Values differ more than 2%:  5.9% 2010-04 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 17, new 16 =  -5.9%
+Values differ more than 2%:  7.7% 2010-05 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 13, new 12 =  -7.7%
+Values differ more than 2%:  5.9% 2010-10 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 17, new 16 =  -5.9%
+Values differ more than 2%:  8.3% 2010-11 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 36, new 33 =  -8.3%
+Values differ more than 2%:  6.2% 2010-12 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 16, new 15 =  -6.2%
+Values differ more than 2%: 11.1% 2011-01 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 18, new 16 = -11.1%
+Values differ more than 2%:  6.2% 2011-02 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 16, new 15 =  -6.2%
+Values differ more than 2%: 11.5% 2011-03 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 26, new 23 = -11.5%
+Values differ more than 2%: 15.0% 2011-04 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 20, new 17 = -15.0%
+Values differ more than 2%:  4.0% 2011-05 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 25, new 24 =  -4.0%
+Values differ more than 2%: 21.4% 2011-06 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 14, new 11 = -21.4%
+Values differ more than 2%:  7.1% 2011-07 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 14, new 13 =  -7.1%
+Values differ more than 2%:  9.1% 2011-08 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 11, new 10 =  -9.1%
+Values differ more than 2%:  5.3% 2011-09 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 19, new 18 =  -5.3%
+Values differ more than 2%:  4.8% 2011-10 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 21, new 20 =  -4.8%
+Values differ more than 2%:  5.6% 2011-11 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 36, new 34 =  -5.6%
+Values differ more than 2%:  5.3% 2012-01 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 19, new 18 =  -5.3%
+Values differ more than 2%:  5.3% 2012-02 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 19, new 18 =  -5.3%
+Values differ more than 2%: 12.5% 2012-05 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 16, new 14 = -12.5%
+Values differ more than 2%: 15.0% 2012-06 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 20, new 17 = -15.0%
+Values differ more than 2%: 11.8% 2012-07 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 17, new 15 = -11.8%
+Values differ more than 2%: 20.0% 2012-08 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 15, new 12 = -20.0%
+Values differ more than 2%:  6.2% 2012-10 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 16, new 15 =  -6.2%
+Values differ more than 2%: 11.8% 2012-11 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 17, new 15 = -11.8%
+Values differ more than 2%: 15.0% 2012-12 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 20, new 17 = -15.0%
+Values differ more than 2%: 16.0% 2013-01 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 25, new 21 = -16.0%
+Values differ more than 2%:  5.3% 2013-02 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 19, new 18 =  -5.3%
+Values differ more than 2%: 10.0% 2013-03 'Very active editors - Absolute - Per Project' / 'Wikiversity' : old 20, new 18 = -10.0%
+Values differ more than 2%:  3.2% 2010-04 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 31, new 30 =  -3.2%
+Values differ more than 2%:  3.4% 2010-05 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 29, new 28 =  -3.4%
+Values differ more than 2%:  3.1% 2010-06 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 32, new 31 =  -3.1%
+Values differ more than 2%:  3.3% 2010-08 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 30, new 29 =  -3.3%
+Values differ more than 2%:  2.9% 2010-09 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 35, new 34 =  -2.9%
+Values differ more than 2%:  4.3% 2010-10 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 23, new 22 =  -4.3%
+Values differ more than 2%:  8.0% 2010-11 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 25, new 23 =  -8.0%
+Values differ more than 2%:  4.0% 2010-12 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 25, new 24 =  -4.0%
+Values differ more than 2%:  9.4% 2011-01 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 32, new 29 =  -9.4%
+Values differ more than 2%: 10.5% 2011-03 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 19, new 17 = -10.5%
+Values differ more than 2%:  7.4% 2011-05 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 27, new 25 =  -7.4%
+Values differ more than 2%:  7.4% 2011-06 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 27, new 25 =  -7.4%
+Values differ more than 2%:  7.7% 2011-08 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 26, new 24 =  -7.7%
+Values differ more than 2%:  8.3% 2011-09 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 24, new 22 =  -8.3%
+Values differ more than 2%:  4.5% 2011-10 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 22, new 21 =  -4.5%
+Values differ more than 2%:  4.8% 2011-12 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 21, new 20 =  -4.8%
+Values differ more than 2%: 12.5% 2012-01 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 24, new 21 = -12.5%
+Values differ more than 2%:  4.2% 2012-02 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 24, new 23 =  -4.2%
+Values differ more than 2%:  9.1% 2012-03 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 22, new 20 =  -9.1%
+Values differ more than 2%:  4.5% 2012-04 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 22, new 21 =  -4.5%
+Values differ more than 2%:  5.9% 2012-05 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 17, new 16 =  -5.9%
+Values differ more than 2%:  4.8% 2012-06 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 21, new 20 =  -4.8%
+Values differ more than 2%: 20.0% 2012-07 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 20, new 16 = -20.0%
+Values differ more than 2%:  7.7% 2012-08 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 13, new 12 =  -7.7%
+Values differ more than 2%: 18.8% 2012-09 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 16, new 13 = -18.8%
+Values differ more than 2%:  8.9% 2012-12 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 45, new 41 =  -8.9%
+Values differ more than 2%:  2.6% 2013-01 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 117, new 114 =  -2.6%
+Values differ more than 2%:  3.9% 2013-02 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 77, new 74 =  -3.9%
+Values differ more than 2%:  2.8% 2013-03 'Very active editors - Absolute - Per Project' / 'Wikivoyage' : old 71, new 69 =  -2.8%
+Values differ more than 2%:  4.5% 2013-03 'New editors - Absolute - Per Project' / 'Commons' : old 1295, new 1237 =  -4.5%
+Values differ more than 2%:  2.4% 2011-08 'New editors - Absolute - Per Project' / 'Other Wikis' : old 125, new 128 =   2.4%
+Values differ more than 2%:  2.5% 2011-09 'New editors - Absolute - Per Project' / 'Other Wikis' : old 160, new 164 =   2.5%
+Values differ more than 2%:  2.4% 2011-11 'New editors - Absolute - Per Project' / 'Other Wikis' : old 127, new 124 =  -2.4%
+Values differ more than 2%:  4.2% 2012-04 'New editors - Absolute - Per Project' / 'Other Wikis' : old 95, new 99 =   4.2%
+Values differ more than 2%:  2.9% 2013-03 'New editors - Absolute - Per Project' / 'Other Wikis' : old 1629, new 1676 =   2.9%
+Values differ more than 2%:  6.0% 2012-10 'New editors - Absolute - Per Project' / 'Wikibooks' : old 248, new 263 =   6.0%
+Values differ more than 2%:  3.1% 2012-11 'New editors - Absolute - Per Project' / 'Wikibooks' : old 226, new 233 =   3.1%
+Values differ more than 2%: 13.1% 2013-03 'New editors - Absolute - Per Project' / 'Wikibooks' : old 84, new 95 =  13.1%
+Values differ more than 2%:  2.9% 2010-05 'New editors - Absolute - Per Project' / 'Wikinews' : old 34, new 35 =   2.9%
+Values differ more than 2%:  2.4% 2010-06 'New editors - Absolute - Per Project' / 'Wikinews' : old 42, new 41 =  -2.4%
+Values differ more than 2%:  2.7% 2010-07 'New editors - Absolute - Per Project' / 'Wikinews' : old 37, new 36 =  -2.7%
+Values differ more than 2%: 13.0% 2010-08 'New editors - Absolute - Per Project' / 'Wikinews' : old 46, new 40 = -13.0%
+Values differ more than 2%: 10.0% 2010-09 'New editors - Absolute - Per Project' / 'Wikinews' : old 30, new 27 = -10.0%
+Values differ more than 2%:  3.7% 2010-10 'New editors - Absolute - Per Project' / 'Wikinews' : old 27, new 26 =  -3.7%
+Values differ more than 2%:  7.1% 2010-11 'New editors - Absolute - Per Project' / 'Wikinews' : old 28, new 26 =  -7.1%
+Values differ more than 2%:  6.9% 2010-12 'New editors - Absolute - Per Project' / 'Wikinews' : old 29, new 31 =   6.9%
+Values differ more than 2%:  2.8% 2011-03 'New editors - Absolute - Per Project' / 'Wikinews' : old 36, new 35 =  -2.8%
+Values differ more than 2%:  3.8% 2011-05 'New editors - Absolute - Per Project' / 'Wikinews' : old 26, new 25 =  -3.8%
+Values differ more than 2%:  2.9% 2011-10 'New editors - Absolute - Per Project' / 'Wikinews' : old 35, new 34 =  -2.9%
+Values differ more than 2%:  3.1% 2012-01 'New editors - Absolute - Per Project' / 'Wikinews' : old 32, new 31 =  -3.1%
+Values differ more than 2%: 11.1% 2012-03 'New editors - Absolute - Per Project' / 'Wikinews' : old 18, new 16 = -11.1%
+Values differ more than 2%:  7.7% 2012-04 'New editors - Absolute - Per Project' / 'Wikinews' : old 26, new 28 =   7.7%
+Values differ more than 2%:  5.0% 2012-09 'New editors - Absolute - Per Project' / 'Wikinews' : old 20, new 21 =   5.0%
+Values differ more than 2%:  4.5% 2012-12 'New editors - Absolute - Per Project' / 'Wikinews' : old 22, new 21 =  -4.5%
+Values differ more than 2%:  3.7% 2013-02 'New editors - Absolute - Per Project' / 'Wikinews' : old 27, new 28 =   3.7%
+Values differ more than 2%:  8.7% 2013-03 'New editors - Absolute - Per Project' / 'Wikinews' : old 23, new 21 =  -8.7%
+Values differ more than 2%:  2.1% 2013-03 'New editors - Absolute - Per Project' / 'Wikipedia' : old 14685, new 14994 =   2.1%
+Values differ more than 2%:  2.4% 2010-04 'New editors - Absolute - Per Project' / 'Wikiquote' : old 82, new 80 =  -2.4%
+Values differ more than 2%:  2.2% 2010-06 'New editors - Absolute - Per Project' / 'Wikiquote' : old 89, new 87 =  -2.2%
+Values differ more than 2%:  4.2% 2010-08 'New editors - Absolute - Per Project' / 'Wikiquote' : old 95, new 91 =  -4.2%
+Values differ more than 2%:  2.6% 2011-04 'New editors - Absolute - Per Project' / 'Wikiquote' : old 76, new 78 =   2.6%
+Values differ more than 2%:  5.3% 2011-07 'New editors - Absolute - Per Project' / 'Wikiquote' : old 75, new 71 =  -5.3%
+Values differ more than 2%:  2.7% 2011-08 'New editors - Absolute - Per Project' / 'Wikiquote' : old 75, new 73 =  -2.7%
+Values differ more than 2%:  3.8% 2011-09 'New editors - Absolute - Per Project' / 'Wikiquote' : old 106, new 102 =  -3.8%
+Values differ more than 2%:  3.6% 2011-10 'New editors - Absolute - Per Project' / 'Wikiquote' : old 83, new 80 =  -3.6%
+Values differ more than 2%:  4.0% 2012-01 'New editors - Absolute - Per Project' / 'Wikiquote' : old 99, new 95 =  -4.0%
+Values differ more than 2%:  2.2% 2012-02 'New editors - Absolute - Per Project' / 'Wikiquote' : old 89, new 91 =   2.2%
+Values differ more than 2%:  6.2% 2012-04 'New editors - Absolute - Per Project' / 'Wikiquote' : old 65, new 61 =  -6.2%
+Values differ more than 2%:  2.6% 2012-05 'New editors - Absolute - Per Project' / 'Wikiquote' : old 76, new 74 =  -2.6%
+Values differ more than 2%:  2.8% 2012-08 'New editors - Absolute - Per Project' / 'Wikiquote' : old 71, new 73 =   2.8%
+Values differ more than 2%:  6.6% 2012-10 'New editors - Absolute - Per Project' / 'Wikiquote' : old 76, new 71 =  -6.6%
+Values differ more than 2%:  3.1% 2012-12 'New editors - Absolute - Per Project' / 'Wikiquote' : old 64, new 66 =   3.1%
+Values differ more than 2%:  5.7% 2013-02 'New editors - Absolute - Per Project' / 'Wikiquote' : old 53, new 50 =  -5.7%
+Values differ more than 2%:  3.0% 2010-09 'New editors - Absolute - Per Project' / 'Wikisource' : old 67, new 65 =  -3.0%
+Values differ more than 2%:  4.1% 2011-08 'New editors - Absolute - Per Project' / 'Wikisource' : old 74, new 77 =   4.1%
+Values differ more than 2%:  4.5% 2011-10 'New editors - Absolute - Per Project' / 'Wikisource' : old 67, new 64 =  -4.5%
+Values differ more than 2%:  2.4% 2012-07 'New editors - Absolute - Per Project' / 'Wikisource' : old 82, new 84 =   2.4%
+Values differ more than 2%:  4.4% 2012-09 'New editors - Absolute - Per Project' / 'Wikisource' : old 45, new 43 =  -4.4%
+Values differ more than 2%:  3.9% 2012-10 'New editors - Absolute - Per Project' / 'Wikisource' : old 51, new 53 =   3.9%
+Values differ more than 2%:  2.0% 2012-11 'New editors - Absolute - Per Project' / 'Wikisource' : old 50, new 49 =  -2.0%
+Values differ more than 2%:  4.2% 2013-03 'New editors - Absolute - Per Project' / 'Wikisource' : old 48, new 46 =  -4.2%
+Values differ more than 2%:  6.2% 2010-04 'New editors - Absolute - Per Project' / 'Wikiversity' : old 48, new 45 =  -6.2%
+Values differ more than 2%:  8.6% 2010-05 'New editors - Absolute - Per Project' / 'Wikiversity' : old 58, new 53 =  -8.6%
+Values differ more than 2%:  2.0% 2010-06 'New editors - Absolute - Per Project' / 'Wikiversity' : old 49, new 48 =  -2.0%
+Values differ more than 2%:  7.9% 2010-08 'New editors - Absolute - Per Project' / 'Wikiversity' : old 38, new 35 =  -7.9%
+Values differ more than 2%:  2.1% 2010-12 'New editors - Absolute - Per Project' / 'Wikiversity' : old 47, new 46 =  -2.1%
+Values differ more than 2%:  7.7% 2011-01 'New editors - Absolute - Per Project' / 'Wikiversity' : old 65, new 60 =  -7.7%
+Values differ more than 2%: 10.8% 2011-03 'New editors - Absolute - Per Project' / 'Wikiversity' : old 74, new 66 = -10.8%
+Values differ more than 2%:  2.3% 2011-07 'New editors - Absolute - Per Project' / 'Wikiversity' : old 43, new 42 =  -2.3%
+Values differ more than 2%:  2.7% 2011-08 'New editors - Absolute - Per Project' / 'Wikiversity' : old 37, new 36 =  -2.7%
+Values differ more than 2%:  4.4% 2011-09 'New editors - Absolute - Per Project' / 'Wikiversity' : old 90, new 86 =  -4.4%
+Values differ more than 2%:  7.0% 2011-12 'New editors - Absolute - Per Project' / 'Wikiversity' : old 57, new 53 =  -7.0%
+Values differ more than 2%:  3.3% 2012-01 'New editors - Absolute - Per Project' / 'Wikiversity' : old 91, new 94 =   3.3%
+Values differ more than 2%:  2.2% 2012-02 'New editors - Absolute - Per Project' / 'Wikiversity' : old 90, new 88 =  -2.2%
+Values differ more than 2%:  2.4% 2012-04 'New editors - Absolute - Per Project' / 'Wikiversity' : old 41, new 42 =   2.4%
+Values differ more than 2%:  2.1% 2012-05 'New editors - Absolute - Per Project' / 'Wikiversity' : old 47, new 46 =  -2.1%
+Values differ more than 2%: 11.4% 2012-06 'New editors - Absolute - Per Project' / 'Wikiversity' : old 35, new 31 = -11.4%
+Values differ more than 2%:  8.6% 2012-07 'New editors - Absolute - Per Project' / 'Wikiversity' : old 35, new 32 =  -8.6%
+Values differ more than 2%:  5.6% 2012-08 'New editors - Absolute - Per Project' / 'Wikiversity' : old 36, new 34 =  -5.6%
+Values differ more than 2%:  4.6% 2012-10 'New editors - Absolute - Per Project' / 'Wikiversity' : old 87, new 83 =  -4.6%
+Values differ more than 2%:  2.8% 2012-11 'New editors - Absolute - Per Project' / 'Wikiversity' : old 71, new 69 =  -2.8%
+Values differ more than 2%:  5.4% 2012-12 'New editors - Absolute - Per Project' / 'Wikiversity' : old 74, new 70 =  -5.4%
+Values differ more than 2%:  5.0% 2013-01 'New editors - Absolute - Per Project' / 'Wikiversity' : old 60, new 63 =   5.0%
+Values differ more than 2%:  3.0% 2013-03 'New editors - Absolute - Per Project' / 'Wikiversity' : old 67, new 65 =  -3.0%
+Values differ more than 2%: 11.1% 2010-04 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 90, new 80 = -11.1%
+Values differ more than 2%:  5.7% 2010-05 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 70, new 66 =  -5.7%
+Values differ more than 2%:  2.5% 2010-06 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 81, new 79 =  -2.5%
+Values differ more than 2%:  4.9% 2010-07 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 82, new 78 =  -4.9%
+Values differ more than 2%:  6.0% 2010-08 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 84, new 79 =  -6.0%
+Values differ more than 2%:  9.4% 2010-09 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 85, new 77 =  -9.4%
+Values differ more than 2%:  6.1% 2010-11 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 98, new 92 =  -6.1%
+Values differ more than 2%:  2.2% 2010-12 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 91, new 89 =  -2.2%
+Values differ more than 2%:  9.8% 2011-01 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 102, new 92 =  -9.8%
+Values differ more than 2%: 10.2% 2011-03 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 108, new 97 = -10.2%
+Values differ more than 2%:  2.3% 2011-05 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 86, new 84 =  -2.3%
+Values differ more than 2%:  8.0% 2011-06 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 87, new 80 =  -8.0%
+Values differ more than 2%:  3.5% 2011-07 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 86, new 83 =  -3.5%
+Values differ more than 2%:  5.2% 2011-08 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 58, new 55 =  -5.2%
+Values differ more than 2%:  3.2% 2011-11 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 63, new 61 =  -3.2%
+Values differ more than 2%:  6.2% 2011-12 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 64, new 60 =  -6.2%
+Values differ more than 2%:  5.3% 2012-01 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 94, new 89 =  -5.3%
+Values differ more than 2%: 12.5% 2012-02 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 64, new 56 = -12.5%
+Values differ more than 2%:  6.2% 2012-03 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 80, new 75 =  -6.2%
+Values differ more than 2%:  4.9% 2012-04 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 82, new 78 =  -4.9%
+Values differ more than 2%:  4.2% 2012-05 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 71, new 68 =  -4.2%
+Values differ more than 2%:  8.6% 2012-06 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 58, new 53 =  -8.6%
+Values differ more than 2%:  3.6% 2012-07 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 56, new 54 =  -3.6%
+Values differ more than 2%:  5.9% 2012-08 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 17, new 16 =  -5.9%
+Values differ more than 2%:  3.2% 2012-10 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 31, new 32 =   3.2%
+Values differ more than 2%:  3.9% 2013-01 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 829, new 797 =  -3.9%
+Values differ more than 2%:  3.7% 2013-02 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 214, new 206 =  -3.7%
+Values differ more than 2%:  3.8% 2013-03 'New editors - Absolute - Per Project' / 'Wikivoyage' : old 131, new 136 =   3.8%
+Values differ more than 2%:  5.1% 2013-03 'New editors - Absolute - Per Project' / 'Wiktionary' : old 136, new 143 =   5.1%
+Values differ more than 2%: 104.5% 2010-04 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 113927, new 232987 =  104.5%
+Values differ more than 2%: 105.3% 2010-05 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 115391, new 236925 =  105.3%
+Values differ more than 2%: 105.4% 2010-06 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 116670, new 239683 =  105.4%
+Values differ more than 2%: 104.1% 2010-07 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 119627, new 244118 =  104.1%
+Values differ more than 2%: 103.5% 2010-08 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 121620, new 247476 =  103.5%
+Values differ more than 2%: 102.5% 2010-09 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 123733, new 250607 =  102.5%
+Values differ more than 2%: 102.1% 2010-10 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 125413, new 253486 =  102.1%
+Values differ more than 2%: 101.5% 2010-11 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 127120, new 256125 =  101.5%
+Values differ more than 2%: 102.3% 2010-12 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 128597, new 260114 =  102.3%
+Values differ more than 2%: 102.0% 2011-01 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 130151, new 262960 =  102.0%
+Values differ more than 2%: 101.7% 2011-02 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 131811, new 265899 =  101.7%
+Values differ more than 2%: 101.4% 2011-03 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 133527, new 268937 =  101.4%
+Values differ more than 2%: 100.8% 2011-04 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 135479, new 272027 =  100.8%
+Values differ more than 2%: 102.4% 2011-05 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 136186, new 275645 =  102.4%
+Values differ more than 2%: 101.2% 2011-06 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 138710, new 279126 =  101.2%
+Values differ more than 2%: 99.3% 2011-07 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 142021, new 283115 =  99.3%
+Values differ more than 2%: 98.6% 2011-08 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 144181, new 286404 =  98.6%
+Values differ more than 2%: 98.1% 2011-09 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 145891, new 289064 =  98.1%
+Values differ more than 2%: 97.9% 2011-10 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 148102, new 293087 =  97.9%
+Values differ more than 2%: 97.4% 2011-11 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 150242, new 296598 =  97.4%
+Values differ more than 2%: 96.7% 2011-12 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 152729, new 300482 =  96.7%
+Values differ more than 2%: 95.7% 2012-01 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 155712, new 304788 =  95.7%
+Values differ more than 2%: 94.6% 2012-02 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 158926, new 309298 =  94.6%
+Values differ more than 2%: 94.2% 2012-03 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 161194, new 312970 =  94.2%
+Values differ more than 2%: 93.6% 2012-04 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 163596, new 316736 =  93.6%
+Values differ more than 2%: 93.2% 2012-05 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 166393, new 321446 =  93.2%
+Values differ more than 2%: 92.9% 2012-06 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 168997, new 326040 =  92.9%
+Values differ more than 2%: 90.6% 2012-07 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 175654, new 334873 =  90.6%
+Values differ more than 2%: 89.3% 2012-08 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 182840, new 346116 =  89.3%
+Values differ more than 2%: 89.1% 2012-09 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 186270, new 352274 =  89.1%
+Values differ more than 2%: 87.9% 2012-10 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 191244, new 359423 =  87.9%
+Values differ more than 2%: 87.3% 2012-11 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 194537, new 364351 =  87.3%
+Values differ more than 2%: 86.6% 2012-12 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 197564, new 368676 =  86.6%
+Values differ more than 2%: 85.9% 2013-01 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 201228, new 374181 =  85.9%
+Values differ more than 2%: 85.5% 2013-02 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 204450, new 379195 =  85.5%
+Values differ more than 2%: 84.2% 2013-03 'Article count (official) - Absolute - Per Wiki' / 'Arabic' : old 210275, new 387265 =  84.2%
+Values differ more than 2%: 18.4% 2010-04 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 353443, new 418375 =  18.4%
+Values differ more than 2%: 19.4% 2010-05 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 356805, new 425869 =  19.4%
+Values differ more than 2%: 20.2% 2010-06 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 359777, new 432382 =  20.2%
+Values differ more than 2%: 20.7% 2010-07 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 362842, new 438041 =  20.7%
+Values differ more than 2%: 21.4% 2010-08 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 366276, new 444804 =  21.4%
+Values differ more than 2%: 22.1% 2010-09 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 369080, new 450830 =  22.1%
+Values differ more than 2%: 22.8% 2010-10 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 372994, new 458171 =  22.8%
+Values differ more than 2%: 47.6% 2010-11 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 377120, new 556487 =  47.6%
+Values differ more than 2%: 49.4% 2010-12 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 380606, new 568793 =  49.4%
+Values differ more than 2%: 50.0% 2011-01 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 384205, new 576139 =  50.0%
+Values differ more than 2%: 50.3% 2011-02 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 387891, new 582853 =  50.3%
+Values differ more than 2%: 50.6% 2011-03 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 391025, new 588943 =  50.6%
+Values differ more than 2%: 50.8% 2011-04 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 393926, new 593846 =  50.8%
+Values differ more than 2%: 51.0% 2011-05 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 397070, new 599463 =  51.0%
+Values differ more than 2%: 51.2% 2011-06 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 400519, new 605618 =  51.2%
+Values differ more than 2%: 51.4% 2011-07 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 403917, new 611718 =  51.4%
+Values differ more than 2%: 51.5% 2011-08 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 407384, new 617378 =  51.5%
+Values differ more than 2%: 51.7% 2011-09 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 410161, new 622196 =  51.7%
+Values differ more than 2%: 51.7% 2011-10 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 413157, new 626846 =  51.7%
+Values differ more than 2%: 52.0% 2011-11 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 415822, new 632126 =  52.0%
+Values differ more than 2%: 52.2% 2011-12 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 418423, new 637013 =  52.2%
+Values differ more than 2%: 52.3% 2012-01 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 422241, new 643132 =  52.3%
+Values differ more than 2%: 53.0% 2012-02 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 438343, new 670559 =  53.0%
+Values differ more than 2%: 52.2% 2012-03 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 450971, new 686379 =  52.2%
+Values differ more than 2%: 51.5% 2012-04 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 461268, new 698785 =  51.5%
+Values differ more than 2%: 51.1% 2012-05 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 469231, new 708858 =  51.1%
+Values differ more than 2%: 50.6% 2012-06 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 477983, new 719703 =  50.6%
+Values differ more than 2%: 50.4% 2012-07 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 484808, new 729118 =  50.4%
+Values differ more than 2%: 49.8% 2012-08 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 496357, new 743737 =  49.8%
+Values differ more than 2%: 50.5% 2012-09 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 502238, new 755932 =  50.5%
+Values differ more than 2%: 46.2% 2012-10 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 560216, new 819246 =  46.2%
+Values differ more than 2%: 57.7% 2012-11 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 566328, new 893357 =  57.7%
+Values differ more than 2%: 57.7% 2012-12 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 570888, new 900552 =  57.7%
+Values differ more than 2%: 54.1% 2013-01 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 698744, new 1076735 =  54.1%
+Values differ more than 2%: 54.7% 2013-02 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 837885, new 1295875 =  54.7%
+Values differ more than 2%: 54.3% 2013-03 'Article count (official) - Absolute - Per Wiki' / 'Swedish' : old 939518, new 1449955 =  54.3%
+Values differ more than 2%:  2.1% 2012-11 'Article count (official) - Absolute - Per Wiki' / 'Total' : old 23836872, new 24326473 =   2.1%
+Values differ more than 2%:  2.0% 2012-12 'Article count (official) - Absolute - Per Wiki' / 'Total' : old 24095873, new 24589230 =   2.0%
+Values differ more than 2%:  2.2% 2013-01 'Article count (official) - Absolute - Per Wiki' / 'Total' : old 24604382, new 25147652 =   2.2%
+Values differ more than 2%:  2.5% 2013-02 'Article count (official) - Absolute - Per Wiki' / 'Total' : old 25225183, new 25849854 =   2.5%
+Values differ more than 2%:  2.6% 2013-03 'Article count (official) - Absolute - Per Wiki' / 'Total' : old 26022272, new 26699912 =   2.6%
+Values differ more than 2%:  4.5% 2010-04 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 67, new 70 =   4.5%
+Values differ more than 2%:  6.1% 2010-05 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 66, new 70 =   6.1%
+Values differ more than 2%:  4.8% 2010-06 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 62, new 65 =   4.8%
+Values differ more than 2%:  2.9% 2010-07 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 70, new 72 =   2.9%
+Values differ more than 2%:  5.4% 2010-08 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 74, new 78 =   5.4%
+Values differ more than 2%:  3.9% 2010-09 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 76, new 79 =   3.9%
+Values differ more than 2%:  3.4% 2010-12 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 59, new 61 =   3.4%
+Values differ more than 2%:  3.0% 2011-01 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 67, new 69 =   3.0%
+Values differ more than 2%:  5.6% 2011-02 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 54, new 57 =   5.6%
+Values differ more than 2%:  3.4% 2011-04 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 59, new 61 =   3.4%
+Values differ more than 2%:  4.1% 2011-05 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 73, new 76 =   4.1%
+Values differ more than 2%:  3.2% 2011-06 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 62, new 64 =   3.2%
+Values differ more than 2%:  2.9% 2011-09 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 70, new 72 =   2.9%
+Values differ more than 2%:  2.7% 2011-10 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 75, new 77 =   2.7%
+Values differ more than 2%:  3.1% 2011-12 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 65, new 67 =   3.1%
+Values differ more than 2%:  8.2% 2012-04 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 61, new 66 =   8.2%
+Values differ more than 2%:  2.7% 2012-06 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 74, new 76 =   2.7%
+Values differ more than 2%:  2.9% 2012-07 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 70, new 72 =   2.9%
+Values differ more than 2%:  3.7% 2012-10 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 82, new 85 =   3.7%
+Values differ more than 2%:  3.0% 2013-01 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 99, new 102 =   3.0%
+Values differ more than 2%:  3.8% 2013-02 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 79, new 82 =   3.8%
+Values differ more than 2%:  2.6% 2013-03 'Very active editors - Absolute - Per Wiki' / 'Arabic' : old 78, new 80 =   2.6%
+Values differ more than 2%:  6.6% 2010-04 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 121, new 129 =   6.6%
+Values differ more than 2%:  2.0% 2010-05 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 152, new 155 =   2.0%
+Values differ more than 2%:  2.3% 2010-06 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 133, new 136 =   2.3%
+Values differ more than 2%:  4.0% 2010-07 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 99, new 103 =   4.0%
+Values differ more than 2%:  5.2% 2010-08 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 134, new 141 =   5.2%
+Values differ more than 2%:  4.0% 2010-09 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 124, new 129 =   4.0%
+Values differ more than 2%:  4.7% 2010-10 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 127, new 133 =   4.7%
+Values differ more than 2%:  5.1% 2010-12 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 117, new 123 =   5.1%
+Values differ more than 2%:  2.0% 2011-01 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 153, new 156 =   2.0%
+Values differ more than 2%:  2.8% 2011-02 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 144, new 148 =   2.8%
+Values differ more than 2%:  2.6% 2011-03 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 151, new 155 =   2.6%
+Values differ more than 2%:  3.0% 2011-04 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 132, new 136 =   3.0%
+Values differ more than 2%:  2.5% 2011-05 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 122, new 125 =   2.5%
+Values differ more than 2%:  3.4% 2011-07 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 118, new 122 =   3.4%
+Values differ more than 2%:  2.1% 2011-08 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 140, new 143 =   2.1%
+Values differ more than 2%:  3.4% 2011-10 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 116, new 120 =   3.4%
+Values differ more than 2%:  3.6% 2011-12 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 111, new 115 =   3.6%
+Values differ more than 2%:  3.4% 2012-01 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 145, new 150 =   3.4%
+Values differ more than 2%:  3.0% 2012-03 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 135, new 139 =   3.0%
+Values differ more than 2%:  3.3% 2012-05 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 122, new 126 =   3.3%
+Values differ more than 2%:  2.3% 2012-07 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 131, new 134 =   2.3%
+Values differ more than 2%:  3.1% 2012-09 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 131, new 135 =   3.1%
+Values differ more than 2%:  2.3% 2012-10 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 129, new 132 =   2.3%
+Values differ more than 2%:  2.2% 2013-01 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 138, new 141 =   2.2%
+Values differ more than 2%:  3.3% 2013-03 'Very active editors - Absolute - Per Wiki' / 'Swedish' : old 123, new 127 =   3.3%
+Values differ more than 2%:  2.8% 2010-09 'New editors - Absolute - Per Wiki' / 'Arabic' : old 142, new 146 =   2.8%
+Values differ more than 2%:  4.1% 2011-05 'New editors - Absolute - Per Wiki' / 'Arabic' : old 121, new 126 =   4.1%
+Values differ more than 2%:  2.9% 2011-09 'New editors - Absolute - Per Wiki' / 'Arabic' : old 173, new 178 =   2.9%
+Values differ more than 2%:  2.0% 2011-10 'New editors - Absolute - Per Wiki' / 'Arabic' : old 204, new 208 =   2.0%
+Values differ more than 2%:  3.2% 2012-03 'New editors - Absolute - Per Wiki' / 'Arabic' : old 155, new 160 =   3.2%
+Values differ more than 2%:  5.4% 2012-05 'New editors - Absolute - Per Wiki' / 'Arabic' : old 203, new 214 =   5.4%
+Values differ more than 2%:  2.4% 2012-06 'New editors - Absolute - Per Wiki' / 'Arabic' : old 168, new 164 =  -2.4%
+Values differ more than 2%:  2.5% 2012-08 'New editors - Absolute - Per Wiki' / 'Arabic' : old 157, new 161 =   2.5%
+Values differ more than 2%:  3.4% 2012-12 'New editors - Absolute - Per Wiki' / 'Arabic' : old 175, new 181 =   3.4%
+Values differ more than 2%:  2.3% 2013-02 'New editors - Absolute - Per Wiki' / 'Arabic' : old 128, new 131 =   2.3%
+Values differ more than 2%:  7.9% 2013-03 'New editors - Absolute - Per Wiki' / 'Arabic' : old 140, new 151 =   7.9%
+Values differ more than 2%:  4.6% 2013-03 'New editors - Absolute - Per Wiki' / 'Chinese' : old 350, new 366 =   4.6%
+Values differ more than 2%:  4.5% 2013-03 'New editors - Absolute - Per Wiki' / 'Commons' : old 1295, new 1237 =  -4.5%
+Values differ more than 2%:  2.8% 2010-12 'New editors - Absolute - Per Wiki' / 'Czech' : old 106, new 103 =  -2.8%
+Values differ more than 2%:  2.5% 2013-02 'New editors - Absolute - Per Wiki' / 'Czech' : old 118, new 121 =   2.5%
+Values differ more than 2%:  3.2% 2013-03 'New editors - Absolute - Per Wiki' / 'Czech' : old 157, new 162 =   3.2%
+Values differ more than 2%:  4.7% 2013-03 'New editors - Absolute - Per Wiki' / 'French' : old 877, new 918 =   4.7%
+Values differ more than 2%:  2.4% 2013-01 'New editors - Absolute - Per Wiki' / 'German' : old 953, new 976 =   2.4%
+Values differ more than 2%:  3.7% 2013-02 'New editors - Absolute - Per Wiki' / 'German' : old 829, new 860 =   3.7%
+Values differ more than 2%:  6.0% 2013-03 'New editors - Absolute - Per Wiki' / 'German' : old 818, new 867 =   6.0%
+Values differ more than 2%:  2.4% 2012-10 'New editors - Absolute - Per Wiki' / 'Hebrew' : old 125, new 128 =   2.4%
+Values differ more than 2%:  2.5% 2012-12 'New editors - Absolute - Per Wiki' / 'Hebrew' : old 121, new 124 =   2.5%
+Values differ more than 2%:  4.7% 2013-01 'New editors - Absolute - Per Wiki' / 'Hebrew' : old 129, new 135 =   4.7%
+Values differ more than 2%:  7.1% 2013-03 'New editors - Absolute - Per Wiki' / 'Hebrew' : old 98, new 105 =   7.1%
+Values differ more than 2%:  2.2% 2012-10 'New editors - Absolute - Per Wiki' / 'Hungarian' : old 90, new 92 =   2.2%
+Values differ more than 2%:  2.8% 2012-12 'New editors - Absolute - Per Wiki' / 'Hungarian' : old 71, new 73 =   2.8%
+Values differ more than 2%:  3.2% 2013-02 'New editors - Absolute - Per Wiki' / 'Hungarian' : old 93, new 96 =   3.2%
+Values differ more than 2%:  2.1% 2013-02 'New editors - Absolute - Per Wiki' / 'Italian' : old 472, new 482 =   2.1%
+Values differ more than 2%:  6.5% 2013-03 'New editors - Absolute - Per Wiki' / 'Italian' : old 418, new 445 =   6.5%
+Values differ more than 2%:  2.7% 2013-02 'New editors - Absolute - Per Wiki' / 'Japanese' : old 656, new 674 =   2.7%
+Values differ more than 2%:  5.2% 2013-03 'New editors - Absolute - Per Wiki' / 'Japanese' : old 670, new 705 =   5.2%
+Values differ more than 2%:  3.7% 2013-03 'New editors - Absolute - Per Wiki' / 'Korean' : old 134, new 139 =   3.7%
+Values differ more than 2%:  2.3% 2010-04 'New editors - Absolute - Per Wiki' / 'Norwegian' : old 177, new 181 =   2.3%
+Values differ more than 2%:  3.3% 2011-08 'New editors - Absolute - Per Wiki' / 'Norwegian' : old 120, new 124 =   3.3%
+Values differ more than 2%:  3.6% 2013-02 'New editors - Absolute - Per Wiki' / 'Norwegian' : old 84, new 87 =   3.6%
+Values differ more than 2%:  5.3% 2013-03 'New editors - Absolute - Per Wiki' / 'Norwegian' : old 95, new 100 =   5.3%
+Values differ more than 2%:  2.7% 2013-01 'New editors - Absolute - Per Wiki' / 'Persian' : old 225, new 231 =   2.7%
+Values differ more than 2%:  2.5% 2012-09 'New editors - Absolute - Per Wiki' / 'Polish' : old 160, new 164 =   2.5%
+Values differ more than 2%:  2.7% 2013-02 'New editors - Absolute - Per Wiki' / 'Polish' : old 187, new 192 =   2.7%
+Values differ more than 2%:  5.6% 2013-03 'New editors - Absolute - Per Wiki' / 'Polish' : old 180, new 190 =   5.6%
+Values differ more than 2%:  3.4% 2013-02 'New editors - Absolute - Per Wiki' / 'Portuguese' : old 266, new 275 =   3.4%
+Values differ more than 2%:  4.5% 2013-03 'New editors - Absolute - Per Wiki' / 'Portuguese' : old 287, new 300 =   4.5%
+Values differ more than 2%:  2.4% 2013-02 'New editors - Absolute - Per Wiki' / 'Russian' : old 743, new 761 =   2.4%
+Values differ more than 2%:  4.8% 2013-03 'New editors - Absolute - Per Wiki' / 'Russian' : old 681, new 714 =   4.8%
+Values differ more than 2%:  2.8% 2010-04 'New editors - Absolute - Per Wiki' / 'Swedish' : old 181, new 186 =   2.8%
+Values differ more than 2%:  3.3% 2010-05 'New editors - Absolute - Per Wiki' / 'Swedish' : old 210, new 217 =   3.3%
+Values differ more than 2%:  2.6% 2010-09 'New editors - Absolute - Per Wiki' / 'Swedish' : old 155, new 159 =   2.6%
+Values differ more than 2%:  2.3% 2010-10 'New editors - Absolute - Per Wiki' / 'Swedish' : old 172, new 176 =   2.3%
+Values differ more than 2%:  3.3% 2010-11 'New editors - Absolute - Per Wiki' / 'Swedish' : old 152, new 157 =   3.3%
+Values differ more than 2%:  5.2% 2010-12 'New editors - Absolute - Per Wiki' / 'Swedish' : old 153, new 161 =   5.2%
+Values differ more than 2%:  3.7% 2011-02 'New editors - Absolute - Per Wiki' / 'Swedish' : old 188, new 195 =   3.7%
+Values differ more than 2%:  2.3% 2011-03 'New editors - Absolute - Per Wiki' / 'Swedish' : old 171, new 175 =   2.3%
+Values differ more than 2%:  3.8% 2011-05 'New editors - Absolute - Per Wiki' / 'Swedish' : old 160, new 166 =   3.8%
+Values differ more than 2%:  2.1% 2011-09 'New editors - Absolute - Per Wiki' / 'Swedish' : old 144, new 147 =   2.1%
+Values differ more than 2%:  2.6% 2011-10 'New editors - Absolute - Per Wiki' / 'Swedish' : old 152, new 156 =   2.6%
+Values differ more than 2%:  2.0% 2011-11 'New editors - Absolute - Per Wiki' / 'Swedish' : old 151, new 154 =   2.0%
+Values differ more than 2%:  3.4% 2012-01 'New editors - Absolute - Per Wiki' / 'Swedish' : old 146, new 151 =   3.4%
+Values differ more than 2%:  5.5% 2012-03 'New editors - Absolute - Per Wiki' / 'Swedish' : old 146, new 154 =   5.5%
+Values differ more than 2%:  2.0% 2012-04 'New editors - Absolute - Per Wiki' / 'Swedish' : old 149, new 152 =   2.0%
+Values differ more than 2%:  2.1% 2012-05 'New editors - Absolute - Per Wiki' / 'Swedish' : old 142, new 145 =   2.1%
+Values differ more than 2%:  2.8% 2012-08 'New editors - Absolute - Per Wiki' / 'Swedish' : old 144, new 148 =   2.8%
+Values differ more than 2%:  2.1% 2012-11 'New editors - Absolute - Per Wiki' / 'Swedish' : old 146, new 149 =   2.1%
+Values differ more than 2%:  6.3% 2013-01 'New editors - Absolute - Per Wiki' / 'Swedish' : old 143, new 152 =   6.3%
+Values differ more than 2%:  4.3% 2013-02 'New editors - Absolute - Per Wiki' / 'Swedish' : old 140, new 146 =   4.3%
+Values differ more than 2%:  4.6% 2013-03 'New editors - Absolute - Per Wiki' / 'Swedish' : old 152, new 159 =   4.6%
+Values differ more than 2%:  2.2% 2013-03 'New editors - Absolute - Per Wiki' / 'Total' : old 16861, new 17234 =   2.2%
+Values differ more than 2%:  2.3% 2012-10 'New editors - Absolute - Per Wiki' / 'Ukrainian' : old 133, new 130 =  -2.3%
+Values differ more than 2%:  2.7% 2013-03 'New editors - Absolute - Per Wiki' / 'Ukrainian' : old 148, new 152 =   2.7%
+Values differ more than 2%:  2.9% 2013-03 'New editors - Absolute - Per Wiki' / 'Wikidata' : old 1497, new 1541 =   2.9%
+Values differ more than 2%:  2.2% 2010-12 'Active editors - Absolute - Per Wiki' / 'Arabic' : old 463, new 473 =   2.2%
+Values differ more than 2%:  2.1% 2011-04 'Active editors - Absolute - Per Wiki' / 'Arabic' : old 379, new 387 =   2.1%
+Values differ more than 2%:  2.7% 2011-06 'Active editors - Absolute - Per Wiki' / 'Arabic' : old 486, new 499 =   2.7%
+Values differ more than 2%:  2.6% 2013-03 'Active editors - Absolute - Per Wiki' / 'Commons' : old 7590, new 7392 =  -2.6%
+Values differ more than 2%:  2.0% 2010-09 'Active editors - Absolute - Per Wiki' / 'Swedish' : old 810, new 826 =   2.0%
+
+For values which occur in both files:
+
+Distribution by amount of disparity:
+
+No disparity    : 2078
+Abs disp. 0%-1% : 3636
+Abs disp. 1%-2% : 382
+Abs disp. 2%-3% : 158
+Abs disp. 3%-4% : 100
+Abs disp. 4%-5% : 76
+Abs disp. 5%-6% : 38
+Abs disp. 6%-7% : 27
+Abs disp. 7%-8% : 17
+Abs disp. 8%-9% : 11
+Abs disp. 9%-10% : 7
+Abs disp. > 10% : 112
+
+Disparities > 2% for month 2010-04: 14
+Disparities > 2% for month 2010-05: 13
+Disparities > 2% for month 2010-06: 14
+Disparities > 2% for month 2010-07: 10
+Disparities > 2% for month 2010-08: 16
+Disparities > 2% for month 2010-09: 16
+Disparities > 2% for month 2010-10: 12
+Disparities > 2% for month 2010-11: 12
+Disparities > 2% for month 2010-12: 16
+Disparities > 2% for month 2011-01: 12
+Disparities > 2% for month 2011-02: 11
+Disparities > 2% for month 2011-03: 14
+Disparities > 2% for month 2011-04: 13
+Disparities > 2% for month 2011-05: 16
+Disparities > 2% for month 2011-06: 13
+Disparities > 2% for month 2011-07: 13
+Disparities > 2% for month 2011-08: 15
+Disparities > 2% for month 2011-09: 16
+Disparities > 2% for month 2011-10: 16
+Disparities > 2% for month 2011-11: 11
+Disparities > 2% for month 2011-12: 13
+Disparities > 2% for month 2012-01: 15
+Disparities > 2% for month 2012-02: 14
+Disparities > 2% for month 2012-03: 15
+Disparities > 2% for month 2012-04: 16
+Disparities > 2% for month 2012-05: 14
+Disparities > 2% for month 2012-06: 14
+Disparities > 2% for month 2012-07: 15
+Disparities > 2% for month 2012-08: 15
+Disparities > 2% for month 2012-09: 11
+Disparities > 2% for month 2012-10: 19
+Disparities > 2% for month 2012-11: 16
+Disparities > 2% for month 2012-12: 18
+Disparities > 2% for month 2013-01: 20
+Disparities > 2% for month 2013-02: 26
+Disparities > 2% for month 2013-03: 45
+
