@@ -1,5 +1,5 @@
-Oldest file: /a/wikistats_git/analytics/csv/2013-03/wikilytics_in_pageviews.csv
-Newest file: /a/wikistats_git/analytics/csv/2013-04/wikilytics_in_pageviews.csv
+Oldest file: /a/wikistats_git/analytics/csv/2013-04/wikilytics_in_pageviews.csv
+Newest file: /a/wikistats_git/analytics/csv/2013-05/wikilytics_in_pageviews.csv
 
 Section found: Page view totals per project - non-mobile
 Section found: Page view totals non-mobile + mobile
@@ -10,14 +10,10 @@ Section found: Page view totals mobile
 
 
 Months which occur only in oldest file: 
-Months which occur only in newest file:  2013-05 
+Months which occur only in newest file:  2013-06 
 
 For months which occur in both files:
 
-Metric only in newest file: 'Page view totals non-mobile + mobile' / 'Thai'
-Metric only in newest file: 'Page view totals non-mobile' / 'Thai'
-Metric only in oldest file: 'Page view totals non-mobile + mobile' / 'Norwegian'
-Metric only in oldest file: 'Page view totals non-mobile' / 'Norwegian'
 
 For metrics which occur in both files:
 
@@ -30,6 +26,6 @@ For values which occur in both files:
 
 Distribution by amount of disparity:
 
-No disparity    : 4789
+No disparity    : 5004
 
 

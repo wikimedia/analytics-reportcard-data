@@ -19,6 +19,8 @@ def binary_files():
 	metric="Binaries per month - Absolute"
 	next_metric="Binaries per month - Indexed"
 
+	n_lines = 20
+
 	data = p.parse_StatisticsMonthly(metric,next_metric)
 
 	# write dygraph file
