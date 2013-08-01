@@ -2,7 +2,7 @@
     "id": "articles",
     "slug": "articles",
     "name": "Wikipedia Articles",
-    "desc": "",
+    "desc": "<p>Jun 2013: Data for Italian Wiki is not yet available.  This affects the overall totals and percentages.</p>",
     "root": {
         "nodeType": "canvas",
         "y": {"scaleType": "log"},
