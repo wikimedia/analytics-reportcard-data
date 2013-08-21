@@ -2,7 +2,7 @@
     "id": "very_active_editors",
     "slug": "very_active_editors",
     "name": "Very Active Editors for All Wikimedia Projects (100+ edits per month)",
-    "desc": "<p>Jun 2013: Data for Italian Wiki is not yet available.  This affects the overall totals and percentages.</p><p>Nov 2012: Editors in Wikivoyage are now included in the overall total.</p><p>Aug 2012: Editors in Commons are now included in the overall total, and users who share a name across multiple projects are counted as the same user (<a href='https://blog.wikimedia.org/2012/08/31/improving-the-accuracy-of-the-active-editors-metric/' target='_blank'>more details</a>).</p><p>Aug 2010: Editors on Commons are no longer included in overall total, on the assumption that most also edit on one or more other projects. More precise detection of double counts between any projects and languages is in development(using Single User Login registration).</p>",
+    "desc": "<p>Nov 2012: Editors in Wikivoyage are now included in the overall total.</p><p>Aug 2012: Editors in Commons are now included in the overall total, and users who share a name across multiple projects are counted as the same user (<a href='https://blog.wikimedia.org/2012/08/31/improving-the-accuracy-of-the-active-editors-metric/' target='_blank'>more details</a>).</p><p>Aug 2010: Editors on Commons are no longer included in overall total, on the assumption that most also edit on one or more other projects. More precise detection of double counts between any projects and languages is in development(using Single User Login registration).</p>",
     "root": {
         "nodeType": "canvas",
         "y": {"scaleType": "log"},
