@@ -4,7 +4,7 @@
     
     "format": "tsv",
     "type": "mobile_device_by_geo",
-    "url": "http://stats.wikimedia.org/kraken-public/aggregated/mobile/pageview_by_devices_monthly.tsv",
+    "url": "http://stats.wikimedia.org/kraken-public/archive/aggregated/mobile/pageview_by_devices_monthly.tsv",
     
     "name": "Mobile Page Views By Country By Manufacturer",
     "shortName": "",
