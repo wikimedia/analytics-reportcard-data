@@ -87,7 +87,7 @@
                             "source_col": 1
                         },
                         "options": {
-                            "label": "All Wikipedias (+Mobile)",
+                            "label": "All Wikimedia Projects",
                             "dateFormat": "MMM YYYY",
                             "valueFormat": ",.2s",
                             "stroke": {
