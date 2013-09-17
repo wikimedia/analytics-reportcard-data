@@ -109,7 +109,7 @@
                             "source_col": 2
                         },
                         "options": {
-                            "label": "English",
+                            "label": "English Wikipedia",
                             "dateFormat": "MMM YYYY",
                             "valueFormat": ",.2s",
                             "stroke": {
@@ -131,7 +131,7 @@
                             "source_col": 3
                         },
                         "options": {
-                            "label": "Japanese",
+                            "label": "Japanese Wikipedia",
                             "dateFormat": "MMM YYYY",
                             "valueFormat": ",.2s",
                             "stroke": {
@@ -153,7 +153,7 @@
                             "source_col": 4
                         },
                         "options": {
-                            "label": "Spanish",
+                            "label": "Spanish Wikipedia",
                             "dateFormat": "MMM YYYY",
                             "valueFormat": ",.2s",
                             "stroke": {
@@ -175,7 +175,7 @@
                             "source_col": 5
                         },
                         "options": {
-                            "label": "German",
+                            "label": "German Wikipedia",
                             "dateFormat": "MMM YYYY",
                             "valueFormat": ",.2s",
                             "stroke": {
@@ -197,7 +197,7 @@
                             "source_col": 6
                         },
                         "options": {
-                            "label": "Russian",
+                            "label": "Russian Wikipedia",
                             "dateFormat": "MMM YYYY",
                             "valueFormat": ",.2s",
                             "stroke": {
@@ -219,7 +219,7 @@
                             "source_col": 7
                         },
                         "options": {
-                            "label": "French",
+                            "label": "French Wikipedia",
                             "dateFormat": "MMM YYYY",
                             "valueFormat": ",.2s",
                             "stroke": {
