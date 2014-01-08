@@ -153,9 +153,9 @@ def write_dygraph_file(data,dygraph_fn):
 
 	with open(fn,'w') as o:
 		mapping = {'Month':'project','All Wikipedias (+Mobile)': 'All projects','All Projects': 'All projects','Total Mobile': 'Total'}
-		labels = 'Date,%s\n'%(','.join(data.keys()[1:]))
 		keys = data.keys()
-		o.write(labels)
+		o.write(','.join(config['columns']['labels']))
+		o.write('\n')
 		
 		for i in range(m):
 			for label in config['columns']['labels']:
