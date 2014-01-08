@@ -1,7 +1,7 @@
 {
     "id"       : "reportcard",
     "headline" : "Wikimedia Report Card",
-    "subhead"  : "December 2013",
+    "subhead"  : "January 2014",
     "tabs": [
         {
             "name": "Core",
@@ -22,13 +22,6 @@
                 "edits",
                 "very_active_editors",
                 "wikivoyage"
-            ]
-        }, {
-            "name": "Annual Plan 2012-13 Targets",
-            "graph_ids":[
-                "pageviews_mobile_target_stacked",
-                "active_editors_target",
-                "active_uploaders_commons_target"
             ]
         }
     ]
