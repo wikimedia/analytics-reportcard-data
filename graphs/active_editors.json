@@ -283,10 +283,33 @@
                                 "step": null
                             },
                             "source_id": "rc_active_editors_count",
-                            "source_col": 10
+                            "source_col": "chinese"
                         },
                         "options": {
                             "label": "Chinese",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_active_editors_count",
+                            "source_col": "wikidata"
+                        },
+                        "options": {
+                            "disabled": true,
+                            "label": "Wikidata",
                             "dateFormat": "MMM YYYY",
                             "valueFormat": ",.2s",
                             "stroke": {

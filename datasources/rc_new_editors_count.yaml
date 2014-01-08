@@ -65,3 +65,7 @@ columns:
         type       : int
         metricDefs : new_editor
     
+    -   id         : wikidata
+        label      : Wikidata
+        type       : int
+        metricDefs : new_editor

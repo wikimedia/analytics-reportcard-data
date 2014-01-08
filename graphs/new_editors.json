@@ -84,7 +84,7 @@
                                 "step": null
                             },
                             "source_id": "rc_new_editors_count",
-                            "source_col": 1
+                            "source_col": "total"
                         },
                         "options": {
                             "label": "Total",
@@ -106,7 +106,7 @@
                                 "step": null
                             },
                             "source_id": "rc_new_editors_count",
-                            "source_col": 2
+                            "source_col": "english"
                         },
                         "options": {
                             "label": "English",
@@ -128,7 +128,7 @@
                                 "step": null
                             },
                             "source_id": "rc_new_editors_count",
-                            "source_col": 3
+                            "source_col": "commons"
                         },
                         "options": {
                             "label": "Commons",
@@ -150,7 +150,7 @@
                                 "step": null
                             },
                             "source_id": "rc_new_editors_count",
-                            "source_col": 4
+                            "source_col": "spanish"
                         },
                         "options": {
                             "label": "Spanish",
@@ -172,7 +172,7 @@
                                 "step": null
                             },
                             "source_id": "rc_new_editors_count",
-                            "source_col": 5
+                            "source_col": "french"
                         },
                         "options": {
                             "label": "French",
@@ -194,7 +194,7 @@
                                 "step": null
                             },
                             "source_id": "rc_new_editors_count",
-                            "source_col": 6
+                            "source_col": "german"
                         },
                         "options": {
                             "label": "German",
@@ -216,7 +216,7 @@
                                 "step": null
                             },
                             "source_id": "rc_new_editors_count",
-                            "source_col": 7
+                            "source_col": "russian"
                         },
                         "options": {
                             "label": "Russian",
@@ -238,7 +238,7 @@
                                 "step": null
                             },
                             "source_id": "rc_new_editors_count",
-                            "source_col": 8
+                            "source_col": "japanese"
                         },
                         "options": {
                             "label": "Japanese",
@@ -260,7 +260,7 @@
                                 "step": null
                             },
                             "source_id": "rc_new_editors_count",
-                            "source_col": 9
+                            "source_col": "italian"
                         },
                         "options": {
                             "label": "Italian",
@@ -282,10 +282,33 @@
                                 "step": null
                             },
                             "source_id": "rc_new_editors_count",
-                            "source_col": 10
+                            "source_col": "chinese"
                         },
                         "options": {
                             "label": "Chinese",
+                            "dateFormat": "MMM YYYY",
+                            "valueFormat": ",.2s",
+                            "stroke": {
+                                "width": 3,
+                                "pattern": null
+                            }
+                        }
+                    },
+                    {
+                        "nodeType": "line",
+                        "metric": {
+                            "type": "int",
+                            "timespan": {
+                                "start": null,
+                                "end": null,
+                                "step": null
+                            },
+                            "source_id": "rc_new_editors_count",
+                            "source_col": "wikidata"
+                        },
+                        "options": {
+                            "disabled": true,
+                            "label": "Wikidata",
                             "dateFormat": "MMM YYYY",
                             "valueFormat": ",.2s",
                             "stroke": {
