@@ -307,7 +307,6 @@
                             "source_col": "wikidata"
                         },
                         "options": {
-                            "disabled": true,
                             "label": "Wikidata",
                             "dateFormat": "MMM YYYY",
                             "valueFormat": ",.2s",
