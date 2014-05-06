@@ -1,7 +1,7 @@
 {
     "id": "pageviews",
     "slug": "pageviews",
-    "name": "Pageviews for All Wikimedia Projects",
+    "name": "Pageviews for All Wikimedia Projects (mobile + desktop)",
     "desc": "<p>December 2009 - March 2010: Due to server problems, page view counts from squid logs are too low, estimated underreporting 10%-25%. View counts for all months have been normalized to 30 days.</p><p>Unlike the corresponding report with <a target='_blank' href='http://stats.wikimedia.org/EN/TablesPageViewsMonthlyAllProjects.htm'>page views by project</a> here the following two sites are also counted: <a target='_blank' href='http://www.wikidata.org'>WikiData</a> and <a target='_blank' href='http://www.wikipedia.org'>the Wikipedia Main Portal page</a>.</p>",
     "root": {
         "nodeType": "canvas",
