@@ -2,7 +2,7 @@
     "id": "unique_visitors",
     "slug": "unique_visitors",
     "name": "Unique Visitors per Region (comScore)",
-    "desc": "",
+    "desc": "<b>Unique Visitors from mobile devices are not included</b>",
     "root": {
         "nodeType": "canvas",
         "width": "auto",
