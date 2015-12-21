@@ -2,7 +2,7 @@
     "id": "reach",
     "slug": "reach",
     "name": "Wikimedia Projects Reach by Region (comScore)",
-    "desc": "",
+    "desc": "<p>As of August, 2015, we no longer update these numbers.</p>",
     "root": {
         "nodeType": "canvas",
         "scaling": "linear",

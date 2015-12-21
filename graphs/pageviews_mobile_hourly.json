@@ -1,7 +1,7 @@
 {
     "graph_version": "0.6.0",
     "id": "pageviews_mobile_hourly",
-    "desc": "",
+    "desc": "<p><strong>May 2015</strong>: a <a href=https://meta.wikimedia.org/wiki/Research:Page_view target=_blank>new pageview definition</a> took effect which eliminated crawler traffic.</p>",
     "name": "Pageviews To Mobile Site - Hourly",
     "slug": "pageviews_mobile_hourly",
     "root": {

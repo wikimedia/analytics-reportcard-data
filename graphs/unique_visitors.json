@@ -2,7 +2,7 @@
     "id": "unique_visitors",
     "slug": "unique_visitors",
     "name": "Unique Visitors per Region (comScore)",
-    "desc": "<b>Unique Visitors from mobile devices are not included</b>",
+    "desc": "<p>As of August, 2015, we no longer update these numbers.</p><p><b>Unique Visitors from mobile devices are not included</b></p>",
     "root": {
         "nodeType": "canvas",
         "width": "auto",

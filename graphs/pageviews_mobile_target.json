@@ -3,7 +3,7 @@
     "id": "pageviews_mobile_target",
     "slug": "pageviews_mobile_target",
     "name": "Page Views to Mobile Site - Target",
-    "desc": "",
+    "desc": "<p><strong>May 2015</strong>: a <a href=https://meta.wikimedia.org/wiki/Research:Page_view target=_blank>new pageview definition</a> took effect which eliminated crawler traffic.</p>",
     "root": {
         "nodeType": "canvas",
         "width": "auto",
