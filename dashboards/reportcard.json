@@ -6,7 +6,6 @@
         {
             "name": "Core",
             "graph_ids": [
-                "unique_visitors",
                 "pageviews",
                 "pageviews_mobile",
                 "new_editors",
@@ -15,7 +14,6 @@
         }, {
             "name": "Secondary",
             "graph_ids":[
-                "reach",
                 "commons",
                 "articles",
                 "articles_per_day",
