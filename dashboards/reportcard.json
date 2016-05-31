@@ -1,7 +1,7 @@
 {
     "id"       : "reportcard",
     "headline" : "Wikimedia Report Card",
-    "subhead"  : "March 2016",
+    "subhead"  : "April 2016",
     "tabs": [
         {
             "name": "Core",
